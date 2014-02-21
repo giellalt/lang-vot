@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="vot">
+   <e>
+      <lg>
+         <l pos="Num">ühsi</l>
+         <stg>
+            <st Contlex="NUM_">ühsi</st>
+         </stg>
+      </lg>
+      <mg>
+        <defNative/>
+         <tg xml:lang="est">
+            <t pos="Num">üks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Num">yksi</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Num">один</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Num">kahsi</l>
+         <stg>
+            <st Contlex="NUM_">kahsi</st>
+         </stg>
+      </lg>
+      <mg>
+        <defNative/>
+         <tg xml:lang="est">
+            <t pos="Num">kaks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Num">kaksi</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Num">два</t>
+         </tg>
+      </mg>
+   </e>
+</r>
