@@ -1,0 +1,16 @@
+!! Adverbs
+!! ----------
+!! Adverbs in the VOTIC language describe things.
+
+LEXICON adverbs
+!adjective  Comparisons   ;
+rohkaap	   ADV-QNT_ "/(est) rohkem/(fin) enemmän/(rus) больше" ;
+õhtagon	   ADV-TEMP_ "/(est) õhtul/(fin) illalla/(rus) вечером" ;
+oomõn      ADV-TEMP_ "/(est) homme/(fin) huomenna/(rus) завтра" ;
+vähäizee   ADV-QNT_ "/(est) veidi/(fin) vähän/(rus) немножко" ;
+aikaa      ADV-TEMP_ "/(est) ammu/(fin) ajat sitten/(rus) давно" ;
+akkunalla  ADV-SPAT_ "/(est) õues/(fin) pihalla|ulkona/(rus) во" ;
+alassi	   ADV-STATE_ "/(est) alasti/(fin) alasti/(rus) нагишом" ;
+raazin% ruuzin:raazin% ruuzin ADV_ "/(est) pilla palla/(fin) sikin sokin/(rus) в беспоряде" ;
+
+! vim: set ft=xfst-lexc:

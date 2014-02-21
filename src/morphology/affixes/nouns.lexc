@@ -1,0 +1,87 @@
+!! Noun inflection
+!! ---------------
+!! The VOTIC language nouns inflect in cases.
+
+LEXICON NUM_
++Num: NMN_ ;
+
+LEXICON PRON_
++Pron: NMN_ ;
+
+
+LEXICON N_
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_KUU
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_PILLI
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_KOTO
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_ALKU
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_PÄIVÄ
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_AIKA
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_AIKA-PL
++N+Pl: NMN_AIKA-PL ;
+
+LEXICON N_TŠEELI
+#:0   nouns   ;
++N+Pl: NMN_ ;
+
+LEXICON N_ANTŠI
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_PERSE
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_SAMMAL
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_SÜÜMIN
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_ALÕNÕ
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_ALUS
+#:0   nouns   ;
++N: NMN_ ;
+
+LEXICON N_AMMAS
+#:0   nouns   ;
++N: NMN_ ;
+
+
+
+!!
+LEXICON NMN_
++N+Sg+Nom:0     #   ;
++N+Pl+Nom:i     #   ;
+
+LEXICON NMN_AIKA-PL
++Nom: K ;
+
+
+! vim: set ft=xfst-lexc:
+

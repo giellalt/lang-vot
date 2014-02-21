@@ -1,0 +1,25 @@
+!! Adverb inflection
+!! ---------------
+!! The VOTIC language adverbs ...
+
+LEXICON ADV_
++Adv: K ;
+
+LEXICON ADV-QNT_
++Adv+Qnt: K ;
+
+LEXICON ADV-SPAT_
++Adv+Spat: K ;
+
+LEXICON ADV-STATE_
++Adv+State: K ;
+
+LEXICON ADV-TEMP_
++Adv+Temp: K ;
+
+
+
+
+
+! vim: set ft=xfst-lexc:
+

@@ -1,0 +1,8 @@
+!! Verbs
+!! -----
+!! Verbs in the VOTIC language are actions.
+
+LEXICON verbs
+verb    Persons   ;
+
+! vim: set ft=xfst-lexc:

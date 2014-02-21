@@ -1,0 +1,16 @@
+!! Verb inflection
+!! ---------------
+!! The VOTIC language verbs inflect in persons.
+
+LEXICON Persons
++V+Sg1:%>n   K   ;
++V+Sg2:%>t   K   ;
++V+Sg3:    K  ;
++V+Pl1:%>mme  K   ;
++V+Pl2:%>tte  K   ;
++V+Pl3:  K   ;
++V+Inf:    K   ;
++V+Der/min+N:min   NMN_   ;
+
+! vim: set ft=xfst-lexc:
+

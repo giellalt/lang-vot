@@ -1,0 +1,17 @@
+!! Numerals
+!! --------
+!! Numerals in the VOTIC language are numbers.
+
+LEXICON numerals
+ühsi	 NUM_	 "/(est) üks/(fin) yksi/(rus) один" ;
+kahsi	 NUM_	 "/(est) kaks/(fin) kaksi/(rus) две" ;
+kõlõd	 NUM_	 "/(est) kolm/(fin) kolme/(rus) трое" ;
+nelʼlʼä	 NUM_	 "/(est) neli/(fin) neljä/(rus) четыре" ;
+viisi	 NUM_	 "/(est) viis/(fin) viisi/(rus) пятъ" ;
+kuusi	 NUM_	 "/(est) kuus/(fin) kuusi/(rus) шесть" ;
+seitsee	 NUM_	 "/(est) seitse/(fin) seitsemän/(rus) семь" ;
+kahõsaa	 NUM_	 "/(est) kaheksa/(fin) kahdeksan/(rus) восемь" ;
+ühesää	 NUM_	 "/(est) üheksa/(fin) yhdeksän/(rus) девять" ;
+tšümmee	 NUM_	 "/(est) kümme/(fin) kymmenen/(rus) десять" ;
+
+! vim: set ft=xfst-lexc:
