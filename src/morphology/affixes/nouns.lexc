@@ -2,9 +2,6 @@
 !! ---------------
 !! The VOTIC language nouns inflect in cases.
 
-LEXICON NUM_
-+Num: NMN_ ;
-
 LEXICON PRON_
 +Pron: NMN_ ;
 
@@ -15,7 +12,7 @@ LEXICON N_
 
 LEXICON N_KUU
 #:0   nouns   ;
-+N: NMN_ ;
++N: NMN_KUU ;
 
 LEXICON N_PILLI
 #:0   nouns   ;
@@ -42,7 +39,7 @@ LEXICON N_AIKA-PL
 
 LEXICON N_TŠEELI
 #:0   nouns   ;
-+N+Pl: NMN_ ;
++N:i NMN_ ;
 
 LEXICON N_ANTŠI
 #:0   nouns   ;
@@ -58,26 +55,36 @@ LEXICON N_SAMMAL
 
 LEXICON N_SÜÜMIN
 #:0   nouns   ;
-+N: NMN_ ;
++N:n NMN_ ;
 
 LEXICON N_ALÕNÕ
 #:0   nouns   ;
-+N: NMN_ ;
++N:nõ NMN_ ;
 
-LEXICON N_ALUS
+LEXICON N_ALUS  !!= @CODE@ alus:aluks
 #:0   nouns   ;
-+N: NMN_ ;
++N:%^KS2S NMN_ ;
 
-LEXICON N_AMMAS
+LEXICON N_AMMAS !!= @CODE@ ammas:amba
 #:0   nouns   ;
-+N: NMN_ ;
++N:%^WGStem%>s NMN_ ;
 
 
 
 !!
 LEXICON NMN_
-+N+Sg+Nom:0     #   ;
-+N+Pl+Nom:i     #   ;
++Sg+Nom:     #   ;
+!+N+Pl+Nom:i     #   ;
+
+LEXICON NMN_KUU
++Sg+Ela:%>ss     #   ;
++Sg+Ill:%>h%{EAÕ%}%{EAÕ%} # ;
++Sg+Ine:%>z     #   ;
++Sg+Nom:     #   ;
++Sg+Par:%>t     #   ;
+
++Pl+Nom:d     #   ;
+
 
 LEXICON NMN_AIKA-PL
 +Nom: K ;

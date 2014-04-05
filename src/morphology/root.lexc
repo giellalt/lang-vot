@@ -101,9 +101,12 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
+ %{EAÕ%}	!!= @CODE@ Realized in e, a, õ
 
 !! And following triggers to control variation
  {front} {back}
+ %^KS2S		!!= @CODE@ used in aluks:alus ks:s, ps:s
+ %^WGStem	!!= @CODE@ used in mb:mm
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
@@ -112,11 +115,16 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-   nouns   ;
-   verbs   ;
+
    adjectives  ;
+   adverbs  ;
+
+   nouns   ;
    pronouns    ;
-   numerals    ;
-   prefixes    ;
+   verbs   ;
+   quantifiers    ;
+!   prefixes    ;
+
+  EXCEPTIONS ;
 
 ! vim: set ft=xfst-lexc:

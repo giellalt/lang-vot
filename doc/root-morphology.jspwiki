@@ -45,12 +45,18 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+  %{EAÕ%}	 Realized in e, a, õ
 
 And following triggers to control variation
+  %^KS2S		 used in aluks:alus ks:s, ps:s
+  %^WGStem	 used in mb:mm
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+
+
 

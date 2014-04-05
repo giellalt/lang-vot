@@ -24,21 +24,27 @@ GT_LEXC_SRCS=\
 			 affixes/adverbs.lexc \
 			 affixes/clitics.lexc \
 			 affixes/nouns.lexc \
-			 affixes/propernouns.lexc \
+			 affixes/quantifiers.lexc \
 			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
-			 stems/adverbs.lexc \
-			 stems/nouns.lexc \
-			 stems/numerals.lexc \
-			 stems/prefixes.lexc \
+			 stems/exceptions.lexc \
 			 stems/pronouns.lexc \
 			 stems/verbs.lexc
 
+#			 affixes/propernouns.lexc 
+#			 stems/prefixes.lexc 
+
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=
+GENERATED_LEXC_SRCS=\
+		$(srcdir)/stems/adverbs.lexc \
+		$(srcdir)/stems/nouns.lexc \
+		$(srcdir)/stems/quantifiers.lexc 
 
 # Set this to the names of all source xml files, if any
-GT_XML_SRCS=
+GT_XML_SRCS=\
+			 stems/adverbs.xml \
+			 stems/nouns.xml \
+			 stems/quantifiers.xml 
 
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 

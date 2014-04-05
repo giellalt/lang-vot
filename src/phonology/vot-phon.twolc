@@ -9,7 +9,16 @@ Alphabet
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
- %>:0 ;
+!! Archiphones
+ %{EAÕ%}:e	!!= @CODE@ Realized
+ %{EAÕ%}:a	!!= @CODE@ Realized
+ %{EAÕ%}:õ	!!= @CODE@ Realized
+
+!! Triggers
+ %^KS2S:0	!!= @CODE@ used in aluks:alus, perhaps also ps:s, ts:s
+ %^WGStem:0	!!= @CODE@ used in mb:mm
+
+ %> ;
 
 Sets
 
@@ -19,14 +28,39 @@ Sets
  
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
+!! VOWELS
+"%{EAÕ%}:e"
+!! __@RULENAME@__
+ %{EAÕ%}:e <=> [ ä ä: | e e: | ü ü: | ä i ] %> h _ %{EAÕ%}: ;
+               [ ä ä: | e e: | ü ü: | ä i ] %> h %{EAÕ%}: _ ;
 
-!€ primus%>s
-!€ primus00
+"%{EAÕ%}:a"
+!! __@RULENAME@__
+ %{EAÕ%}:a <=> a a: %> h _ %{EAÕ%}: ;
+               a a: %> h %{EAÕ%}: _ ;
 
-!€grís%>s
-!€grís00
+"%{EAÕ%}:õ"
+!! __@RULENAME@__
+ %{EAÕ%}:õ <=> [ u u: | o o: | õ i ] %> h _ %{EAÕ%}: ;
+               [ u u: | o o: | õ i ] %> h %{EAÕ%}: _ ;
 
-!$grís%>s
-!$grís0s
+"Deletion of Vx"
+!! __@RULENAME@__
+ Vx:0 <=> Vx _ %> h %{EAÕ%}: %{EAÕ%}: ;
+       where Vx in ( a o u ä e ü ) ; 
+
+!! CONSONANTS
+"Deleting k before stem-final s"
+!! __@RULENAME@__
+ k:0 <=> Vow _ s %^KS2S: ;
+
+!€# aluks%^KS2S
+!€0 alu0s0
+
+"b:m in weak grade"
+!! __@RULENAME@__
+ b:m <=> m _ Vow %^WGStem: ;
+
+!€# amba%^WGStem%>s
+!€0 amma00s
+

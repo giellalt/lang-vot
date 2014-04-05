@@ -1,16 +1,25 @@
-!! Adverbs
-!! ----------
-!! Adverbs in the VOTIC language describe things.
 
 LEXICON adverbs
-!adjective  Comparisons   ;
-rohkaap	   ADV-QNT_ "/(est) rohkem/(fin) enemmän/(rus) больше" ;
-õhtagon	   ADV-TEMP_ "/(est) õhtul/(fin) illalla/(rus) вечером" ;
-oomõn      ADV-TEMP_ "/(est) homme/(fin) huomenna/(rus) завтра" ;
-vähäizee   ADV-QNT_ "/(est) veidi/(fin) vähän/(rus) немножко" ;
-aikaa      ADV-TEMP_ "/(est) ammu/(fin) ajat sitten/(rus) давно" ;
-akkunalla  ADV-SPAT_ "/(est) õues/(fin) pihalla|ulkona/(rus) во" ;
-alassi	   ADV-STATE_ "/(est) alasti/(fin) alasti/(rus) нагишом" ;
-raazin% ruuzin:raazin% ruuzin ADV_ "/(est) pilla palla/(fin) sikin sokin/(rus) в беспоряде" ;
 
-! vim: set ft=xfst-lexc:
+rohkaap:rohkaap ADV-QNT_  "enemmän" ;
+õhtagon:õhtagon ADV-TEMP_  "illalla" ;
+oomõn:oomõn ADV-TEMP_  "huomenna" ;
+vähäizee:vähäizee ADV-QNT_  "vähän" ;
+aikaa:aikaa ADV-TEMP_  "ajat sitten" ;
+akkunalla:akkunalla ADV-SPAT_  "pihalla" ;
+eezä:eezä ADV-SPAT_  "edessä" ;
+alassi:alassi ADV-STATE_  "alasti" ;
+raazin% ruuzin:raazin% ruuzin ADV_  "sikin sokin" ;
+aikaa:aikaa ADV-TEMP_  "ajat sitten" ;
+perää:perää ADV-TEMP_  "ajat sitten" ;
+päi:päi ADV-SPAT_  "päin" ;
+pääle:pääle ADV-SPAT_  "päälle" ;
+rikkalt:rikkalt ADV-STATE_  "rikkaasti" ;
+rinnalla:rinnalla ADV-SPAT_  "vieressä" ;
+süämes:süämes ADV-SPAT_  "sisällä" ;
+tagas:tagas ADV-SPAT_  "takaisin" ;
+tšisaa:tšisaa ADV-STATE_  "kilpaa" ;
+tšäzii:tšäzii ADV-STATE_  "käsin" ;
+vassaa:vassaa ADV-SPAT_  "vastaan" ;
+ültä:ültä ADV-SPAT_  "päältä" ;
+õhtagon:õhtagon ADV-TEMP_  "illalla" ;

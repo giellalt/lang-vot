@@ -1,103 +1,55 @@
-!! Nouns
-!! -----
-!! Nouns in the VOTIC language are things.
 
 LEXICON nouns
 
-! Single syllable nominals
-alkukuu:alku#kuu N_KUU "/(est) noorkuu/(fin) uusi/(rus) kuu/(rus) новолуние" ;
-rahnopuu:rahno#puu N_KUU "/(est) mesipuu/(fin) mehiläispönttö/(rus) улей" ;
-
-šaaripää:šaari#pää N_KUU "/(est) sasipea/(fin) pörröpää/(rus) растепа" ;
-
-rakkopilli:rakko#pilli N_PILLI "/(est) torupill/(fin) säkkipilli/(rus) волынка" ;
-aŋkkuri:aŋkkuri N_PILLI "/(est) ankur/(fin) ankkuri/(rus) якорь" ;
-kleeveri:kleeveri N_PILLI "/(est) ristikhein/(fin) apila/(rus) клевер" ;
-api:api N_PILLI "/(est) abi/(fin) apu/(rus) помощь" ;
-
-tšerikko:tšerikko N_KOTO "/(est) kirik/(fin) kirkko/(rus) церковь" ;
-koto:koto N_KOTO "/(est) maja/(fin) /(rus) talo/(rus) дом" ;
-jano:jano N_KOTO "/(est) janu/(fin) jano/(rus) жажда" ;
-ahjo:ahjo N_KOTO "/(est) ahi/(fin) uuni/(rus) печка" ;
-alko:alko N_KOTO "/(est) halg/(fin) halko/(rus) полено" ;
-rahno:rahno N_KOTO "/(est) mesipuu/(fin) mehiläispönttö/(rus) улей" ;
-
-alku:alku N_ALKU "/(est) algus/(fin) alku/(rus) начало" ;
-aisu:aisu N_ALKU "/(est) hais|lõhn/(fin) haju|tuoksu/(rus) запах|вонь" ;
-salajutu:sala#jutu N_ALKU "/(est) salajutt/(fin) salaisuus/(rus) секретничанье" ;
-rehtelkakku:rehtel#kakku N_ALKU "/(est) pannkook/(fin) lettu/(rus) блин" ;
-unilintu:uni#lintu N_ALKU "/(est) liblikas/(fin) perhonen/(rus) бабочка" ;
-
-kaglarätte:kagla#rätte N_ "/(est) kaelarätt/(fin) kaulaliina/(rus) платок" ;
-
-päivä:päivä N_PÄIVÄ "/(est) päev/(fin) päivä/(rus) день" ;
-itä:itä N_PÄIVÄ "/(est) ida/(fin) itä/(rus) восток" ;
-etelä:etelä N_PÄIVÄ "/(est) edel/(fin) lounas/(rus) юг-запад" ;
-apo-piimä:apo-piimä N_PÄIVÄ "/(est) hapupiim/(fin) piimä/(rus) кислое/(rus) молоко" ;
-
-!!
-omõna:omõna N_AIKA "/(est) õun/(fin) omena/(rus) яблоко" ;
-rooppa:rooppa N_AIKA "/(est) puder/(fin) puuro/(rus) каша" ;
-aapa:aapa N_AIKA "/(est) haab/(fin) haapa/(rus) осина" ;
-aika:aika N_AIKA "/(est) aeg/(fin) aika/(rus) время" ;
-aita:aita N_AIKA "/(est) aed/(fin) aita/(rus) издородь" ;
-aitta:aitta N_AIKA "/(est) ait/(fin) aitta/(rus) амбар" ;
-akka:akka N_AIKA "/(est) eit/(fin) akka/(rus) старуха" ;
-akkuna:akkuna N_AIKA "/(est) aken/(fin) ikkuna/(rus) окно" ;
-alkutširja:alku#tširja N_AIKA "/(est) aabits/(fin) aapinen/(rus) азбука" ;
-pohja:pohja N_AIKA "/(est) põhi/(fin) pohjoinen/(rus) север" ;
-põhja:põhja N_AIKA "/(est) põhi/(fin) pohjoinen/(rus) север" ;
-apila:apila N_AIKA "/(est) ristikhein/(fin) apila/(rus) клевер" ;
-rahka:rahka N_AIKA "/(est) kohupiim/(fin) rahka/(rus) творог" ;
-araga:araga N_AIKA "/(est) harakas/(fin) harakka/(rus) сорока" ;
-ranta:ranta N_AIKA "/(est) rand/(fin) ranta/(rus) берег" ;
-raja:raja N_AIKA "/(est) piir/(fin) raja/(rus) граница" ;
-saija:saija N_AIKA "/(est) sai/(fin) vehnäleipä/(rus) булка" ;
-raha-massina:raha-massina N_AIKA "/(est) rahakott/(fin) lompakko/(rus) кошелек" ;
-!!
-štanat:štana N_AIKA-PL "/(est) püksid/(fin) housut/(rus) штаны" ;
-
-!!
-tšeeli:tšeel N_TŠEELI "/(est) keel/(fin) kieli/(rus) язык" ;
-saari:saar N_TŠEELI "/(est) saar/(fin) saari/(rus) остров" ;
-
-!!
-antši:antši N_ANTŠI "/(est) hang/(fin) hanki/(rus) сугроб" ;
-anõ:anõ N_ANTŠI "/(est) hani/(fin) hanhi/(rus) гусь" ;
-
-!!
-arkaperse:arka#perse N_PERSE "/(est) argpüks/(fin) jänishousu/(rus) трус" ;
-
-!!
-sammal:sammal N_SAMMAL "/(est) sammal/(fin) sammal/(rus) мох" ;
-
-!!
-süümin:süümi N_SÜÜMIN "/(est) söök/(fin) ruoka/(rus) еда" ;
-inhemiin:inhemiin N_ "/(est) inimene/(fin) ihminen/(rus) человек" ;
-aika-inehmin:aika-inehmin N_ "/(est) täiskasvanu/(fin) aikuinen/(rus) взрослый/(rus) человек" ;
-alõnõ:alõ N_ALÕNÕ "/(est) labakinnas/(fin) lapanen/(rus) варежкаа" ;
-
-!!
-akkunaluz:akkunaluz N_ "/(est) õu/(fin) piha/(rus) двор" ;
-alus:aluks N_ALUS "/(est) purjepaat/(fin) purjevene/(rus) парусная/(rus) лодка" ;
-
-!!
-rahvaz:rahvaz N_ "/(est) inimesed/(fin) ihmiset/(rus) народ|люди" ;
-ammas:amba N_AMMAS "/(est) hammas/(fin) hammas/(rus) зуб" ;
-aŋgõrias:aŋgõrias N_ "/(est) angerjas/(fin) ankerias/(rus) угорь" ;
-
-
-!! These need nominative-form lemmas and stems
-lonad:lonad N_ "/(est) lõuna/(fin) etelä/(rus) юг" ;
-lõunad:lõunad N_ "/(est) lõuna/(fin) etelä/(rus) юг" ;
-üütä:üütä N_ "/(est) ööd/(fin) yötä/(rus) ночи" ;
-lassa:lassa N_ "/(est) laps/(fin) lasta/(rus) детей" ;
-poikaa:poikaa N_ "/(est) poeg/(fin) poikaa/(rus) сын" ;
-sissoa:sissoa N_ "/(est) õde/(fin) sisarta|siskoa/(rus) сестра" ;
-velʼlʼä:velʼlʼä N_ "/(est) venda/(fin) veljeä/(rus) братья" ;
-nätelizä:nätelizä N_ "/(est) nädalas/(fin) viikossa/(rus) в/(rus) неделе" ;
-vootta:vootta N_ "/(est) aastat/(fin) vuotta/(rus) лет" ;
-rublʼaa:rublʼaa N_ "/(est) rubla/(fin) ruplaa/(rus) рублей" ;
-sõrmõa:sõrmõa N_ "/(est) sõrme/(fin) /(rus) sormea/(rus) палец" ;
-
-! vim: set ft=xfst-lexc:
+alkukuu:alku#kuu N_KUU  "uusi kuu" ;
+rahnopuu:rahno#puu N_KUU  "mehiläispönttö" ;
+šaaripää:šaari#pää N_KUU  "pörröpää" ;
+rakkopilli:rakko#pilli N_PILLI  "säkkipilli" ;
+aŋkkuri:aŋkkuri N_PILLI  "ankkuri" ;
+kleeveri:kleeveri N_PILLI  "apila" ;
+api:api N_PILLI  "apu" ;
+tšerikko:tšerikko N_KOTO  "kirkko" ;
+koto:koto N_KOTO  "talo" ;
+jano:jano N_KOTO  "jano" ;
+ahjo:ahjo N_KOTO  "uuni" ;
+alko:alko N_KOTO  "halko" ;
+rahno:rahno N_KOTO  "mehiläispönttö" ;
+alku:alku N_ALKU  "alku" ;
+aisu:aisu N_ALKU  "haju" ;
+salajutu:sala#jutu N_ALKU  "salaisuus" ;
+rehtelkakku:rehtel#kakku N_ALKU  "lettu" ;
+unilintu:uni#lintu N_ALKU  "perhonen" ;
+päivä:päivä N_PÄIVÄ  "päivä" ;
+itä:itä N_PÄIVÄ  "itä" ;
+etelä:etelä N_PÄIVÄ  "lounas" ;
+apo-piimä:apo-piimä N_PÄIVÄ  "piimä" ;
+omõna:omõna N_AIKA  "omena" ;
+rooppa:rooppa N_AIKA  "puuro" ;
+aapa:aapa N_AIKA  "haapa" ;
+aika:aika N_AIKA  "aika" ;
+aita:aita N_AIKA  "aita" ;
+aitta:aitta N_AIKA  "aitta" ;
+akka:akka N_AIKA  "akka" ;
+akkuna:akkuna N_AIKA  "ikkuna" ;
+alkutširja:alku#tširja N_AIKA  "aapinen" ;
+pohja:pohja N_AIKA  "pohjoinen" ;
+põhja:põhja N_AIKA  "pohjoinen" ;
+apila:apila N_AIKA  "apila" ;
+rahka:rahka N_AIKA  "rahka" ;
+araga:araga N_AIKA  "harakka" ;
+ranta:ranta N_AIKA  "ranta" ;
+raja:raja N_AIKA  "raja" ;
+saija:saija N_AIKA  "vehnäleipä" ;
+raha-massina:raha-massina N_AIKA  "lompakko" ;
+štanat:štana N_AIKA-PL  "housut" ;
+tšeeli:tšeel N_TŠEELI  "kieli" ;
+saari:saar N_TŠEELI  "saari" ;
+antši:antši N_ANTŠI  "hanki" ;
+anõ:anõ N_ANTŠI  "hanhi" ;
+arkaperse:arka#perse N_PERSE  "jänishousu" ;
+sammal:sammal N_SAMMAL  "sammal" ;
+süümin:süümi N_SÜÜMIN  "ruoka" ;
+aika-inehmin:aika-inehmin N_SÜÜMIN  "aikuinen" ;
+alõnõ:alõ N_ALÕNÕ  "lapanen" ;
+alus:aluks N_ALUS  "purjevene" ;
+ammas:amba N_AMMAS  "hammas" ;
