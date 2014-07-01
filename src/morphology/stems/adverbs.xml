@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xml:lang="vot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="Adv" type="QNT">rohkaap</l>
+
+      <stg>
+        <st Contlex="ADV-QNT_">rohkaap</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="QNT">rohkem</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="QNT">enemmän</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="QNT">больше</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="TEMP">õhtagon</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">õhtagon</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="TEMP">õhtul</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="TEMP">illalla</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="TEMP">вечером</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="TEMP">oomõn</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">oomõn</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="TEMP">homme</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="TEMP">huomenna</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="TEMP">завтра</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="QNT">vähäizee</l>
+
+      <stg>
+        <st Contlex="ADV-QNT_">vähäizee</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="QNT">veidi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="QNT">vähän</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="QNT">немножко</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="TEMP">aikaa</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">aikaa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="TEMP">ammu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="TEMP">ajat sitten</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="TEMP">давно</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">akkunalla</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">akkunalla</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">õues</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">pihalla</t>
+
+        <t pos="Adv" type="SPAT">ulkona</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">во</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">eezä</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">eezä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">ees</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">edessä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">перед</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="STATE">alassi</l>
+
+      <stg>
+        <st Contlex="ADV-STATE_">alassi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="STATE">alasti</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="STATE">alasti</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="STATE">нагишом</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">raazin ruuzin</l>
+
+      <stg>
+        <st Contlex="ADV_">raazin ruuzin</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv">pilla palla</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">sikin sokin</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv">в беспоряде</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="TEMP">aikaa</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">aikaa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="TEMP">ammu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="TEMP">ajat sitten</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="TEMP">юг</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="TEMP">perää</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">perää</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="TEMP">pärast</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="TEMP">ajat sitten</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="TEMP">позже</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">päi</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">päi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">päi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">päin</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">головой</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">pääle</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">pääle</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">selga</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">päälle</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">на</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="STATE">rikkalt</l>
+
+      <stg>
+        <st Contlex="ADV-STATE_">rikkalt</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="STATE">rikkaassi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="STATE">rikkaasti</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="STATE">богато</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">rinnalla</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">rinnalla</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">koos</t>
+
+        <t pos="Adv" type="SPAT">kõrval</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">vieressä</t>
+
+        <t pos="Adv" type="SPAT">kanssa</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">рядом</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">süämes</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">süämes</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">sees</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">sisällä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">в</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">tagas</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">tagas</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">tagasi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">takaisin</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">вернись</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="STATE">tšisaa</l>
+
+      <stg>
+        <st Contlex="ADV-STATE_">tšisaa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="STATE">võidu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="STATE">kilpaa</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="STATE">вперегонку</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="STATE">tšäzii</l>
+
+      <stg>
+        <st Contlex="ADV-STATE_">tšäzii</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="STATE">käsitsi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="STATE">käsin</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="STATE">вручную</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">vassaa</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">vassaa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">vastu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">vastaan</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">на втречу</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="SPAT">ültä</l>
+
+      <stg>
+        <st Contlex="ADV-SPAT_">ültä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="SPAT">seljast</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="SPAT">päältä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="SPAT">раздевайся</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv" type="TEMP">õhtagon</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">õhtagon</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="Adv" type="TEMP">õhtul</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv" type="TEMP">illalla</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Adv" type="TEMP">вечером</t>
+      </tg>
+    </mg>
+  </e>
+</r>

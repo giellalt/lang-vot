@@ -1,0 +1,12 @@
+!! Quantifiers
+!! ---------------
+!! The VOTIC language quantifiers can be split into numerals and adverbs of quantity
+
+LEXICON NUM_
++Num: K ;
+
+
+
+
+! vim: set ft=xfst-lexc:
+

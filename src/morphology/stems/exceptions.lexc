@@ -1,0 +1,28 @@
+!! Exceptions
+!! -----
+!! Exceptions in the VOTIC language are irregurlar word forms and development
+
+LEXICON EXCEPTIONS
+
+
+!! These need nominative-form lemmas and stems
+
+inhemiin:inhemiin N_ "/(est) inimene/(fin) ihminen/(rus) человек" ;
+akkunaluz:akkunaluz N_ "/(est) õu/(fin) piha/(rus) двор" ;
+rahvaz:rahvaz N_ "/(est) inimesed/(fin) ihmiset/(rus) народ|люди" ;
+aŋgõrias:aŋgõrias N_ "/(est) angerjas/(fin) ankerias/(rus) угорь" ;
+lonad:lonad N_ "/(est) lõuna/(fin) etelä/(rus) юг" ;
+lõunad:lõunad N_ "/(est) lõuna/(fin) etelä/(rus) юг" ;
+üütä:üütä N_ "/(est) ööd/(fin) yötä/(rus) ночи" ;
+lassa:lassa N_ "/(est) laps/(fin) lasta/(rus) детей" ;
+poikaa:poikaa N_ "/(est) poeg/(fin) poikaa/(rus) сын" ;
+sissoa:sissoa N_ "/(est) õde/(fin) sisarta|siskoa/(rus) сестра" ;
+velʼlʼä:velʼlʼä N_ "/(est) venda/(fin) veljeä/(rus) братья" ;
+nätelizä:nätelizä N_ "/(est) nädalas/(fin) viikossa/(rus) в/(rus) неделе" ;
+vootta:vootta N_ "/(est) aastat/(fin) vuotta/(rus) лет" ;
+rublʼaa:rublʼaa N_ "/(est) rubla/(fin) ruplaa/(rus) рублей" ;
+sõrmõa:sõrmõa N_ "/(est) sõrme/(fin) /(rus) sormea/(rus) палец" ;
+
+kaglarätte:kagla#rätte N_ "/(est) kaelarätt/(fin) kaulaliina/(rus) платок" ;
+
+! vim: set ft=xfst-lexc:
