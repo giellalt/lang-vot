@@ -222,6 +222,6 @@ LEXICON Root
    quantifiers    ;
 !   prefixes    ;
 
-  EXCEPTIONS ;
+!  EXCEPTIONS ;
 
 ! vim: set ft=xfst-lexc:

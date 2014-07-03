@@ -24,13 +24,12 @@ GT_LEXC_SRCS=\
 			 affixes/adverbs.lexc \
 			 affixes/clitics.lexc \
 			 affixes/nouns.lexc \
-			 affixes/quantifiers.lexc \
 			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
-			 stems/exceptions.lexc \
 			 stems/pronouns.lexc \
 			 stems/verbs.lexc
 
+#			 stems/exceptions.lexc \
 #			 affixes/propernouns.lexc 
 #			 stems/prefixes.lexc 
 
