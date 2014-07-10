@@ -16,7 +16,7 @@
 ! !!            !!!Votic morphological analyser                      !
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
- 
+
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
@@ -145,10 +145,10 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! The verbs are syntactically split according to transitivity:
  +TV  	!!= * @CODE@
  +IV 	!!= * @CODE@
- 
+
 !! Special multiword units are analysed with:
  +Multi 	!!= * @CODE@
- 
+
 !! Non-dictionary words can be recognised with:
  +Guess	!!= * @CODE@
 
