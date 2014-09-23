@@ -13,46 +13,185 @@ in this system in terms of following symbols.
 
 The parts-of-speech are:
 
+ * +N	    	
+ * +A	    	
+ * +Adv    	
+ * +V	    	
+ * +Pron   	
+ * +CS	    	
+ * +CC	    	
+ * +Adp    	
+ * +Po	    	
+ * +Pr	    	
+ * +Interj 	
+ * +Pcle   	
+ * +Num    	
+
+
 The parts of speech are further split up into:
 
+ * +Prop   	
+ * +Pers   	
+ * +Dem    	
+ * +Interr 	
+ * +Refl   	
+ * +Recipr 	
+ * +Rel    	
+ * +Indef  	
+
 The Usage extents are marked using following tags:
+ *  +Err/Sub     	
+ *  +Use/-Spell  	
 
 The nominals are inflected in the following Case and Number
 
+ * +Sg	    	
+ * +Du	    	
+ * +Pl	    	
+
+ * +Ess    	
+ * +Nom    	
+ * +Gen    	
+ * +Acc    	
+ * +Ill    	
+ * +Loc    	
+ * +Com    	
+ * +Com/Sh 	
+
 The possession is marked as such:
+
+ * +PxSg1 	
+ * +PxSg2 	
+ * +PxSg3 	
+ * +PxDu1 	
+ * +PxDu2 	
+ * +PxDu3 	
+ * +PxPl1 	
+ * +PxPl2 	
+ * +PxPl3 	
 The comparative forms are:
+
+ * +Comp   	
+ * +Superl 	
+
 Numerals are classified under:
-Verb moods are:
+
+ * +Attr 	
+ * +Card 	
+
+ * +Ord 	
+
+Verb tenses and moods are:
+
+ * +Ind   	
+ * +Prs   	
+ * +Prt   	
+ * +Pot   	
+ * +Cond  	
+ * +Imprt 	
+
 Verb personal forms are:
+
+ * +Sg1 	
+ * +Sg2 	
+ * +Sg3 	
+ * +Du1 	
+ * +Du2 	
+ * +Du3 	
+ * +Pl1 	
+ * +Pl2 	
+ * +Pl3 	
+
 Other verb forms are
 
+ * +Inf	  	
+ * +Ger	  	
+ * +ConNeg	  	
+ * +ConNegII 	
+ * +Neg	  	
+ * +ImprtII  	
+ * +PrsPrc	  	
+ * +PrfPrc	  	
+ * +Sup	  	
+ * +VGen	  	
+ * +VAbess	  	
+
+ *  +ABBR 	
+ *  +ACR  	
+
 Special symbols are classified with:
+
+ * +CLB   	
+ * +PUNCT 	
+ * +LEFT  	
+ * +RIGHT 	
+
 The verbs are syntactically split according to transitivity:
+ *  +TV  	
+ *  +IV 	
+
 Special multiword units are analysed with:
+ *  +Multi 	
+
 Non-dictionary words can be recognised with:
+ *  +Guess	
 
 Question and Focus particles:
+ *  +Qst 	
+ *  +Foc	
 
 
 Semantics are classified with
+ *  +Sem/Mal 		
+ *  +Sem/Fem 		
+ *  +Sem/Sur 		
+ *  +Sem/Plc 		
+ *  +Sem/Org		
+ *  +Sem/Obj		
+ *  +Sem/Ani		
+ *  +Sem/Hum		
+ *  +Sem/Plant		
+ *  +Sem/Group		
+ *  +Sem/Time 		
+ *  +Sem/Txt		
+ *  +Sem/Route		
+ *  +Sem/Measr 	
+ *  +Sem/Wthr		
+ *  +Sem/Build 	
+ *  +Sem/Edu		
+ *  +Sem/Veh		
+ *  +Sem/Clth		
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+ *  +V→N	 	
+ * +V→V	 	
+ * +V→A	 	
+
+ * +Der/xxx 	
 
 
 Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+ *  {aä} 	
+ *  {oö} 	
+ *  {uü} 	
   %{EAÕ%}	 Realized in e, a, õ
 
 And following triggers to control variation
+ *  {front} 	
+ *  {back}	
   %^KS2S		 used in aluks:alus ks:s, ps:s
   %^WGStem	 used in mb:mm
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
+ * @P.NeedNoun.ON@	
+ * @D.NeedNoun.ON@	
+ * @C.NeedNoun@	
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
