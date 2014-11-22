@@ -1,8 +1,4 @@
 
-LEXICON NUM_
-+Num+Card: # ;
-
-
 LEXICON quantifiers
 
 ühsi:ühsi NUM_  "yksi" ;
