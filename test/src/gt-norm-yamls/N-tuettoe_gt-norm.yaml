@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tüttö : # Noun 'girl/tyttö/tüdruk/девучка' - full paradigm
+# Heinsoo, Heinike 2015: Vadʼdʼa sõnakopittõja. Tartu-Helsinki. (88-89).
+     tüttö+N+Sg+Nom: tüttö
+     tüttö+N+Sg+Gen: tütö
+     tüttö+N+Sg+Par: tüttöä
+     tüttö+N+Sg+Ill: tüttöse
+     tüttö+N+Sg+Ine: tüttõz
+     tüttö+N+Sg+Ela: tütösse
+     tüttö+N+Sg+All: tütölle
+     tüttö+N+Sg+Ade: tütölle
+     tüttö+N+Sg+Abl: tütölte
+     tüttö+N+Sg+Tra: tütössi
+     tüttö+N+Sg+Ter: tüttössaa
+     tüttö+N+Sg+Com: tütöka
+     tüttö+N+Pl+Nom: tütöd
+     tüttö+N+Pl+Gen: [tüttöi, tüttöje]
+     tüttö+N+Pl+Par: [tüttöi, tüttöitõ]
+     tüttö+N+Pl+Ill: tüttöise
+     tüttö+N+Pl+Ine: tüttöiz
+     tüttö+N+Pl+Ela: tüttöisse
+     tüttö+N+Pl+All: tüttöille
+     tüttö+N+Pl+Ade: tüttöille
+     tüttö+N+Pl+Abl: tüttöilte
+     tüttö+N+Pl+Tra: tüttöissi
+     tüttö+N+Pl+Ter: tüttöissaa
+     tüttö+N+Pl+Com: tüttöika
