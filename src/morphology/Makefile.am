@@ -28,6 +28,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
 			 stems/pronouns.lexc \
+			 stems/punctuation.lexc   \
 			 stems/verbs.lexc
 
 #			 stems/exceptions.lexc \
