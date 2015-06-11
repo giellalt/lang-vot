@@ -54,6 +54,9 @@ Rules
 "Deletion of õ "
 !! __@RULENAME@__
  õ:0 <=>   _ ( %^WGStem:) %^VowRm: ;
+"Deletion of a "
+!! __@RULENAME@__
+ a:0 <=>   _ ( %^WGStem:) %^VowRm: ;
 
 !! !CONSONANTS
 !! WEAK GRADE
@@ -73,10 +76,10 @@ Rules
 !! __@RULENAME@__
  t:0 <=> Vow t _  Vow: %^WGStem: ;
 
-"b:m in weak grade"
+"p:m in weak grade"
 !! __@RULENAME@__
- b:m <=> m _ Vow %^WGStem: ;
+ p:m <=> m _ Vow: %^WGStem: ;
 
-!€# amba%^WGStem%>s
-!€0 amma00s
+!€# ampa%^WGStem%^VowRmõz
+!€0 amm000õz
 

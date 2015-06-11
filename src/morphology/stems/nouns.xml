@@ -4,58 +4,1427 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<e><lg><l pos="N">tüttö</l><stg><st Contlex="N_TÜTTÖ">tüttö</st></stg></lg><mg><defNative/><tg xml:lang="eng"><t pos="N">girl</t></tg><tg xml:lang="est"><t pos="N">tüdruk</t></tg><tg xml:lang="fin"><t pos="N">tyttö</t></tg><tg xml:lang="rus"><t pos="N">девучка</t></tg></mg></e>
-<e><lg><l pos="N">poikõ</l><stg><st Contlex="N_POIKÕ">poikõ</st></stg></lg><mg><defNative/><tg xml:lang="eng"><t pos="N">boy</t><t pos="N">son</t></tg><tg xml:lang="est"><t pos="N">poiss</t><t pos="N">poeg</t></tg><tg xml:lang="fin"><t pos="N">poika</t></tg><tg xml:lang="rus"><t pos="N">мальчик</t><t pos="N">сын</t></tg></mg></e>
-<e><lg><l pos="N">alkukuu</l><stg><st Contlex="N_KUU">alku#kuu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">noorkuu</t></tg><tg xml:lang="fin"><t pos="N">uusi kuu</t></tg><tg xml:lang="rus"><t pos="N">новолуние</t></tg></mg></e>
-<e><lg><l pos="N">rahnopuu</l><stg><st Contlex="N_KUU">rahno#puu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">mesipuu</t></tg><tg xml:lang="fin"><t pos="N">mehiläispönttö</t></tg><tg xml:lang="rus"><t pos="N">улей</t></tg></mg></e>
-<e><lg><l pos="N">šaaripää</l><stg><st Contlex="N_KUU">šaari#pää</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">sasipea</t></tg><tg xml:lang="fin"><t pos="N">pörröpää</t></tg><tg xml:lang="rus"><t pos="N">растепа</t></tg></mg></e>
-<e><lg><l pos="N">rakkopilli</l><stg><st Contlex="N_PILLI">rakko#pilli</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">torupill</t></tg><tg xml:lang="fin"><t pos="N">säkkipilli</t></tg><tg xml:lang="rus"><t pos="N">волынка</t></tg></mg></e>
-<e><lg><l pos="N">aŋkkuri</l><stg><st Contlex="N_PILLI">aŋkkuri</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">ankur</t></tg><tg xml:lang="fin"><t pos="N">ankkuri</t></tg><tg xml:lang="rus"><t pos="N">якорь</t></tg></mg></e>
-<e><lg><l pos="N">kleeveri</l><stg><st Contlex="N_PILLI">kleeveri</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">ristikhein</t></tg><tg xml:lang="fin"><t pos="N">apila</t></tg><tg xml:lang="rus"><t pos="N">клевер</t></tg></mg></e>
-<e><lg><l pos="N">api</l><stg><st Contlex="N_PILLI">api</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">abi</t></tg><tg xml:lang="fin"><t pos="N">apu</t></tg><tg xml:lang="rus"><t pos="N">помощь</t></tg></mg></e>
-<e><lg><l pos="N">tšerikko</l><stg><st Contlex="N_KOTO">tšerikko</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">kirik</t></tg><tg xml:lang="fin"><t pos="N">kirkko</t></tg><tg xml:lang="rus"><t pos="N">церковь</t></tg></mg></e>
-<e><lg><l pos="N">koto</l><stg><st Contlex="N_KOTO">koto</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">maja</t></tg><tg xml:lang="fin"><t pos="N">talo</t></tg><tg xml:lang="rus"><t pos="N">дом</t></tg></mg></e>
-<e><lg><l pos="N">jano</l><stg><st Contlex="N_KOTO">jano</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">janu</t></tg><tg xml:lang="fin"><t pos="N">jano</t></tg><tg xml:lang="rus"><t pos="N">жажда</t></tg></mg></e>
-<e><lg><l pos="N">ahjo</l><stg><st Contlex="N_KOTO">ahjo</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">ahi</t></tg><tg xml:lang="fin"><t pos="N">uuni</t></tg><tg xml:lang="rus"><t pos="N">печка</t></tg></mg></e>
-<e><lg><l pos="N">alko</l><stg><st Contlex="N_KOTO">alko</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">halg</t></tg><tg xml:lang="fin"><t pos="N">halko</t></tg><tg xml:lang="rus"><t pos="N">полено</t></tg></mg></e>
-<e><lg><l pos="N">rahno</l><stg><st Contlex="N_KOTO">rahno</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">mesipuu</t></tg><tg xml:lang="fin"><t pos="N">mehiläispönttö</t></tg><tg xml:lang="rus"><t pos="N">улей</t></tg></mg></e>
-<e><lg><l pos="N">alku</l><stg><st Contlex="N_ALKU">alku</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">algus</t></tg><tg xml:lang="fin"><t pos="N">alku</t></tg><tg xml:lang="rus"><t pos="N">начало</t></tg></mg></e>
-<e><lg><l pos="N">aisu</l><stg><st Contlex="N_ALKU">aisu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hais</t><t pos="N">lõhn</t></tg><tg xml:lang="fin"><t pos="N">haju</t><t pos="N">tuoksu</t></tg><tg xml:lang="rus"><t pos="N">запах</t><t pos="N">вонь</t></tg></mg></e>
-<e><lg><l pos="N">salajutu</l><stg><st Contlex="N_ALKU">sala#jutu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">salajutt</t></tg><tg xml:lang="fin"><t pos="N">salaisuus</t></tg><tg xml:lang="rus"><t pos="N">секретничанье</t></tg></mg></e>
-<e><lg><l pos="N">rehtelkakku</l><stg><st Contlex="N_ALKU">rehtel#kakku</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">pannkook</t></tg><tg xml:lang="fin"><t pos="N">lettu</t></tg><tg xml:lang="rus"><t pos="N">блин</t></tg></mg></e>
-<e><lg><l pos="N">unilintu</l><stg><st Contlex="N_ALKU">uni#lintu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">liblikas</t></tg><tg xml:lang="fin"><t pos="N">perhonen</t></tg><tg xml:lang="rus"><t pos="N">бабочка</t></tg></mg></e>
-<e><lg><l pos="N">päivä</l><stg><st Contlex="N_PÄIVÄ">päivä</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">päev</t></tg><tg xml:lang="fin"><t pos="N">päivä</t></tg><tg xml:lang="rus"><t pos="N">день</t></tg></mg></e>
-<e><lg><l pos="N">itä</l><stg><st Contlex="N_PÄIVÄ">itä</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">ida</t></tg><tg xml:lang="fin"><t pos="N">itä</t></tg><tg xml:lang="rus"><t pos="N">восток</t></tg></mg></e>
-<e><lg><l pos="N">etelä</l><stg><st Contlex="N_PÄIVÄ">etelä</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">edel</t></tg><tg xml:lang="fin"><t pos="N">lounas</t></tg><tg xml:lang="rus"><t pos="N">юг-запад</t></tg></mg></e>
-<e><lg><l pos="N">apo-piimä</l><stg><st Contlex="N_PÄIVÄ">apo-piimä</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hapupiim</t></tg><tg xml:lang="fin"><t pos="N">piimä</t></tg><tg xml:lang="rus"><t pos="N">кислое молоко</t></tg></mg></e>
-<e><lg><l pos="N">omõna</l><stg><st Contlex="N_AIKA">omõna</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">õun</t></tg><tg xml:lang="fin"><t pos="N">omena</t></tg><tg xml:lang="rus"><t pos="N">яблоко</t></tg></mg></e>
-<e><lg><l pos="N">rooppa</l><stg><st Contlex="N_AIKA">rooppa</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">puder</t></tg><tg xml:lang="fin"><t pos="N">puuro</t></tg><tg xml:lang="rus"><t pos="N">каша</t></tg></mg></e>
-<e><lg><l pos="N">aapa</l><stg><st Contlex="N_AIKA">aapa</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">haab</t></tg><tg xml:lang="fin"><t pos="N">haapa</t></tg><tg xml:lang="rus"><t pos="N">осина</t></tg></mg></e>
-<e><lg><l pos="N">aika</l><stg><st Contlex="N_AIKA">aika</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">aeg</t></tg><tg xml:lang="fin"><t pos="N">aika</t></tg><tg xml:lang="rus"><t pos="N">время</t></tg></mg></e>
-<e><lg><l pos="N">aita</l><stg><st Contlex="N_AIKA">aita</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">aed</t></tg><tg xml:lang="fin"><t pos="N">aita</t></tg><tg xml:lang="rus"><t pos="N">издородь</t></tg></mg></e>
-<e><lg><l pos="N">aitta</l><stg><st Contlex="N_AIKA">aitta</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">ait</t></tg><tg xml:lang="fin"><t pos="N">aitta</t></tg><tg xml:lang="rus"><t pos="N">амбар</t></tg></mg></e>
-<e><lg><l pos="N">akka</l><stg><st Contlex="N_AIKA">akka</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">eit</t></tg><tg xml:lang="fin"><t pos="N">akka</t></tg><tg xml:lang="rus"><t pos="N">старуха</t></tg></mg></e>
-<e><lg><l pos="N">akkuna</l><stg><st Contlex="N_AIKA">akkuna</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">aken</t></tg><tg xml:lang="fin"><t pos="N">ikkuna</t></tg><tg xml:lang="rus"><t pos="N">окно</t></tg></mg></e>
-<e><lg><l pos="N">alkutširja</l><stg><st Contlex="N_AIKA">alku#tširja</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">aabits</t></tg><tg xml:lang="fin"><t pos="N">aapinen</t></tg><tg xml:lang="rus"><t pos="N">азбука</t></tg></mg></e>
-<e><lg><l pos="N">pohja</l><stg><st Contlex="N_AIKA">pohja</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">põhi</t></tg><tg xml:lang="fin"><t pos="N">pohjoinen</t></tg><tg xml:lang="rus"><t pos="N">север</t></tg></mg></e>
-<e><lg><l pos="N">põhja</l><stg><st Contlex="N_AIKA">põhja</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">põhi</t></tg><tg xml:lang="fin"><t pos="N">pohjoinen</t></tg><tg xml:lang="rus"><t pos="N">север</t></tg></mg></e>
-<e><lg><l pos="N">apila</l><stg><st Contlex="N_AIKA">apila</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">ristikhein</t></tg><tg xml:lang="fin"><t pos="N">apila</t></tg><tg xml:lang="rus"><t pos="N">клевер</t></tg></mg></e>
-<e><lg><l pos="N">rahka</l><stg><st Contlex="N_AIKA">rahka</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">kohupiim</t></tg><tg xml:lang="fin"><t pos="N">rahka</t></tg><tg xml:lang="rus"><t pos="N">творог</t></tg></mg></e>
-<e><lg><l pos="N">araga</l><stg><st Contlex="N_AIKA">araga</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">harakas</t></tg><tg xml:lang="fin"><t pos="N">harakka</t></tg><tg xml:lang="rus"><t pos="N">сорока</t></tg></mg></e>
-<e><lg><l pos="N">ranta</l><stg><st Contlex="N_AIKA">ranta</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">rand</t></tg><tg xml:lang="fin"><t pos="N">ranta</t></tg><tg xml:lang="rus"><t pos="N">берег</t></tg></mg></e>
-<e><lg><l pos="N">raja</l><stg><st Contlex="N_AIKA">raja</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">piir</t></tg><tg xml:lang="fin"><t pos="N">raja</t></tg><tg xml:lang="rus"><t pos="N">граница</t></tg></mg></e>
-<e><lg><l pos="N">saija</l><stg><st Contlex="N_AIKA">saija</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">sai</t></tg><tg xml:lang="fin"><t pos="N">vehnäleipä</t></tg><tg xml:lang="rus"><t pos="N">булка</t></tg></mg></e>
-<e><lg><l pos="N">raha-massina</l><stg><st Contlex="N_AIKA">raha-massina</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">rahakott</t></tg><tg xml:lang="fin"><t pos="N">lompakko</t></tg><tg xml:lang="rus"><t pos="N">кошелек</t></tg></mg></e>
-<e><lg><l pos="N">štanat</l><stg><st Contlex="N_AIKA-PL">štana</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">püksid</t></tg><tg xml:lang="fin"><t pos="N">housut</t></tg><tg xml:lang="rus"><t pos="N">штаны</t></tg></mg></e>
-<e><lg><l pos="N">tšeeli</l><stg><st Contlex="N_TŠEELI">tšeel</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">keel</t></tg><tg xml:lang="fin"><t pos="N">kieli</t></tg><tg xml:lang="rus"><t pos="N">язык</t></tg></mg></e>
-<e><lg><l pos="N">saari</l><stg><st Contlex="N_TŠEELI">saar</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">saar</t></tg><tg xml:lang="fin"><t pos="N">saari</t></tg><tg xml:lang="rus"><t pos="N">остров</t></tg></mg></e>
-<e><lg><l pos="N">antši</l><stg><st Contlex="N_ANTŠI">antši</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hang</t></tg><tg xml:lang="fin"><t pos="N">hanki</t></tg><tg xml:lang="rus"><t pos="N">сугроб</t></tg></mg></e>
-<e><lg><l pos="N">anõ</l><stg><st Contlex="N_ANTŠI">anõ</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hani</t></tg><tg xml:lang="fin"><t pos="N">hanhi</t></tg><tg xml:lang="rus"><t pos="N">гусь</t></tg></mg></e>
-<e><lg><l pos="N">arkaperse</l><stg><st Contlex="N_PERSE">arka#perse</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">argpüks</t></tg><tg xml:lang="fin"><t pos="N">jänishousu</t></tg><tg xml:lang="rus"><t pos="N">трус</t></tg></mg></e>
-<e><lg><l pos="N">sammal</l><stg><st Contlex="N_SAMMAL">sammal</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">sammal</t></tg><tg xml:lang="fin"><t pos="N">sammal</t></tg><tg xml:lang="rus"><t pos="N">мох</t></tg></mg></e>
-<e><lg><l pos="N">süümin</l><stg><st Contlex="N_SÜÜMIN">süümi</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">söök</t></tg><tg xml:lang="fin"><t pos="N">ruoka</t></tg><tg xml:lang="rus"><t pos="N">еда</t></tg></mg></e>
-<e><lg><l pos="N">aika-inehmin</l><stg><st Contlex="N_SÜÜMIN">aika-inehmin</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">täiskasvanu</t></tg><tg xml:lang="fin"><t pos="N">aikuinen</t></tg><tg xml:lang="rus"><t pos="N">взрослый человек</t></tg></mg></e>
-<e><lg><l pos="N">alõnõ</l><stg><st Contlex="N_ALÕNÕ">alõ</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">labakinnas</t></tg><tg xml:lang="fin"><t pos="N">lapanen</t></tg><tg xml:lang="rus"><t pos="N">варежкаа</t></tg></mg></e>
-<e><lg><l pos="N">alus</l><stg><st Contlex="N_ALUS">aluks</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">purjepaat</t></tg><tg xml:lang="fin"><t pos="N">purjevene</t></tg><tg xml:lang="rus"><t pos="N">парусная лодка</t></tg></mg></e>
-<e><lg><l pos="N">ammõs</l><stg><st Contlex="N_AMMÕS">amba</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hammas</t></tg><tg xml:lang="fin"><t pos="N">hammas</t></tg><tg xml:lang="rus"><t pos="N">зуб</t></tg></mg></e>
+  <e>
+    <lg>
+      <l pos="N">tüttö</l>
+
+      <stg>
+        <st Contlex="N_TÜTTÖ">tüttö</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">girl</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="N">tüdruk</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">tyttö</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">девучка</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">poikõ</l>
+
+      <stg>
+        <st Contlex="N_POIKÕ">poikõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">boy</t>
+
+        <t pos="N">son</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="N">poiss</t>
+
+        <t pos="N">poeg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">poika</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">мальчик</t>
+
+        <t pos="N">сын</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alkukuu</l>
+
+      <stg>
+        <st Contlex="N_KUU">alku#kuu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">noorkuu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">uusi kuu</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">новолуние</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">rahnopuu</l>
+
+      <stg>
+        <st Contlex="N_KUU">rahno#puu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">mesipuu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">mehiläispönttö</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">улей</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">šaaripää</l>
+
+      <stg>
+        <st Contlex="N_KUU">šaari#pää</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">sasipea</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pörröpää</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">растепа</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">rakkopilli</l>
+
+      <stg>
+        <st Contlex="N_PILLI">rakko#pilli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">torupill</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">säkkipilli</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">волынка</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aŋkkuri</l>
+
+      <stg>
+        <st Contlex="N_PILLI">aŋkkuri</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">ankur</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">ankkuri</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">якорь</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">kleeveri</l>
+
+      <stg>
+        <st Contlex="N_PILLI">kleeveri</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">ristikhein</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">apila</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">клевер</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">api</l>
+
+      <stg>
+        <st Contlex="N_PILLI">api</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">abi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">apu</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">помощь</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">tšerikko</l>
+
+      <stg>
+        <st Contlex="N_KOTO">tšerikko</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">kirik</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kirkko</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">церковь</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">koto</l>
+
+      <stg>
+        <st Contlex="N_KOTO">koto</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">maja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">talo</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">дом</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">jano</l>
+
+      <stg>
+        <st Contlex="N_KOTO">jano</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">janu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">jano</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">жажда</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ahjo</l>
+
+      <stg>
+        <st Contlex="N_KOTO">ahjo</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">ahi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">uuni</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">печка</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alko</l>
+
+      <stg>
+        <st Contlex="N_KOTO">alko</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">halg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">halko</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">полено</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">rahno</l>
+
+      <stg>
+        <st Contlex="N_KOTO">rahno</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">mesipuu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">mehiläispönttö</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">улей</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alku</l>
+
+      <stg>
+        <st Contlex="N_ALKU">alku</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">algus</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">alku</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">начало</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aisu</l>
+
+      <stg>
+        <st Contlex="N_ALKU">aisu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">hais</t>
+
+        <t pos="N">lõhn</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">haju</t>
+
+        <t pos="N">tuoksu</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">запах</t>
+
+        <t pos="N">вонь</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">salajutu</l>
+
+      <stg>
+        <st Contlex="N_ALKU">sala#jutu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">salajutt</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">salaisuus</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">секретничанье</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">rehtelkakku</l>
+
+      <stg>
+        <st Contlex="N_ALKU">rehtel#kakku</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">pannkook</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lettu</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">блин</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">unilintu</l>
+
+      <stg>
+        <st Contlex="N_ALKU">uni#lintu</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">liblikas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">perhonen</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">бабочка</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">päivä</l>
+
+      <stg>
+        <st Contlex="N_PÄIVÄ">päivä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">päev</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">päivä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">день</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">itä</l>
+
+      <stg>
+        <st Contlex="N_PÄIVÄ">itä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">ida</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">itä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">восток</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">etelä</l>
+
+      <stg>
+        <st Contlex="N_PÄIVÄ">etelä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">edel</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lounas</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">юг-запад</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">apo-piimä</l>
+
+      <stg>
+        <st Contlex="N_PÄIVÄ">apo-piimä</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">hapupiim</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">piimä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">кислое молоко</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">omõna</l>
+
+      <stg>
+        <st Contlex="N_AIKA">omõna</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">õun</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">omena</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">яблоко</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">rooppa</l>
+
+      <stg>
+        <st Contlex="N_AIKA">rooppa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">puder</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">puuro</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">каша</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aapa</l>
+
+      <stg>
+        <st Contlex="N_AIKA">aapa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">haab</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">haapa</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">осина</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aika</l>
+
+      <stg>
+        <st Contlex="N_AIKA">aika</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">aeg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">aika</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">время</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aita</l>
+
+      <stg>
+        <st Contlex="N_AIKA">aita</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">aed</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">aita</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">издородь</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aitta</l>
+
+      <stg>
+        <st Contlex="N_AIKA">aitta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">ait</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">aitta</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">амбар</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">akka</l>
+
+      <stg>
+        <st Contlex="N_AIKA">akka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">eit</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">akka</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">старуха</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">akkuna</l>
+
+      <stg>
+        <st Contlex="N_AIKA">akkuna</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">aken</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">ikkuna</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">окно</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alkutširja</l>
+
+      <stg>
+        <st Contlex="N_AIKA">alku#tširja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">aabits</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">aapinen</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">азбука</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">pohja</l>
+
+      <stg>
+        <st Contlex="N_AIKA">pohja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">põhi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pohjoinen</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">север</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">põhja</l>
+
+      <stg>
+        <st Contlex="N_AIKA">põhja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">põhi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pohjoinen</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">север</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">apila</l>
+
+      <stg>
+        <st Contlex="N_AIKA">apila</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">ristikhein</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">apila</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">клевер</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">rahka</l>
+
+      <stg>
+        <st Contlex="N_AIKA">rahka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">kohupiim</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">rahka</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">творог</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">araga</l>
+
+      <stg>
+        <st Contlex="N_AIKA">araga</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">harakas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">harakka</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">сорока</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ranta</l>
+
+      <stg>
+        <st Contlex="N_AIKA">ranta</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">rand</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">ranta</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">берег</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">raja</l>
+
+      <stg>
+        <st Contlex="N_AIKA">raja</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">piir</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">raja</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">граница</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">saija</l>
+
+      <stg>
+        <st Contlex="N_AIKA">saija</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">sai</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">vehnäleipä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">булка</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">raha-massina</l>
+
+      <stg>
+        <st Contlex="N_AIKA">raha-massina</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">rahakott</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lompakko</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">кошелек</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">štanat</l>
+
+      <stg>
+        <st Contlex="N_AIKA-PL">štana</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">püksid</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">housut</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">штаны</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">tšeeli</l>
+
+      <stg>
+        <st Contlex="N_TŠEELI">tšeel</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">keel</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kieli</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">язык</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">saari</l>
+
+      <stg>
+        <st Contlex="N_TŠEELI">saar</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">saar</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">saari</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">остров</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">antši</l>
+
+      <stg>
+        <st Contlex="N_ANTŠI">antši</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">hang</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">hanki</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">сугроб</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">anõ</l>
+
+      <stg>
+        <st Contlex="N_ANTŠI">anõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">hani</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">hanhi</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">гусь</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">arkaperse</l>
+
+      <stg>
+        <st Contlex="N_PERSE">arka#perse</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">argpüks</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">jänishousu</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">трус</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">sammal</l>
+
+      <stg>
+        <st Contlex="N_SAMMAL">sammal</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">sammal</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">sammal</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">мох</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">süümin</l>
+
+      <stg>
+        <st Contlex="N_SÜÜMIN">süümi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">söök</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">ruoka</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">еда</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">aika-inehmin</l>
+
+      <stg>
+        <st Contlex="N_SÜÜMIN">aika-inehmin</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">täiskasvanu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">aikuinen</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">взрослый человек</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alõnõ</l>
+
+      <stg>
+        <st Contlex="N_ALÕNÕ">alõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">labakinnas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lapanen</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">варежкаа</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alus</l>
+
+      <stg>
+        <st Contlex="N_ALUS">aluks</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">purjepaat</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">purjevene</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">парусная лодка</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ammõz</l>
+
+      <stg>
+        <st Contlex="N_AMMÕZ">ampa</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="N">hammas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">hammas</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">зуб</t>
+      </tg>
+    </mg>
+  </e>
 </r>
