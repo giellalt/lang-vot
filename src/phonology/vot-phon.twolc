@@ -3,11 +3,10 @@
 !! =================================== !
 
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+a b d e f g h i j k l m n o p r s š z ž t u v õ ä ö ü 
+A B D E F G H I J K L M N O P R S Š Z Ž T U V Õ Ä Ö Ü 
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+ʼ !! U+02BC MODIFIER LETTER APOSTROPHE
 
 !! Archiphones
  %{EAÕ%}:e	!!= @CODE@ Realized
@@ -17,14 +16,16 @@ Alphabet
 !! Triggers
  %^KS2S:0	!!= @CODE@ used in aluks:alus, perhaps also ps:s, ts:s
  %^WGStem:0	!!= @CODE@ used in mb:mm
+ %^VowRm:0	!!= @CODE@ final vowel removal
 
  %> ;
 
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ Vow = a e i o u õ ä ö ü 
+       A E I O U Õ Ä Ö Ü ;
+ Cns = b d f g h j k l m n p r s š t v z ž 
+       B D F G H J K L M N P R S Š T V Z Ž ;
  
 Rules
 
@@ -47,9 +48,20 @@ Rules
 "Deletion of Vx"
 !! __@RULENAME@__
  Vx:0 <=> Vx _ %> h %{EAÕ%}: %{EAÕ%}: ;
+
        where Vx in ( a o u ä e ü ) ; 
 
-!! CONSONANTS
+"Deletion of õ "
+!! __@RULENAME@__
+ õ:0 <=>   _ ( %^WGStem:) %^VowRm: ;
+
+!! !CONSONANTS
+!! WEAK GRADE
+"Weakening of k to g"
+!! __@RULENAME@__
+ k:g <=> Vow: _ Vow:  %^WGStem: ;
+
+!! REMOVAL
 "Deleting k before stem-final s"
 !! __@RULENAME@__
  k:0 <=> Vow _ s %^KS2S: ;

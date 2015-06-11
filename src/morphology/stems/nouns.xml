@@ -4,6 +4,7 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e><lg><l pos="N">poikõ</l><stg><st Contlex="N_POIKÕ">poikõ</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">poiss</t><t pos="N">poeg</t></tg><tg xml:lang="fin"><t pos="N">poika</t></tg><tg xml:lang="rus"><t pos="N">мальчик</t><t pos="N">сын</t></tg></mg></e>
 <e><lg><l pos="N">alkukuu</l><stg><st Contlex="N_KUU">alku#kuu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">noorkuu</t></tg><tg xml:lang="fin"><t pos="N">uusi kuu</t></tg><tg xml:lang="rus"><t pos="N">новолуние</t></tg></mg></e>
 <e><lg><l pos="N">rahnopuu</l><stg><st Contlex="N_KUU">rahno#puu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">mesipuu</t></tg><tg xml:lang="fin"><t pos="N">mehiläispönttö</t></tg><tg xml:lang="rus"><t pos="N">улей</t></tg></mg></e>
 <e><lg><l pos="N">šaaripää</l><stg><st Contlex="N_KUU">šaari#pää</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">sasipea</t></tg><tg xml:lang="fin"><t pos="N">pörröpää</t></tg><tg xml:lang="rus"><t pos="N">растепа</t></tg></mg></e>

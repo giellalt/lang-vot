@@ -201,6 +201,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  {back}	!!= * @CODE@
  %^KS2S		!!= @CODE@ used in aluks:alus ks:s, ps:s
  %^WGStem	!!= @CODE@ used in mb:mm
+ %^VowRm	!!= @CODE@ final vowel removal
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -244,5 +245,6 @@ LEXICON Root
 !   prefixes    ;
 
 !  EXCEPTIONS ;
+
 
 ! vim: set ft=xfst-lexc:

@@ -30,6 +30,28 @@ LEXICON N_PÄIVÄ
 #:0   nouns   ;
 +N: NMN_ ;
 
+LEXICON N_POIKÕ !!= * @CODE@ poikõ:poikõ
++N+Sg+Nom: K ;  !!= * @CODE@ poikõ
+
++N+Sg+Gen:%^WGStem%^VowRm%>a K ;  !!= * @CODE@ poiga
++N+Sg+Com:%^WGStem%^VowRm%>a K ;  !!= * @CODE@ poigaka
+
++N+Sg+Par:%^VowRm%>a K ;  !!= * @CODE@ poika
++N+Sg+Ill:%^VowRm%>a%>sõ K ;  !!= * @CODE@ poikasõ
++Use/NG+N+Sg+Ill:%^VowRm%>a K ;  !!= * @CODE@ poika
++N+Sg+Ter:%^VowRm%>a%>ssaa K ;  !!= * @CODE@ poikassaa
+
++N+Sg+Ine:%^WGStem%>z K ;  !!= * @CODE@ poigõz
++N+Sg+Ela:%^WGStem%>ssõ K ;  !!= * @CODE@ poigõssõ
++N+Sg+All:%^WGStem%>llõ K ;  !!= * @CODE@ poigõllõ
++N+Sg+Ade:%^WGStem%>llõ K ;  !!= * @CODE@ poigõllõ
++N+Sg+Abl:%^WGStem%>ltõ K ;  !!= * @CODE@ poigõltõ
++N+Sg+Tra:%^WGStem%>ssi K ;  !!= * @CODE@ poigõssi
++N+Pl+Nom:%^WGStem%>d K ;  !!= * @CODE@ poigõd
+
++N:%^VowRm%>i BACK_NMN_PL-OBL ; 
+
+
 LEXICON N_AIKA
 #:0   nouns   ;
 +N: NMN_ ;
@@ -88,6 +110,39 @@ LEXICON NMN_KUU
 
 LEXICON NMN_AIKA-PL
 +Nom: K ;
+
+LEXICON BACK_NMN_PL-OBL
++Pl+Gen:%>je K ;  !!= * @CODE@ poikije
++Use/NG+Pl+Gen: K ;  !!= * @CODE@ poiki
++Pl+Par: K ;  !!= * @CODE@ poiki
++Use/NG+Pl+Par:%>tõ K ;  !!= * @CODE@ poikitõ
++Pl+Ill:%>sõ K ;  !!= * @CODE@ poikisõ
++Use/NG+Pl+Ill: K ;  !!= * @CODE@ poiki
++Pl+Ine:%>z K ;  !!= * @CODE@ poikiz
++Pl+Ela:%>ssõ K ;  !!= * @CODE@ poikissõ
++Pl+All:%>llõ K ;  !!= * @CODE@ poikillõ
++Pl+Ade:%>llõ K ;  !!= * @CODE@ poikillõ
++Pl+Abl:%>ltõ K ;  !!= * @CODE@ poikiltõ
++Pl+Tra:%>ssi K ;  !!= * @CODE@ poikissi
++Pl+Ter:%>ssaa K ;  !!= * @CODE@ poikissaa
++Pl+Com:%>ka K ;  !!= * @CODE@ poikika
+
+LEXICON FRONT_NMN_PL-OBL
++Pl+Gen:%>je K ;  !!= * @CODE@ tüttöije
++Use/NG+Pl+Gen: K ;  !!= * @CODE@ tüttöi
++Pl+Par: K ;  !!= * @CODE@ tüttöi
++Use/NG+Pl+Par:%>te K ;  !!= * @CODE@ tüttöite
++Pl+Ill:%>se K ;  !!= * @CODE@ tüttöise
++Use/NG+Pl+Ill: K ;  !!= * @CODE@ tüttöi
++Pl+Ine:%>z K ;  !!= * @CODE@ tüttöiz
++Pl+Ela:%>sse K ;  !!= * @CODE@ tüttöisse
++Pl+All:%>lle K ;  !!= * @CODE@ tüttöille
++Pl+Ade:%>lle K ;  !!= * @CODE@ tüttöille
++Pl+Abl:%>lte K ;  !!= * @CODE@ tüttöilte
++Pl+Tra:%>ssi K ;  !!= * @CODE@ tüttöissi
++Pl+Ter:%>ssaa K ;  !!= * @CODE@ tüttöissaa
++Pl+Com:%>ka K ;  !!= * @CODE@ tüttöika
+
 
 
 ! vim: set ft=xfst-lexc:
