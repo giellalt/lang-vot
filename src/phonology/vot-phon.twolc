@@ -69,6 +69,10 @@ Rules
 !€# aluks%^KS2S
 !€0 alu0s0
 
+"Deleting t in geminate tt"
+!! __@RULENAME@__
+ t:0 <=> Vow t _  Vow: %^WGStem: ;
+
 "b:m in weak grade"
 !! __@RULENAME@__
  b:m <=> m _ Vow %^WGStem: ;

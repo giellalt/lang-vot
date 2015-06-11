@@ -19,7 +19,7 @@ Tests:
      poikõ+N+Sg+Nom: poikõ
      poikõ+N+Sg+Gen: poiga
      poikõ+N+Sg+Par: poika
-     poikõ+N+Sg+Ill: [poika, poikasõ]
+     poikõ+N+Sg+Ill: [poikasõ, poika]
      poikõ+N+Sg+Ine: poigõz
      poikõ+N+Sg+Ela: poigõssõ
      poikõ+N+Sg+All: poigõllõ
@@ -29,9 +29,9 @@ Tests:
      poikõ+N+Sg+Ter: poikassaa
      poikõ+N+Sg+Com: poigaka
      poikõ+N+Pl+Nom: poigõd
-     poikõ+N+Pl+Gen: [poiki, poikije]
+     poikõ+N+Pl+Gen: [poikije, poiki]
      poikõ+N+Pl+Par: [poiki, poikitõ]
-     poikõ+N+Pl+Ill: [poiki, poikisõ]
+     poikõ+N+Pl+Ill: [poikisõ, poiki]
      poikõ+N+Pl+Ine: poikiz
      poikõ+N+Pl+Ela: poikissõ
      poikõ+N+Pl+All: poikillõ

@@ -4,7 +4,8 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<e><lg><l pos="N">poikõ</l><stg><st Contlex="N_POIKÕ">poikõ</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">poiss</t><t pos="N">poeg</t></tg><tg xml:lang="fin"><t pos="N">poika</t></tg><tg xml:lang="rus"><t pos="N">мальчик</t><t pos="N">сын</t></tg></mg></e>
+<e><lg><l pos="N">tüttö</l><stg><st Contlex="N_TÜTTÖ">tüttö</st></stg></lg><mg><defNative/><tg xml:lang="eng"><t pos="N">girl</t></tg><tg xml:lang="est"><t pos="N">tüdruk</t></tg><tg xml:lang="fin"><t pos="N">tyttö</t></tg><tg xml:lang="rus"><t pos="N">девучка</t></tg></mg></e>
+<e><lg><l pos="N">poikõ</l><stg><st Contlex="N_POIKÕ">poikõ</st></stg></lg><mg><defNative/><tg xml:lang="eng"><t pos="N">boy</t><t pos="N">son</t></tg><tg xml:lang="est"><t pos="N">poiss</t><t pos="N">poeg</t></tg><tg xml:lang="fin"><t pos="N">poika</t></tg><tg xml:lang="rus"><t pos="N">мальчик</t><t pos="N">сын</t></tg></mg></e>
 <e><lg><l pos="N">alkukuu</l><stg><st Contlex="N_KUU">alku#kuu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">noorkuu</t></tg><tg xml:lang="fin"><t pos="N">uusi kuu</t></tg><tg xml:lang="rus"><t pos="N">новолуние</t></tg></mg></e>
 <e><lg><l pos="N">rahnopuu</l><stg><st Contlex="N_KUU">rahno#puu</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">mesipuu</t></tg><tg xml:lang="fin"><t pos="N">mehiläispönttö</t></tg><tg xml:lang="rus"><t pos="N">улей</t></tg></mg></e>
 <e><lg><l pos="N">šaaripää</l><stg><st Contlex="N_KUU">šaari#pää</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">sasipea</t></tg><tg xml:lang="fin"><t pos="N">pörröpää</t></tg><tg xml:lang="rus"><t pos="N">растепа</t></tg></mg></e>
@@ -56,5 +57,5 @@
 <e><lg><l pos="N">aika-inehmin</l><stg><st Contlex="N_SÜÜMIN">aika-inehmin</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">täiskasvanu</t></tg><tg xml:lang="fin"><t pos="N">aikuinen</t></tg><tg xml:lang="rus"><t pos="N">взрослый человек</t></tg></mg></e>
 <e><lg><l pos="N">alõnõ</l><stg><st Contlex="N_ALÕNÕ">alõ</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">labakinnas</t></tg><tg xml:lang="fin"><t pos="N">lapanen</t></tg><tg xml:lang="rus"><t pos="N">варежкаа</t></tg></mg></e>
 <e><lg><l pos="N">alus</l><stg><st Contlex="N_ALUS">aluks</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">purjepaat</t></tg><tg xml:lang="fin"><t pos="N">purjevene</t></tg><tg xml:lang="rus"><t pos="N">парусная лодка</t></tg></mg></e>
-<e><lg><l pos="N">ammas</l><stg><st Contlex="N_AMMAS">amba</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hammas</t></tg><tg xml:lang="fin"><t pos="N">hammas</t></tg><tg xml:lang="rus"><t pos="N">зуб</t></tg></mg></e>
+<e><lg><l pos="N">ammõs</l><stg><st Contlex="N_AMMÕS">amba</st></stg></lg><mg><defNative/><tg xml:lang="est"><t pos="N">hammas</t></tg><tg xml:lang="fin"><t pos="N">hammas</t></tg><tg xml:lang="rus"><t pos="N">зуб</t></tg></mg></e>
 </r>

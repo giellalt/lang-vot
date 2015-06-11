@@ -33,24 +33,27 @@ LEXICON N_PÄIVÄ
 LEXICON N_POIKÕ !!= * @CODE@ poikõ:poikõ
 +N+Sg+Nom: K ;  !!= * @CODE@ poikõ
 
-+N+Sg+Gen:%^WGStem%^VowRm%>a K ;  !!= * @CODE@ poiga
-+N+Sg+Com:%^WGStem%^VowRm%>a K ;  !!= * @CODE@ poigaka
++N:%^WGStem%^VowRm%>a BACK_NMN_SG-GEN-STEM ;  !!= * @CODE@ poiga
+!! +Sg+Gen, +Sg+Com
 
-+N+Sg+Par:%^VowRm%>a K ;  !!= * @CODE@ poika
-+N+Sg+Ill:%^VowRm%>a%>sõ K ;  !!= * @CODE@ poikasõ
-+Use/NG+N+Sg+Ill:%^VowRm%>a K ;  !!= * @CODE@ poika
-+N+Sg+Ter:%^VowRm%>a%>ssaa K ;  !!= * @CODE@ poikassaa
++N:%^VowRm%>a BACK_NMN_SG-PAR-STEM ;  !!= * @CODE@ poika
+!! +N+Sg+Ill, +N+Sg+Ter
 
-+N+Sg+Ine:%^WGStem%>z K ;  !!= * @CODE@ poigõz
-+N+Sg+Ela:%^WGStem%>ssõ K ;  !!= * @CODE@ poigõssõ
-+N+Sg+All:%^WGStem%>llõ K ;  !!= * @CODE@ poigõllõ
-+N+Sg+Ade:%^WGStem%>llõ K ;  !!= * @CODE@ poigõllõ
-+N+Sg+Abl:%^WGStem%>ltõ K ;  !!= * @CODE@ poigõltõ
-+N+Sg+Tra:%^WGStem%>ssi K ;  !!= * @CODE@ poigõssi
-+N+Pl+Nom:%^WGStem%>d K ;  !!= * @CODE@ poigõd
++N:%^WGStem BACK_NMN_SG_INE-STEM ;  !!= * @CODE@ poigõ-
+!! +N+Sg+Ela, +N+Sg+All, +N+Sg+Ade, +N+Sg+Abl, +N+Sg+Tra, +N+Pl+Nom
 
-+N:%^VowRm%>i BACK_NMN_PL-OBL ; 
++N:%^VowRm%>i BACK_NMN_PL-OBL ; !!= * @CODE@ poiki-
 
+
+LEXICON N_TÜTTÖ !!= * @CODE@ tüttö:tüttö
++N+Sg+Nom: K ;  !!= * @CODE@ tüttö
++N:%^WGStem FRONT_NMN_SG-GEN-STEM ;  !!= * @CODE@ tütö
+!! +Sg+Gen, +Sg+Com
++N: FRONT_NMN_SG-PAR-STEM ;  !!= * @CODE@ tüttö
+!! +N+Sg+Ill, +N+Sg+Ter
++N:%^WGStem FRONT_NMN_SG_INE-STEM ;  !!= * @CODE@ tütö-
+!! +N+Sg+Ela, +N+Sg+All, +N+Sg+Ade, +N+Sg+Abl, +N+Sg+Tra, +N+Pl+Nom
++N:%>i FRONT_NMN_PL-OBL ;   !!= * @CODE@ tüttöi
 
 LEXICON N_AIKA
 #:0   nouns   ;
@@ -87,7 +90,7 @@ LEXICON N_ALUS  !!= @CODE@ alus:aluks
 #:0   nouns   ;
 +N:%^KS2S NMN_ ;
 
-LEXICON N_AMMAS !!= @CODE@ ammas:amba
+LEXICON N_AMMÕS !!= @CODE@ ammõs:amba
 #:0   nouns   ;
 +N:%^WGStem%>s NMN_ ;
 
@@ -110,6 +113,42 @@ LEXICON NMN_KUU
 
 LEXICON NMN_AIKA-PL
 +Nom: K ;
+
+LEXICON BACK_NMN_SG-GEN-STEM
++Sg+Gen: K ;  !!= * @CODE@ poiga
++Sg+Com:%>ka K ; !!= * @CODE@ poigaka
+LEXICON FRONT_NMN_SG-GEN-STEM
++Sg+Gen: K ;	!!= * @CODE@ tütö
++Sg+Com:%>ka K ; !!= * @CODE@ tütöka
+
+LEXICON BACK_NMN_SG-PAR-STEM
++Sg+Par: K ;  !!= * @CODE@ poika
++Sg+Ill:%>sõ K ;  !!= * @CODE@ poikasõ
++Use/NG+Sg+Ill: K ;  !!= * @CODE@ poika
++Sg+Ter:%>ssaa K ;  !!= * @CODE@ poikassaa
+LEXICON FRONT_NMN_SG-PAR-STEM
++Sg+Par: K ;  !!= * @CODE@ poika
++Sg+Ill:%>se K ;  !!= * @CODE@ poikasõ
++Use/NG+Sg+Ill: K ;  !!= * @CODE@ poika
++Sg+Ter:%>ssaa K ;  !!= * @CODE@ poikassaa
+
+LEXICON BACK_NMN_SG_INE-STEM
++Sg+Ine:%^WGStem%>z K ;  !!= * @CODE@ poigõz
++Sg+Ela:%^WGStem%>ssõ K ;  !!= * @CODE@ poigõssõ
++Sg+All:%^WGStem%>llõ K ;  !!= * @CODE@ poigõllõ
++Sg+Ade:%^WGStem%>llõ K ;  !!= * @CODE@ poigõllõ
++Sg+Abl:%^WGStem%>ltõ K ;  !!= * @CODE@ poigõltõ
++Sg+Tra:%^WGStem%>ssi K ;  !!= * @CODE@ poigõssi
++Pl+Nom:%^WGStem%>d K ;  !!= * @CODE@ poigõd
+LEXICON FRONT_NMN_SG_INE-STEM
++Sg+Ine:%^WGStem%>z K ;  !!= * @CODE@ tütöz
++Sg+Ela:%^WGStem%>sse K ;  !!= * @CODE@ tütössõ
++Sg+All:%^WGStem%>lle K ;  !!= * @CODE@ tütöllõ
++Sg+Ade:%^WGStem%>lle K ;  !!= * @CODE@ tütöllõ
++Sg+Abl:%^WGStem%>lte K ;  !!= * @CODE@ tütöltõ
++Sg+Tra:%^WGStem%>ssi K ;  !!= * @CODE@ tütössi
++Pl+Nom:%^WGStem%>d K ;  !!= * @CODE@ tütöd
+
 
 LEXICON BACK_NMN_PL-OBL
 +Pl+Gen:%>je K ;  !!= * @CODE@ poikije
