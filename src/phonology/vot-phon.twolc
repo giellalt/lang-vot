@@ -3,8 +3,8 @@
 !! =================================== !
 
 Alphabet
-a b d e f g h i j k l m n o p r s š z ž t u v õ ä ö ü 
-A B D E F G H I J K L M N O P R S Š Z Ž T U V Õ Ä Ö Ü 
+a b č d e f g h i j k l m n o p r s š z ž t u v õ ä ö ü 
+A B Č D E F G H I J K L M N O P R S Š Z Ž T U V Õ Ä Ö Ü 
 
 ʼ !! U+02BC MODIFIER LETTER APOSTROPHE
 
@@ -24,8 +24,8 @@ Sets
 
  Vow = a e i o u õ ä ö ü 
        A E I O U Õ Ä Ö Ü ;
- Cns = b d f g h j k l m n p r s š t v z ž 
-       B D F G H J K L M N P R S Š T V Z Ž ;
+ Cns = b č d f g h j k l m n p r s š t v z ž 
+       B Č D F G H J K L M N P R S Š T V Z Ž ;
  
 Rules
 
@@ -75,6 +75,9 @@ Rules
 "Deleting t in geminate tt"
 !! __@RULENAME@__
  t:0 <=> Vow t _  Vow: %^WGStem: ;
+!! tüttö+N+Sg+Gen: __girl/tyttö__
+!€ tüttö%^WGStem
+!€ tüt0ö0
 
 "p:m in weak grade"
 !! __@RULENAME@__
