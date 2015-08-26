@@ -21,7 +21,7 @@ Multichar_Symbols
 LEXICON Root
 < %+String [a|b|d|d́|e|f|g|h|i|j|k|l|ĺ|m|n|o|p|r|s|š|z|ž|t|č|u|v|õ|ä|ö|ü|A|B|D|E|F|G|H|I|J|K|L|M|N|O|P|R|S|Š|Z|Ž|T|Č|U|V|Õ|Ä|Ö|Ü]* > COMMA ; ! This first line is to allow all letter strings.
  CARD-NUMBERSECTION ;
- ORD-NUMBERSECTION ;
+! ORD-NUMBERSECTION ; !! NB! lisa järgarvude osa hiljem!
 !+NumNum NUMBERSECTION ;
 !+NumNum COMMASECTION ;
 
@@ -380,6 +380,31 @@ LEXICON CARDINAL
 8:kahõsa  COMMA ;
 9:ühessä  COMMA ;
 
+
+
+
+
+LEXICON COMMA
+ ENDLEX ;
+ COMMASECTION ;
+
+LEXICON COMMASECTION  ! these are not spellchecked!!!
+                  ENDLEX ;
+! % komma% :,      Root ;
+! % tjuohkkis% :%. Root ;
+! % kolon% :%:     Root ;
+! % sárggis% :%-   Root ; 
+ % la% :%=         Root ; 
+ % gráda% :%°      Root ; 
+ % paragráfa% :§   Root ; 
+! % násti% :%*     Root ; 
+ % ja% :&          Root ; 
+
+LEXICON ENDLEX
+ # ;
+
+
+END ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Ordinal numerals begin
@@ -743,21 +768,3 @@ LEXICON ORDINAL
 
 
 
-LEXICON COMMA
- ENDLEX ;
- COMMASECTION ;
-
-LEXICON COMMASECTION  ! these are not spellchecked!!!
-                  ENDLEX ;
-! % komma% :,      Root ;
-! % tjuohkkis% :%. Root ;
-! % kolon% :%:     Root ;
-! % sárggis% :%-   Root ; 
- % la% :%=         Root ; 
- % gráda% :%°      Root ; 
- % paragráfa% :§   Root ; 
-! % násti% :%*     Root ; 
- % ja% :&          Root ; 
-
-LEXICON ENDLEX
- # ;
