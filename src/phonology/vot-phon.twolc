@@ -69,20 +69,20 @@ Rules
 !! __@RULENAME@__
  k:0 <=> Vow _ s %^KS2S: ;
 
-!€# aluks%^KS2S
-!€0 alu0s0
+!!€# aluks%^KS2S
+!!€0 alu0s0
 
 "Deleting t in geminate tt"
 !! __@RULENAME@__
  t:0 <=> Vow t _  Vow: %^WGStem: ;
 !! tüttö+N+Sg+Gen: __girl/tyttö__
-!€ tüttö%^WGStem
-!€ tüt0ö0
+!!€ tüttö%^WGStem
+!!€ tüt0ö0
 
 "p:m in weak grade"
 !! __@RULENAME@__
  p:m <=> m _ Vow: %^WGStem: ;
 
-!€# ampa%^WGStem%^VowRmõz
-!€0 amm000õz
+!!€# ampa%^WGStem%^VowRmõz
+!!€0 amm000õz
 
