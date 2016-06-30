@@ -5,7 +5,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
  !!!Definitions for Multichar_Symbols
 
 !!Analysis symbols
-----------------
 The morphological analyses of wordforms for the Votic
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -172,7 +171,6 @@ source and target part-of-speech.
 
 
 Morphophonology
----------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
  *  {aä} 	

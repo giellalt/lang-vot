@@ -1,14 +1,14 @@
-!!!Free and Open source Finnish analyser gtsvn-fi
+!!!Free and Open source Votic analyser giella-vot
 
-;Authors: Divvun and Giellatekno teams, Aajege, community members
+;Authors: Divvun and Giellatekno teams, community members
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
 ;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
 
-!!!GTSVN-sma
+!!!giella-vot
 
-This is free and open source South Sámi morphology.
+This is free and open source Votic morphology.
 
            !!!Votic morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
@@ -16,7 +16,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
  !!!Definitions for Multichar_Symbols
 
 !!Analysis symbols
-----------------
 The morphological analyses of wordforms for the Votic
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -183,7 +182,6 @@ source and target part-of-speech.
 
 
 Morphophonology
----------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
  *  {aä} 	
