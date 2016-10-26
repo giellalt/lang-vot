@@ -135,6 +135,15 @@ Special symbols are classified with:
  * +LEFT  	
  * +RIGHT 	
 
+!!Letters
+!Votic letters
+ * d̕  
+ * D̕  
+t̕    * @CODE
+ * T̕  
+ * l̕  
+ * L̕  
+
 The verbs are syntactically split according to transitivity:
  *  +TV  	
  *  +IV 	
@@ -172,6 +181,8 @@ Semantics are classified with
  *  +Sem/Clth		
 
 
+
+
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
  *  +V→N	 	
@@ -179,6 +190,7 @@ source and target part-of-speech.
  * +V→A	 	
 
  * +Der/xxx 	
+
 
 
 Morphophonology

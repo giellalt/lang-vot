@@ -84,10 +84,10 @@
 
   <e>
     <lg>
-      <l pos="Num">nelʼlʼä</l>
+      <l pos="Num">nel̕l̕ä</l>
 
       <stg>
-        <st Contlex="NUM_">nelʼlʼä</st>
+        <st Contlex="NUM_">nel̕l̕ä</st>
       </stg>
     </lg>
 
@@ -240,10 +240,10 @@
 
   <e>
     <lg>
-      <l pos="Num">tšümmee</l>
+      <l pos="Num">čümmee</l>
 
       <stg>
-        <st Contlex="NUM_">tšümmee</st>
+        <st Contlex="NUM_">čümmee</st>
       </stg>
     </lg>
 

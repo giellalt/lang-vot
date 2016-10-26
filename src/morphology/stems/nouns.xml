@@ -254,10 +254,10 @@
 
   <e>
     <lg>
-      <l pos="N">tšerikko</l>
+      <l pos="N">čerikko</l>
 
       <stg>
-        <st Contlex="N_KOTO">tšerikko</st>
+        <st Contlex="N_KOTO">čerikko</st>
       </stg>
     </lg>
 
@@ -858,10 +858,10 @@
 
   <e>
     <lg>
-      <l pos="N">alkutširja</l>
+      <l pos="N">alkučirja</l>
 
       <stg>
-        <st Contlex="N_AIKA">alku#tširja</st>
+        <st Contlex="N_AIKA">alku#čirja</st>
       </stg>
     </lg>
 
@@ -1144,10 +1144,10 @@
 
   <e>
     <lg>
-      <l pos="N">tšeeli</l>
+      <l pos="N">čeeli</l>
 
       <stg>
-        <st Contlex="N_TŠEELI">tšeel</st>
+        <st Contlex="N_ČEELI">čeel</st>
       </stg>
     </lg>
 
@@ -1173,7 +1173,7 @@
       <l pos="N">saari</l>
 
       <stg>
-        <st Contlex="N_TŠEELI">saar</st>
+        <st Contlex="N_ČEELI">saar</st>
       </stg>
     </lg>
 
@@ -1196,10 +1196,10 @@
 
   <e>
     <lg>
-      <l pos="N">antši</l>
+      <l pos="N">anči</l>
 
       <stg>
-        <st Contlex="N_ANTŠI">antši</st>
+        <st Contlex="N_ANČI">anči</st>
       </stg>
     </lg>
 
@@ -1225,7 +1225,7 @@
       <l pos="N">anõ</l>
 
       <stg>
-        <st Contlex="N_ANTŠI">anõ</st>
+        <st Contlex="N_ANČI">anõ</st>
       </stg>
     </lg>
 

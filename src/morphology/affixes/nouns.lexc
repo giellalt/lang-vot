@@ -62,11 +62,11 @@ LEXICON N_AIKA
 LEXICON N_AIKA-PL
 +N+Pl: NMN_AIKA-PL ;
 
-LEXICON N_TŠEELI
+LEXICON N_ČEELI
 #:0   nouns   ;
 +N:i NMN_ ;
 
-LEXICON N_ANTŠI
+LEXICON N_ANČI
 #:0   nouns   ;
 +N: NMN_ ;
 

@@ -6,6 +6,13 @@ Alphabet
 a b č d e f g h i j k l m n o p r s š z ž t u v õ ä ö ü 
 A B Č D E F G H I J K L M N O P R S Š Z Ž T U V Õ Ä Ö Ü 
 
+d̕  !!= * @CODE@ d with U+0315
+D̕  !!= * @CODE@ D with U+0315
+t̕  !!= * @CODE t with U+0315
+T̕  !!= * @CODE@ T with U+0315
+l̕  !!= * @CODE@ l with U+0315
+L̕  !!= * @CODE@ L with U+0315
+
 ʼ !! U+02BC MODIFIER LETTER APOSTROPHE
 
 !! Archiphones
@@ -24,8 +31,8 @@ Sets
 
  Vow = a e i o u õ ä ö ü 
        A E I O U Õ Ä Ö Ü ;
- Cns = b č d f g h j k l m n p r s š t v z ž 
-       B Č D F G H J K L M N P R S Š T V Z Ž ;
+ Cns = b č d d̕ f g h j k l l̕ m n p r s š t t̕ v z ž 
+       B Č D D̕ F G H J K L L̕ M N P R S Š T T̕ V Z Ž ;
  
 Rules
 

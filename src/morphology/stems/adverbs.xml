@@ -454,10 +454,10 @@
 
   <e>
     <lg>
-      <l pos="Adv" type="STATE">tšisaa</l>
+      <l pos="Adv" type="STATE">čisaa</l>
 
       <stg>
-        <st Contlex="ADV-STATE_">tšisaa</st>
+        <st Contlex="ADV-STATE_">čisaa</st>
       </stg>
     </lg>
 
@@ -480,10 +480,10 @@
 
   <e>
     <lg>
-      <l pos="Adv" type="STATE">tšäzii</l>
+      <l pos="Adv" type="STATE">čäzii</l>
 
       <stg>
-        <st Contlex="ADV-STATE_">tšäzii</st>
+        <st Contlex="ADV-STATE_">čäzii</st>
       </stg>
     </lg>
 

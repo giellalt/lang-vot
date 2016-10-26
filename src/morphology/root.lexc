@@ -141,6 +141,15 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +LEFT  	!!= * @CODE@
 +RIGHT 	!!= * @CODE@
 
+!! !!Letters
+!! !Votic letters
+d̕  !!= * @CODE@
+D̕  !!= * @CODE@
+t̕  !!= * @CODE
+T̕  !!= * @CODE@
+l̕  !!= * @CODE@
+L̕  !!= * @CODE@
+
 !! The verbs are syntactically split according to transitivity:
  +TV  	!!= * @CODE@
  +IV 	!!= * @CODE@
@@ -178,6 +187,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Sem/Clth		!!= * @CODE@
 
 
+
+
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N	 	!!= * @CODE@
@@ -185,6 +196,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +V→A	 	!!= * @CODE@
 
 +Der/xxx 	!!= * @CODE@
+
 
 
 !! Morphophonology
