@@ -14,6 +14,8 @@
     </lg>
 
     <mg>
+      <semantics sem_type="Hum">
+      </semantics>
       <defNative/>
 
       <tg xml:lang="eng">
@@ -44,18 +46,16 @@
     </lg>
 
     <mg>
+      <semantics sem_type="Hum">
+      </semantics>
       <defNative/>
 
       <tg xml:lang="eng">
         <t pos="N">boy</t>
-
-        <t pos="N">son</t>
       </tg>
 
       <tg xml:lang="est">
         <t pos="N">poiss</t>
-
-        <t pos="N">poeg</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -64,7 +64,26 @@
 
       <tg xml:lang="rus">
         <t pos="N">мальчик</t>
+      </tg>
+    </mg>
+    <mg>
+      <semantics sem_type="Hum">
+      </semantics>
+      <defNative/>
 
+      <tg xml:lang="eng">
+        <t pos="N">son</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="N">poeg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">poika</t>
+      </tg>
+
+      <tg xml:lang="rus">
         <t pos="N">сын</t>
       </tg>
     </mg>
@@ -210,6 +229,8 @@
     </lg>
 
     <mg>
+      <semantics sem_type="Plant">
+      </semantics>
       <defNative/>
 
       <tg xml:lang="est">
@@ -1427,11 +1448,12 @@
       </tg>
     </mg>
   </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">aapõ</l>
      <stg>
        <st Contlex="N_">aapõ</st>
+       <st Contlex="N_">aapa</st>
      </stg>
    </lg>
    <mg>
@@ -1440,7 +1462,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">adžgad</l>
      <stg>
@@ -1453,7 +1475,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ahjo</l>
      <stg>
@@ -1466,7 +1488,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ahvõn</l>
      <stg>
@@ -1479,7 +1501,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">aikõ</l>
      <stg>
@@ -1492,7 +1514,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">airo</l>
      <stg>
@@ -1505,7 +1527,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">aitõ</l>
      <stg>
@@ -1518,7 +1540,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">akkunõ</l>
      <stg>
@@ -1531,7 +1553,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">alku</l>
      <stg>
@@ -1544,7 +1566,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">aluz</l>
      <stg>
@@ -1557,7 +1579,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">alõnõ</l>
      <stg>
@@ -1570,7 +1592,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ammõz</l>
      <stg>
@@ -1583,7 +1605,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">angõriaz</l>
      <stg>
@@ -1596,7 +1618,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ansambeli</l>
      <stg>
@@ -1609,7 +1631,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">anõ</l>
      <stg>
@@ -1622,7 +1644,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">api</l>
      <stg>
@@ -1635,7 +1657,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">apreli</l>
      <stg>
@@ -1648,7 +1670,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">astia</l>
      <stg>
@@ -1662,7 +1684,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">augusti</l>
      <stg>
@@ -1675,7 +1697,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">auki</l>
      <stg>
@@ -1688,7 +1710,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">autõ</l>
      <stg>
@@ -1701,7 +1723,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">az̕z̕a</l>
      <stg>
@@ -1714,7 +1736,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">az̕z̕õ</l>
      <stg>
@@ -1727,7 +1749,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">baabukõz</l>
      <stg>
@@ -1740,7 +1762,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">bobrõ</l>
      <stg>
@@ -1753,7 +1775,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">boranõ</l>
      <stg>
@@ -1766,7 +1788,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">borkkanõ</l>
      <stg>
@@ -1779,7 +1801,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">bruudõ</l>
      <stg>
@@ -1792,7 +1814,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">bukvõ</l>
      <stg>
@@ -1805,7 +1827,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">bul̕bukõz</l>
      <stg>
@@ -1818,7 +1840,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">butkõ</l>
      <stg>
@@ -1831,7 +1853,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čaaju</l>
      <stg>
@@ -1844,7 +1866,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čako</l>
      <stg>
@@ -1857,7 +1879,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čeeli</l>
      <stg>
@@ -1870,7 +1892,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čehsi</l>
      <stg>
@@ -1883,7 +1905,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čello</l>
      <stg>
@@ -1896,7 +1918,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čenče</l>
      <stg>
@@ -1910,7 +1932,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čerikko</l>
      <stg>
@@ -1923,7 +1945,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">česä</l>
      <stg>
@@ -1936,7 +1958,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čeväd</l>
      <stg>
@@ -1949,7 +1971,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čimolain</l>
      <stg>
@@ -1962,7 +1984,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čirjõlautoo</l>
      <stg>
@@ -1975,7 +1997,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čirjõ</l>
      <stg>
@@ -1988,7 +2010,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čiutto</l>
      <stg>
@@ -2001,7 +2023,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čivi</l>
      <stg>
@@ -2014,7 +2036,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čühzettää</l>
      <stg>
@@ -2027,7 +2049,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čülä</l>
      <stg>
@@ -2040,7 +2062,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čälü</l>
      <stg>
@@ -2054,7 +2076,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čämmelkakku</l>
      <stg>
@@ -2067,7 +2089,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čämmel</l>
      <stg>
@@ -2080,7 +2102,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čärpein</l>
      <stg>
@@ -2093,7 +2115,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čärpeizegriba</l>
      <stg>
@@ -2106,7 +2128,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čäsi</l>
      <stg>
@@ -2120,7 +2142,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">čäsirätte</l>
      <stg>
@@ -2133,7 +2155,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">deelõ</l>
      <stg>
@@ -2146,7 +2168,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">dekabr̕i</l>
      <stg>
@@ -2159,7 +2181,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">d̕ivani</l>
      <stg>
@@ -2172,7 +2194,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">dohtõri</l>
      <stg>
@@ -2185,7 +2207,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">domovikkõ</l>
      <stg>
@@ -2198,7 +2220,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">dovariššõ</l>
      <stg>
@@ -2211,7 +2233,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">duumõ</l>
      <stg>
@@ -2224,7 +2246,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">dääde</l>
      <stg>
@@ -2237,7 +2259,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">eine</l>
      <stg>
@@ -2250,7 +2272,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">einemaa</l>
      <stg>
@@ -2263,7 +2285,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">elo</l>
      <stg>
@@ -2276,7 +2298,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">emä</l>
      <stg>
@@ -2289,7 +2311,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">enipäive</l>
      <stg>
@@ -2302,7 +2324,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">erne</l>
      <stg>
@@ -2315,7 +2337,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">esimespäive</l>
      <stg>
@@ -2328,7 +2350,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ettsisõna</l>
      <stg>
@@ -2341,7 +2363,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">fartukkõ</l>
      <stg>
@@ -2354,7 +2376,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">fevrali</l>
      <stg>
@@ -2367,7 +2389,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">filmõ</l>
      <stg>
@@ -2380,7 +2402,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">fotokartočka</l>
      <stg>
@@ -2393,7 +2415,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">fökle</l>
      <stg>
@@ -2406,7 +2428,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">gaazapliittõ</l>
      <stg>
@@ -2419,7 +2441,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">galstukki</l>
      <stg>
@@ -2432,7 +2454,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">gimnazi</l>
      <stg>
@@ -2445,7 +2467,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">gitari</l>
      <stg>
@@ -2458,7 +2480,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">glaizõ</l>
      <stg>
@@ -2471,7 +2493,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">gorbanenä</l>
      <stg>
@@ -2484,7 +2506,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">grammõ</l>
      <stg>
@@ -2497,7 +2519,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">griba</l>
      <stg>
@@ -2510,7 +2532,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">gribanikkõ</l>
      <stg>
@@ -2523,7 +2545,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">gribavihmõ</l>
      <stg>
@@ -2536,7 +2558,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">haili</l>
      <stg>
@@ -2549,7 +2571,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">haporokkõ</l>
      <stg>
@@ -2562,7 +2584,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">harakkõ</l>
      <stg>
@@ -2575,7 +2597,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">hattu</l>
      <stg>
@@ -2588,7 +2610,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">hatukkõin</l>
      <stg>
@@ -2601,7 +2623,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">hlaamu</l>
      <stg>
@@ -2614,7 +2636,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">hooli</l>
      <stg>
@@ -2627,7 +2649,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ičä</l>
      <stg>
@@ -2641,7 +2663,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">iiri</l>
      <stg>
@@ -2654,7 +2676,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">iivõ</l>
      <stg>
@@ -2667,7 +2689,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ikolookkõ</l>
      <stg>
@@ -2680,7 +2702,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ilmõ</l>
      <stg>
@@ -2693,7 +2715,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">inimin</l>
      <stg>
@@ -2706,7 +2728,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">irsikoto</l>
      <stg>
@@ -2719,7 +2741,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">irvieinečaaju</l>
      <stg>
@@ -2732,7 +2754,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">irvieine</l>
      <stg>
@@ -2745,7 +2767,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">irvi</l>
      <stg>
@@ -2758,7 +2780,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">isä</l>
      <stg>
@@ -2772,7 +2794,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ivusõd</l>
      <stg>
@@ -2785,7 +2807,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ižora</l>
      <stg>
@@ -2798,7 +2820,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jaanikukkõ</l>
      <stg>
@@ -2811,7 +2833,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jaani</l>
      <stg>
@@ -2824,7 +2846,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jalkõ</l>
      <stg>
@@ -2837,7 +2859,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">janvari</l>
      <stg>
@@ -2850,7 +2872,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">javo</l>
      <stg>
@@ -2863,7 +2885,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jevikõz</l>
      <stg>
@@ -2876,7 +2898,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">joožikkõ</l>
      <stg>
@@ -2889,7 +2911,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">juli</l>
      <stg>
@@ -2902,7 +2924,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jumalanurkkõ</l>
      <stg>
@@ -2915,7 +2937,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jumalõ</l>
      <stg>
@@ -2928,7 +2950,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">juni</l>
      <stg>
@@ -2941,7 +2963,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jupkõ</l>
      <stg>
@@ -2954,7 +2976,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">juttu</l>
      <stg>
@@ -2967,7 +2989,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jürü</l>
      <stg>
@@ -2980,7 +3002,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jänez</l>
      <stg>
@@ -2993,7 +3015,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">järtšü</l>
      <stg>
@@ -3006,7 +3028,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">järvi</l>
      <stg>
@@ -3019,7 +3041,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jõki</l>
      <stg>
@@ -3032,7 +3054,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">jõulu</l>
      <stg>
@@ -3045,7 +3067,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kaappi</l>
      <stg>
@@ -3058,7 +3080,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kaatsõd</l>
      <stg>
@@ -3071,7 +3093,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kaban</l>
      <stg>
@@ -3084,7 +3106,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kaglõ</l>
      <stg>
@@ -3097,7 +3119,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kagrõkiisseli</l>
      <stg>
@@ -3110,7 +3132,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kagrõ</l>
      <stg>
@@ -3123,7 +3145,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kajagõ</l>
      <stg>
@@ -3136,7 +3158,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kala</l>
      <stg>
@@ -3149,7 +3171,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kalmod</l>
      <stg>
@@ -3162,7 +3184,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kamal̕ikka</l>
      <stg>
@@ -3175,7 +3197,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kampalõ</l>
      <stg>
@@ -3188,7 +3210,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kana</l>
      <stg>
@@ -3201,7 +3223,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kanavõ</l>
      <stg>
@@ -3214,7 +3236,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kanfetti</l>
      <stg>
@@ -3227,7 +3249,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kangas</l>
      <stg>
@@ -3240,7 +3262,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kannõl</l>
      <stg>
@@ -3253,7 +3275,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kanto</l>
      <stg>
@@ -3266,7 +3288,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kapussõ</l>
      <stg>
@@ -3279,7 +3301,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">karjušši</l>
      <stg>
@@ -3292,7 +3314,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">karjõ</l>
      <stg>
@@ -3305,7 +3327,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">karjõmaa</l>
      <stg>
@@ -3318,7 +3340,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">karu</l>
      <stg>
@@ -3331,7 +3353,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kassõ</l>
      <stg>
@@ -3344,7 +3366,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kasõ</l>
      <stg>
@@ -3357,7 +3379,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">katagõ</l>
      <stg>
@@ -3370,7 +3392,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">katti</l>
      <stg>
@@ -3383,7 +3405,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">katto</l>
      <stg>
@@ -3396,7 +3418,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">katõsõpa</l>
      <stg>
@@ -3409,7 +3431,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kaugõpallõ</l>
      <stg>
@@ -3422,7 +3444,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kirstu</l>
      <stg>
@@ -3435,7 +3457,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kittsi</l>
      <stg>
@@ -3448,7 +3470,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">klaass</l>
      <stg>
@@ -3461,7 +3483,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">koffi</l>
      <stg>
@@ -3474,7 +3496,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">koirõ</l>
      <stg>
@@ -3487,7 +3509,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">koivu</l>
      <stg>
@@ -3500,7 +3522,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kolkki</l>
      <stg>
@@ -3513,7 +3535,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kolkku</l>
      <stg>
@@ -3526,7 +3548,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">komnatti</l>
      <stg>
@@ -3539,7 +3561,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kompjutera</l>
      <stg>
@@ -3552,7 +3574,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">konnõ</l>
      <stg>
@@ -3565,7 +3587,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">koori</l>
      <stg>
@@ -3578,7 +3600,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kopekkõ</l>
      <stg>
@@ -3591,7 +3613,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kotko</l>
      <stg>
@@ -3604,7 +3626,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">koto</l>
      <stg>
@@ -3617,7 +3639,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kraaskõ</l>
      <stg>
@@ -3630,7 +3652,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">krõžovnikkõ</l>
      <stg>
@@ -3643,7 +3665,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kuha</l>
      <stg>
@@ -3656,7 +3678,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kuhjõ</l>
      <stg>
@@ -3669,7 +3691,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kuhni</l>
      <stg>
@@ -3682,7 +3704,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kuja</l>
      <stg>
@@ -3695,7 +3717,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kukko</l>
      <stg>
@@ -3708,7 +3730,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kukkõ</l>
      <stg>
@@ -3721,7 +3743,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kultanokkõ</l>
      <stg>
@@ -3734,7 +3756,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kummõ</l>
      <stg>
@@ -3747,7 +3769,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kuu</l>
      <stg>
@@ -3761,7 +3783,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kuusi</l>
      <stg>
@@ -3774,7 +3796,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kvartira</l>
      <stg>
@@ -3787,7 +3809,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kõlmaspäive</l>
      <stg>
@@ -3800,7 +3822,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kõrtõ</l>
      <stg>
@@ -3813,7 +3835,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">kõrvõ</l>
      <stg>
@@ -3826,7 +3848,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">laatko</l>
      <stg>
@@ -3840,7 +3862,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ladvõ</l>
      <stg>
@@ -3853,7 +3875,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lafkõ</l>
      <stg>
@@ -3866,7 +3888,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lahnõ</l>
      <stg>
@@ -3879,7 +3901,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lahsi</l>
      <stg>
@@ -3892,7 +3914,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lainõ</l>
      <stg>
@@ -3905,7 +3927,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">laivõ</l>
      <stg>
@@ -3918,7 +3940,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">laki</l>
      <stg>
@@ -3931,7 +3953,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lammõz</l>
      <stg>
@@ -3944,7 +3966,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lamppi</l>
      <stg>
@@ -3957,7 +3979,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lanttu</l>
      <stg>
@@ -3970,7 +3992,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lasku</l>
      <stg>
@@ -3983,7 +4005,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">laukopäive</l>
      <stg>
@@ -3996,7 +4018,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">laulu</l>
      <stg>
@@ -4009,7 +4031,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lauta</l>
      <stg>
@@ -4022,7 +4044,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lautoo</l>
      <stg>
@@ -4035,7 +4057,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lauttõ</l>
      <stg>
@@ -4048,7 +4070,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lehme</l>
      <stg>
@@ -4061,7 +4083,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">leho</l>
      <stg>
@@ -4074,7 +4096,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">leipe</l>
      <stg>
@@ -4087,7 +4109,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">liha</l>
      <stg>
@@ -4100,7 +4122,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">liippõ</l>
      <stg>
@@ -4113,7 +4135,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">liittsõ</l>
      <stg>
@@ -4126,7 +4148,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">linnõ</l>
      <stg>
@@ -4139,7 +4161,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lintu</l>
      <stg>
@@ -4152,7 +4174,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lisä</l>
      <stg>
@@ -4165,7 +4187,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">litra</l>
      <stg>
@@ -4178,7 +4200,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">loba</l>
      <stg>
@@ -4192,7 +4214,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lohko</l>
      <stg>
@@ -4205,7 +4227,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">luikko</l>
      <stg>
@@ -4218,7 +4240,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lukõmin</l>
      <stg>
@@ -4231,7 +4253,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lumilintu</l>
      <stg>
@@ -4244,7 +4266,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lumi</l>
      <stg>
@@ -4257,7 +4279,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">luukkõ</l>
      <stg>
@@ -4270,7 +4292,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">luzikkõ</l>
      <stg>
@@ -4283,7 +4305,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">läsü</l>
      <stg>
@@ -4296,7 +4318,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lõhi</l>
      <stg>
@@ -4309,7 +4331,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lõnkõčiutto</l>
      <stg>
@@ -4322,7 +4344,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lõppu</l>
      <stg>
@@ -4335,7 +4357,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lõunõ</l>
      <stg>
@@ -4349,7 +4371,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">löülü</l>
      <stg>
@@ -4362,7 +4384,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">lõõkku</l>
      <stg>
@@ -4375,7 +4397,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">maailmõ</l>
      <stg>
@@ -4388,7 +4410,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">maakangas</l>
      <stg>
@@ -4401,7 +4423,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">maa</l>
      <stg>
@@ -4414,7 +4436,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">maamuna</l>
      <stg>
@@ -4427,7 +4449,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">maamõ</l>
      <stg>
@@ -4440,7 +4462,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mahlõ</l>
      <stg>
@@ -4453,7 +4475,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">maija</l>
      <stg>
@@ -4466,7 +4488,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mansikõz</l>
      <stg>
@@ -4480,7 +4502,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">marjõ</l>
      <stg>
@@ -4493,7 +4515,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">martti</l>
      <stg>
@@ -4506,7 +4528,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mašinõ</l>
      <stg>
@@ -4519,7 +4541,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">meez</l>
      <stg>
@@ -4532,7 +4554,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">meri</l>
      <stg>
@@ -4545,7 +4567,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mesi</l>
      <stg>
@@ -4558,7 +4580,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mettsekittsi</l>
      <stg>
@@ -4571,7 +4593,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mettsä</l>
      <stg>
@@ -4584,7 +4606,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">minutti</l>
      <stg>
@@ -4597,7 +4619,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">morško</l>
      <stg>
@@ -4610,7 +4632,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mulipää</l>
      <stg>
@@ -4623,7 +4645,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">muna</l>
      <stg>
@@ -4636,7 +4658,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">muragõ</l>
      <stg>
@@ -4649,7 +4671,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">musikõz</l>
      <stg>
@@ -4662,7 +4684,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">mussamarjõ</l>
      <stg>
@@ -4675,7 +4697,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">müüjä</l>
      <stg>
@@ -4688,7 +4710,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">naapõri</l>
      <stg>
@@ -4701,7 +4723,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">naglõ</l>
      <stg>
@@ -4714,7 +4736,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nagriskaaskõ</l>
      <stg>
@@ -4727,7 +4749,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nagriz</l>
      <stg>
@@ -4740,7 +4762,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">naizikko</l>
      <stg>
@@ -4753,7 +4775,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nellespäive</l>
      <stg>
@@ -4766,7 +4788,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nenä</l>
      <stg>
@@ -4779,7 +4801,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nenärätte</l>
      <stg>
@@ -4792,7 +4814,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">niglõ</l>
      <stg>
@@ -4805,7 +4827,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nimi</l>
      <stg>
@@ -4818,7 +4840,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nisu</l>
      <stg>
@@ -4831,7 +4853,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nojaabri</l>
      <stg>
@@ -4844,7 +4866,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">noorikkõ</l>
      <stg>
@@ -4857,7 +4879,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">noorizo</l>
      <stg>
@@ -4870,7 +4892,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nuumõri</l>
      <stg>
@@ -4883,7 +4905,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nužnikkõ</l>
      <stg>
@@ -4896,7 +4918,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">näteli</l>
      <stg>
@@ -4909,7 +4931,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nätilpäive</l>
      <stg>
@@ -4922,7 +4944,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">nätsijä</l>
      <stg>
@@ -4935,7 +4957,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">obakkõ</l>
      <stg>
@@ -4948,7 +4970,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">obraazõ</l>
      <stg>
@@ -4961,7 +4983,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ohtõgo</l>
      <stg>
@@ -4974,7 +4996,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">omõnpuu</l>
      <stg>
@@ -4987,7 +5009,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ostanofkõ</l>
      <stg>
@@ -5000,7 +5022,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">paganuz</l>
      <stg>
@@ -5013,7 +5035,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">paikkõ</l>
      <stg>
@@ -5026,7 +5048,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">paju</l>
      <stg>
@@ -5039,7 +5061,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pakkain</l>
      <stg>
@@ -5052,7 +5074,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pakozinõ</l>
      <stg>
@@ -5065,7 +5087,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pal̕to</l>
      <stg>
@@ -5078,7 +5100,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pappi</l>
      <stg>
@@ -5091,7 +5113,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">partõ</l>
      <stg>
@@ -5104,7 +5126,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pečnikkõ</l>
      <stg>
@@ -5117,7 +5139,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pehko</l>
      <stg>
@@ -5130,7 +5152,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">peitto</l>
      <stg>
@@ -5143,7 +5165,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pen̕sioner</l>
      <stg>
@@ -5156,7 +5178,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pere</l>
      <stg>
@@ -5169,7 +5191,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">peremmeez</l>
      <stg>
@@ -5182,7 +5204,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pettelikko</l>
      <stg>
@@ -5195,7 +5217,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">petäje</l>
      <stg>
@@ -5208,7 +5230,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pihlajõpuu</l>
      <stg>
@@ -5221,7 +5243,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">piime</l>
      <stg>
@@ -5234,7 +5256,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pinžakka</l>
      <stg>
@@ -5247,7 +5269,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">podarkkõ</l>
      <stg>
@@ -5260,7 +5282,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">poduškõ</l>
      <stg>
@@ -5273,7 +5295,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">poikõ</l>
      <stg>
@@ -5286,7 +5308,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pojezdõ</l>
      <stg>
@@ -5299,7 +5321,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pojo</l>
      <stg>
@@ -5312,7 +5334,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pominpäive</l>
      <stg>
@@ -5325,7 +5347,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">poolõz</l>
      <stg>
@@ -5338,7 +5360,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">porttu</l>
      <stg>
@@ -5351,7 +5373,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">possudõd</l>
      <stg>
@@ -5365,7 +5387,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">poštaljon</l>
      <stg>
@@ -5378,7 +5400,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">progonõ</l>
      <stg>
@@ -5391,7 +5413,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">propkõ</l>
      <stg>
@@ -5404,7 +5426,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">puippu</l>
      <stg>
@@ -5417,7 +5439,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pukki</l>
      <stg>
@@ -5430,7 +5452,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pupuškõ</l>
      <stg>
@@ -5443,7 +5465,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">puu</l>
      <stg>
@@ -5456,7 +5478,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pühä</l>
      <stg>
@@ -5469,7 +5491,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pädrä</l>
      <stg>
@@ -5482,7 +5504,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pähčine</l>
      <stg>
@@ -5495,7 +5517,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">päive</l>
      <stg>
@@ -5508,7 +5530,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">päivüd</l>
      <stg>
@@ -5521,7 +5543,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pää</l>
      <stg>
@@ -5534,7 +5556,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">pääsko</l>
      <stg>
@@ -5547,7 +5569,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">põlto</l>
      <stg>
@@ -5560,7 +5582,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">põrzõs</l>
      <stg>
@@ -5573,7 +5595,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">põski</l>
      <stg>
@@ -5586,7 +5608,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">raadio</l>
      <stg>
@@ -5599,7 +5621,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">raha</l>
      <stg>
@@ -5612,7 +5634,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rantõ</l>
      <stg>
@@ -5625,7 +5647,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">raskõuz</l>
      <stg>
@@ -5638,7 +5660,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ratis</l>
      <stg>
@@ -5651,7 +5673,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rehtele</l>
      <stg>
@@ -5664,7 +5686,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rehtelkakku</l>
      <stg>
@@ -5677,7 +5699,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">retseptõ</l>
      <stg>
@@ -5690,7 +5712,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rihenneüz</l>
      <stg>
@@ -5703,7 +5725,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">riittõ</l>
      <stg>
@@ -5716,7 +5738,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rissimä</l>
      <stg>
@@ -5729,7 +5751,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rissisä</l>
      <stg>
@@ -5742,7 +5764,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">roho</l>
      <stg>
@@ -5755,7 +5777,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rokkalintu</l>
      <stg>
@@ -5768,7 +5790,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rokkõ</l>
      <stg>
@@ -5781,7 +5803,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rooppõ</l>
      <stg>
@@ -5794,7 +5816,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rüiz</l>
      <stg>
@@ -5807,7 +5829,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">rätte</l>
      <stg>
@@ -5820,7 +5842,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">saadu</l>
      <stg>
@@ -5833,7 +5855,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">saappõgõ</l>
      <stg>
@@ -5846,7 +5868,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">šaaripää</l>
      <stg>
@@ -5859,7 +5881,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">samal̕otti</l>
      <stg>
@@ -5872,7 +5894,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sarafanõ</l>
      <stg>
@@ -5885,7 +5907,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">saunačived</l>
      <stg>
@@ -5898,7 +5920,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">saunaneüz</l>
      <stg>
@@ -5911,7 +5933,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">saunõ</l>
      <stg>
@@ -5925,7 +5947,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seemen</l>
      <stg>
@@ -5938,7 +5960,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seemenvõi</l>
      <stg>
@@ -5951,7 +5973,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seemvõi</l>
      <stg>
@@ -5964,7 +5986,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seine</l>
      <stg>
@@ -5977,7 +5999,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seinetunnid</l>
      <stg>
@@ -5990,7 +6012,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">selče</l>
      <stg>
@@ -6003,7 +6025,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seldi</l>
      <stg>
@@ -6016,7 +6038,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sentäbri</l>
      <stg>
@@ -6029,7 +6051,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">seukko</l>
      <stg>
@@ -6043,7 +6065,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">siglõ</l>
      <stg>
@@ -6056,7 +6078,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sika</l>
      <stg>
@@ -6069,7 +6091,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">šikripää</l>
      <stg>
@@ -6082,7 +6104,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">silme</l>
      <stg>
@@ -6095,7 +6117,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">silmu</l>
      <stg>
@@ -6108,7 +6130,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">silmärätte</l>
      <stg>
@@ -6121,7 +6143,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">siltašiškõ</l>
      <stg>
@@ -6134,7 +6156,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">siltõ</l>
      <stg>
@@ -6148,7 +6170,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sirenipuu</l>
      <stg>
@@ -6161,7 +6183,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sisavõ</l>
      <stg>
@@ -6174,7 +6196,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">škoulu</l>
      <stg>
@@ -6187,7 +6209,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">slivapuu</l>
      <stg>
@@ -6200,7 +6222,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">slivgõd</l>
      <stg>
@@ -6213,7 +6235,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sokko</l>
      <stg>
@@ -6226,7 +6248,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">šokolada</l>
      <stg>
@@ -6239,7 +6261,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sookkunenä</l>
      <stg>
@@ -6252,7 +6274,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">soo</l>
      <stg>
@@ -6265,7 +6287,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">soolõ</l>
      <stg>
@@ -6278,7 +6300,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">soomõlain</l>
      <stg>
@@ -6292,7 +6314,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sorsõ</l>
      <stg>
@@ -6305,7 +6327,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sorzaemä</l>
      <stg>
@@ -6318,7 +6340,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sorzapuippu</l>
      <stg>
@@ -6331,7 +6353,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">šoseika</l>
      <stg>
@@ -6344,7 +6366,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">špeili</l>
      <stg>
@@ -6357,7 +6379,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">štanad</l>
      <stg>
@@ -6370,7 +6392,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">štanajalkõ</l>
      <stg>
@@ -6384,7 +6406,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">stokanõ</l>
      <stg>
@@ -6397,7 +6419,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">stuuli</l>
      <stg>
@@ -6410,7 +6432,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sukkurliivõ</l>
      <stg>
@@ -6423,7 +6445,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sukkõ</l>
      <stg>
@@ -6436,7 +6458,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sukulain</l>
      <stg>
@@ -6449,7 +6471,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">suma</l>
      <stg>
@@ -6462,7 +6484,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">suppi</l>
      <stg>
@@ -6475,7 +6497,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">susi</l>
      <stg>
@@ -6488,7 +6510,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">šuubõ</l>
      <stg>
@@ -6501,7 +6523,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">suu</l>
      <stg>
@@ -6514,7 +6536,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">suurimõ</l>
      <stg>
@@ -6527,7 +6549,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">süčüzü</l>
      <stg>
@@ -6540,7 +6562,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">süntüpäive</l>
      <stg>
@@ -6553,7 +6575,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">süüčči</l>
      <stg>
@@ -6566,7 +6588,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sääski</l>
      <stg>
@@ -6579,7 +6601,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sõna</l>
      <stg>
@@ -6592,7 +6614,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sõnatüvi</l>
      <stg>
@@ -6605,7 +6627,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sõpa</l>
      <stg>
@@ -6618,7 +6640,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sõrmi</l>
      <stg>
@@ -6631,7 +6653,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sõrmuz</l>
      <stg>
@@ -6644,7 +6666,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">sõta</l>
      <stg>
@@ -6657,7 +6679,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">taari</l>
      <stg>
@@ -6670,7 +6692,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">taattõ</l>
      <stg>
@@ -6684,7 +6706,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">taičinõ</l>
      <stg>
@@ -6697,7 +6719,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">taivõz</l>
      <stg>
@@ -6710,7 +6732,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">takaõttsõ</l>
      <stg>
@@ -6723,7 +6745,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">talvi</l>
      <stg>
@@ -6736,7 +6758,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tammi</l>
      <stg>
@@ -6749,7 +6771,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tara</l>
      <stg>
@@ -6763,7 +6785,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tečejä</l>
      <stg>
@@ -6776,7 +6798,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tee</l>
      <stg>
@@ -6789,7 +6811,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">teerissi</l>
      <stg>
@@ -6802,7 +6824,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">telefona</l>
      <stg>
@@ -6815,7 +6837,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">televizora</l>
      <stg>
@@ -6828,7 +6850,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tihakkõ</l>
      <stg>
@@ -6841,7 +6863,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tikkõ</l>
      <stg>
@@ -6854,7 +6876,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tila</l>
      <stg>
@@ -6867,7 +6889,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tiltukõd</l>
      <stg>
@@ -6880,7 +6902,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">toomi</l>
      <stg>
@@ -6893,7 +6915,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">toomipuu</l>
      <stg>
@@ -6906,7 +6928,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tormi</l>
      <stg>
@@ -6920,7 +6942,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">trubõ</l>
      <stg>
@@ -6933,7 +6955,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tuisku</l>
      <stg>
@@ -6946,7 +6968,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tuli</l>
      <stg>
@@ -6959,7 +6981,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tunnid</l>
      <stg>
@@ -6972,7 +6994,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tunni</l>
      <stg>
@@ -6986,7 +7008,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">turvõz</l>
      <stg>
@@ -6999,7 +7021,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tuskõ</l>
      <stg>
@@ -7012,7 +7034,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tuuli</l>
      <stg>
@@ -7025,7 +7047,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tükkü</l>
      <stg>
@@ -7038,7 +7060,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tünke</l>
      <stg>
@@ -7051,7 +7073,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tüttärikko</l>
      <stg>
@@ -7064,7 +7086,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tüttö</l>
      <stg>
@@ -7078,7 +7100,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tütär</l>
      <stg>
@@ -7091,7 +7113,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tütökkõin</l>
      <stg>
@@ -7104,7 +7126,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tüü</l>
      <stg>
@@ -7117,7 +7139,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">täti</l>
      <stg>
@@ -7130,7 +7152,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">tõinpäive</l>
      <stg>
@@ -7143,7 +7165,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ugurittsõ</l>
      <stg>
@@ -7156,7 +7178,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">uhsi</l>
      <stg>
@@ -7169,7 +7191,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ukrainalain</l>
      <stg>
@@ -7182,7 +7204,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ukroppi</l>
      <stg>
@@ -7195,7 +7217,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">unikotti</l>
      <stg>
@@ -7208,7 +7230,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">uni</l>
      <stg>
@@ -7221,7 +7243,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">urokkõ</l>
      <stg>
@@ -7234,7 +7256,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">usad</l>
      <stg>
@@ -7247,7 +7269,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">uutimõd</l>
      <stg>
@@ -7260,7 +7282,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vaahtõrõ</l>
      <stg>
@@ -7273,7 +7295,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vad̕d̕akko</l>
      <stg>
@@ -7286,7 +7308,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">varen̕n̕a</l>
      <stg>
@@ -7299,7 +7321,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">varsi</l>
      <stg>
@@ -7312,7 +7334,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">varvõz</l>
      <stg>
@@ -7325,7 +7347,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">varõz</l>
      <stg>
@@ -7338,7 +7360,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vatruškõ</l>
      <stg>
@@ -7351,7 +7373,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vattsõ</l>
      <stg>
@@ -7364,7 +7386,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">veeb</l>
      <stg>
@@ -7377,7 +7399,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vello</l>
      <stg>
@@ -7390,7 +7412,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">velosipedõ</l>
      <stg>
@@ -7403,7 +7425,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vene</l>
      <stg>
@@ -7416,7 +7438,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">venäläin</l>
      <stg>
@@ -7429,7 +7451,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vesi</l>
      <stg>
@@ -7442,7 +7464,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vetelüz</l>
      <stg>
@@ -7455,7 +7477,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vihmõ</l>
      <stg>
@@ -7468,7 +7490,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vihtõ</l>
      <stg>
@@ -7481,7 +7503,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">viijespäive</l>
      <stg>
@@ -7494,7 +7516,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">viitta</l>
      <stg>
@@ -7507,7 +7529,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vikahtõ</l>
      <stg>
@@ -7520,7 +7542,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vil̕l̕a</l>
      <stg>
@@ -7533,7 +7555,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">villõ</l>
      <stg>
@@ -7546,7 +7568,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vimpõ</l>
      <stg>
@@ -7560,7 +7582,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">virolain</l>
      <stg>
@@ -7573,7 +7595,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">višn̕õ</l>
      <stg>
@@ -7586,7 +7608,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vokki</l>
      <stg>
@@ -7599,7 +7621,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">voosi</l>
      <stg>
@@ -7612,7 +7634,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">vunukkõ</l>
      <stg>
@@ -7625,7 +7647,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">väči</l>
      <stg>
@@ -7638,7 +7660,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">värpö</l>
      <stg>
@@ -7651,7 +7673,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">võdnõ</l>
      <stg>
@@ -7664,7 +7686,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">võikukkõ</l>
      <stg>
@@ -7677,7 +7699,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">või</l>
      <stg>
@@ -7690,7 +7712,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">võimõ</l>
      <stg>
@@ -7703,7 +7725,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">võlkõ</l>
      <stg>
@@ -7716,7 +7738,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">võrkko</l>
      <stg>
@@ -7730,7 +7752,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">võõrõz</l>
      <stg>
@@ -7743,7 +7765,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">üliškoulu</l>
      <stg>
@@ -7756,7 +7778,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">üvä sopu</l>
      <stg>
@@ -7769,7 +7791,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">üü</l>
      <stg>
@@ -7782,7 +7804,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">žaali</l>
      <stg>
@@ -7795,7 +7817,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">zanaveskad</l>
      <stg>
@@ -7808,7 +7830,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ženihhõ</l>
      <stg>
@@ -7821,7 +7843,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">žiivatõd</l>
      <stg>
@@ -7834,7 +7856,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">zveeri</l>
      <stg>
@@ -7847,7 +7869,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">äjje</l>
      <stg>
@@ -7860,7 +7882,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ämme</l>
      <stg>
@@ -7873,7 +7895,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">äppiä</l>
      <stg>
@@ -7886,7 +7908,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ärče</l>
      <stg>
@@ -7899,7 +7921,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ärüd</l>
      <stg>
@@ -7912,7 +7934,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">ääni</l>
      <stg>
@@ -7925,7 +7947,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õhsõ</l>
      <stg>
@@ -7938,7 +7960,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õlud</l>
      <stg>
@@ -7951,7 +7973,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õmpõlija</l>
      <stg>
@@ -7964,7 +7986,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õnki</l>
      <stg>
@@ -7977,7 +7999,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õnni</l>
      <stg>
@@ -7991,7 +8013,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õppõmin</l>
      <stg>
@@ -8004,7 +8026,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õpõn</l>
      <stg>
@@ -8017,7 +8039,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õpõttõja</l>
      <stg>
@@ -8030,7 +8052,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õravõ</l>
      <stg>
@@ -8043,7 +8065,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">öröläin</l>
      <stg>
@@ -8056,7 +8078,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õttsõ</l>
      <stg>
@@ -8069,7 +8091,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õvvi</l>
      <stg>
@@ -8082,7 +8104,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õzrikko</l>
      <stg>
@@ -8095,7 +8117,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
+<e>
    <lg>
      <l pos="N">õzrõ</l>
      <stg>
