@@ -253,7 +253,7 @@ LEXICON Root
    nouns   ;
    pronouns    ;
    verbs   ;
-   quantifiers    ;
+   numerals    ;
 !   prefixes    ;
 
 !  EXCEPTIONS ;

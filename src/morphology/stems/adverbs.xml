@@ -104,6 +104,7 @@
 
       <tg xml:lang="rus">
         <t pos="Adv" type="QNT">немножко</t>
+       <t pos="Adv">немного</t>
       </tg>
     </mg>
   </e>
@@ -236,32 +237,6 @@
 
       <tg xml:lang="rus">
         <t pos="Adv">в беспоряде</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Adv" type="TEMP">aikaa</l>
-
-      <stg>
-        <st Contlex="ADV-TEMP_">aikaa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="est">
-        <t pos="Adv" type="TEMP">ammu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv" type="TEMP">ajat sitten</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Adv" type="TEMP">юг</t>
       </tg>
     </mg>
   </e>
@@ -556,29 +531,1231 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="Adv" type="TEMP">õhtagon</l>
-
-      <stg>
-        <st Contlex="ADV-TEMP_">õhtagon</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="est">
-        <t pos="Adv" type="TEMP">õhtul</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv" type="TEMP">illalla</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Adv" type="TEMP">вечером</t>
-      </tg>
-    </mg>
-  </e>
-</r>
+<e>
+   <lg>
+     <l pos="Adv">ain</l>
+     <stg>
+       <st Contlex="ADV_">ain</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">всегда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">aivo</l>
+     <stg>
+       <st Contlex="ADV_">aivo</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">очень</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">akkunall</l>
+     <stg>
+       <st Contlex="ADV_">akkunall</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">во дворе</t>
+       <t pos="Adv">во дворе</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">avõ</l>
+     <stg>
+       <st Contlex="ADV_">avõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">открыто</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">čevväll</l>
+     <stg>
+       <st Contlex="ADV_">čevväll</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">весной</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">čiin</l>
+     <stg>
+       <st Contlex="ADV_">čiin</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">закрыто</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">čiire</l>
+     <stg>
+       <st Contlex="ADV_">čiire</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">быстро</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">čiirepä</l>
+     <stg>
+       <st Contlex="ADV_">čiirepä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">быстрее</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">čüllell</l>
+     <stg>
+       <st Contlex="ADV_">čüllell</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">на боку</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">dobrõ</l>
+     <stg>
+       <st Contlex="ADV_">dobrõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">добро</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">eb hooli</l>
+     <stg>
+       <st Contlex="ADV_">eb hooli</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">не надо</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">eezep</l>
+     <stg>
+       <st Contlex="ADV_">eezep</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">раньше</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">egle</l>
+     <stg>
+       <st Contlex="ADV_">egle</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вчера</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">eneka</l>
+     <stg>
+       <st Contlex="ADV_">eneka</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">с собой</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ennettegle</l>
+     <stg>
+       <st Contlex="ADV_">ennettegle</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">позавчера</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ennä</l>
+     <stg>
+       <st Contlex="ADV_">ennä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">больше</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ette</l>
+     <stg>
+       <st Contlex="ADV_">ette</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вперед</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">il̕l̕iä</l>
+     <stg>
+       <st Contlex="ADV_">il̕l̕iä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">тихо</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ižorassi</l>
+     <stg>
+       <st Contlex="ADV_">ižorassi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">по-ижорски</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">järjestä</l>
+     <stg>
+       <st Contlex="ADV_">järjestä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">сейчас</t>
+       <t pos="Adv">сразу</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kanni</l>
+     <stg>
+       <st Contlex="ADV_">kanni</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">так</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kasse</l>
+     <stg>
+       <st Contlex="ADV_">kasse</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">сюда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kassen</l>
+     <stg>
+       <st Contlex="ADV_">kassen</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">тут</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kauga</l>
+     <stg>
+       <st Contlex="ADV_">kauga</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">долго</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">koton</l>
+     <stg>
+       <st Contlex="ADV_">koton</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">дома</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kuhõ</l>
+     <stg>
+       <st Contlex="ADV_">kuhõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">куда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kuhõ poolõ</l>
+     <stg>
+       <st Contlex="ADV_">kuhõ poolõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">в какую сторону</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kui</l>
+     <stg>
+       <st Contlex="ADV_">kui</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">как</t>
+       <t pos="Adv">когда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ku</l>
+     <stg>
+       <st Contlex="ADV_">ku</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">когда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kummo</l>
+     <stg>
+       <st Contlex="ADV_">kummo</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вверх дном</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kurra</l>
+     <stg>
+       <st Contlex="ADV_">kurra</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">налево</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kussa</l>
+     <stg>
+       <st Contlex="ADV_">kussa</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">откуда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kuza</l>
+     <stg>
+       <st Contlex="ADV_">kuza</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">где</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kõnsa</l>
+     <stg>
+       <st Contlex="ADV_">kõnsa</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">никогда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kõnz</l>
+     <stg>
+       <st Contlex="ADV_">kõnz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">когда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kõrkall</l>
+     <stg>
+       <st Contlex="ADV_">kõrkall</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">высоко</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">kõvassi</l>
+     <stg>
+       <st Contlex="ADV_">kõvassi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">очень</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">lahti</l>
+     <stg>
+       <st Contlex="ADV_">lahti</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">открыто</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">liči</l>
+     <stg>
+       <st Contlex="ADV_">liči</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">близко</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">liikõ</l>
+     <stg>
+       <st Contlex="ADV_">liikõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">очень</t>
+       <t pos="Adv">слишком</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">lumpaza</l>
+     <stg>
+       <st Contlex="ADV_">lumpaza</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">заложенно (уши)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">maailmõ</l>
+     <stg>
+       <st Contlex="ADV_">maailmõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">очень-очень</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">meelez</l>
+     <stg>
+       <st Contlex="ADV_">meelez</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">в памяти</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">mikäleeb</l>
+     <stg>
+       <st Contlex="ADV_">mikäleeb</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">почему-то</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">missi</l>
+     <stg>
+       <st Contlex="ADV_">missi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">почему</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">muitõs</l>
+     <stg>
+       <st Contlex="ADV_">muitõs</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">а то</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">mukka</l>
+     <stg>
+       <st Contlex="ADV_">mukka</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">с собой</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">murš-marš</l>
+     <stg>
+       <st Contlex="ADV_">murš-marš</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вверх дном</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">mürri-marri</l>
+     <stg>
+       <st Contlex="ADV_">mürri-marri</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">наперекосяк</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">müühe</l>
+     <stg>
+       <st Contlex="ADV_">müühe</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">поздно</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">mõntõ</l>
+     <stg>
+       <st Contlex="ADV_">mõntõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">несколько</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">niku</l>
+     <stg>
+       <st Contlex="ADV_">niku</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">как</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">nütt</l>
+     <stg>
+       <st Contlex="ADV_">nütt</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">сейчас</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">oomnikon</l>
+     <stg>
+       <st Contlex="ADV_">oomnikon</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">утром</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">parvõz</l>
+     <stg>
+       <st Contlex="ADV_">parvõz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вместе</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">parõp</l>
+     <stg>
+       <st Contlex="ADV_">parõp</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">лучше</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">pimmiä</l>
+     <stg>
+       <st Contlex="ADV_">pimmiä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">темно</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">poolõssõ</l>
+     <stg>
+       <st Contlex="ADV_">poolõssõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">со стороны</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">pääz</l>
+     <stg>
+       <st Contlex="ADV_">pääz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">на голове</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">rihenneez</l>
+     <stg>
+       <st Contlex="ADV_">rihenneez</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">в прихожей</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">riheppääll</l>
+     <stg>
+       <st Contlex="ADV_">riheppääll</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">на чердаке</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">rinnõll</l>
+     <stg>
+       <st Contlex="ADV_">rinnõll</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">рядом</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">rissi-rassi</l>
+     <stg>
+       <st Contlex="ADV_">rissi-rassi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">наперекосяк</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">rohkap</l>
+     <stg>
+       <st Contlex="ADV_">rohkap</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">больше</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">seneperäss</l>
+     <stg>
+       <st Contlex="ADV_">seneperäss</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">потому</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">sinne</l>
+     <stg>
+       <st Contlex="ADV_">sinne</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">туда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">siz</l>
+     <stg>
+       <st Contlex="ADV_">siz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">тогда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">siäll</l>
+     <stg>
+       <st Contlex="ADV_">siäll</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">там</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">soomõssi</l>
+     <stg>
+       <st Contlex="ADV_">soomõssi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">по-фински</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">süämesse</l>
+     <stg>
+       <st Contlex="ADV_">süämesse</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">изнутри</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">taaz</l>
+     <stg>
+       <st Contlex="ADV_">taaz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">опять</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">tagaz</l>
+     <stg>
+       <st Contlex="ADV_">tagaz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">назад</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">taita</l>
+     <stg>
+       <st Contlex="ADV_">taita</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">наверно</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">tak</l>
+     <stg>
+       <st Contlex="ADV_">tak</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">так</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">toož</l>
+     <stg>
+       <st Contlex="ADV_">toož</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">тоже</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">tänäve</l>
+     <stg>
+       <st Contlex="ADV_">tänäve</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">сегодня</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">tõiznapään</l>
+     <stg>
+       <st Contlex="ADV_">tõiznapään</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">во вторник</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">vad̕d̕assi</l>
+     <stg>
+       <st Contlex="ADV_">vad̕d̕assi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">по-водски</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">va</l>
+     <stg>
+       <st Contlex="ADV_">va</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">только</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">varra</l>
+     <stg>
+       <st Contlex="ADV_">varra</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">рано</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">vennäissi</l>
+     <stg>
+       <st Contlex="ADV_">vennäissi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">на русском</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">viitta</l>
+     <stg>
+       <st Contlex="ADV_">viitta</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">способом</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">vähep</l>
+     <stg>
+       <st Contlex="ADV_">vähep</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">меньше</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">välissä</l>
+     <stg>
+       <st Contlex="ADV_">välissä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">иногда</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">võõrazi</l>
+     <stg>
+       <st Contlex="ADV_">võõrazi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">в гости</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ühsinä</l>
+     <stg>
+       <st Contlex="ADV_">ühsinä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">один</t>
+       <t pos="Adv">одна</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ühskõrd</l>
+     <stg>
+       <st Contlex="ADV_">ühskõrd</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">однажды</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ühtaika</l>
+     <stg>
+       <st Contlex="ADV_">ühtaika</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">одновременно</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ühtä</l>
+     <stg>
+       <st Contlex="ADV_">ühtä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">ни одного</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ülelle</l>
+     <stg>
+       <st Contlex="ADV_">ülelle</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вверх</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ülioomõn</l>
+     <stg>
+       <st Contlex="ADV_">ülioomõn</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">послезавтра</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">ümpäri</l>
+     <stg>
+       <st Contlex="ADV_">ümpäri</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вокруг</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">üvässi</l>
+     <stg>
+       <st Contlex="ADV_">üvässi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">хорошо</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">äčissä</l>
+     <stg>
+       <st Contlex="ADV_">äčissä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Adv">сейчас</t>
+       <t pos="Adv">сразу</t>
+     </tg>
+   </mg>
+</e></r>

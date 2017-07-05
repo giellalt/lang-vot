@@ -32,10 +32,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kahsi</l>
+      <l pos="Num">kahs</l>
 
       <stg>
-        <st Contlex="NUM_">kahsi</st>
+        <st Contlex="NUM_">kahs</st>
       </stg>
     </lg>
 
@@ -188,10 +188,10 @@
 
   <e>
     <lg>
-      <l pos="Num">kahõsaa</l>
+      <l pos="Num">kahõsa</l>
 
       <stg>
-        <st Contlex="NUM_">kahõsaa</st>
+        <st Contlex="NUM_">kahõsa</st>
       </stg>
     </lg>
 
@@ -240,10 +240,10 @@
 
   <e>
     <lg>
-      <l pos="Num">čümmee</l>
+      <l pos="Num">čümme</l>
 
       <stg>
-        <st Contlex="NUM_">čümmee</st>
+        <st Contlex="NUM_">čümme</st>
       </stg>
     </lg>
 
@@ -263,4 +263,121 @@
       </tg>
     </mg>
   </e>
+<e>
+   <lg>
+     <l pos="Num">kahsčümmed</l>
+     <stg>
+       <st Contlex="NUM_">kahsčümmed</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">двадцать</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">kõlmõd</l>
+     <stg>
+       <st Contlex="NUM_">kõlmõd</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">три</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">nelle</l>
+     <stg>
+       <st Contlex="NUM_">nelle</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">четыре</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">sata</l>
+     <stg>
+       <st Contlex="NUM_">sata</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">сто</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">seitse</l>
+     <stg>
+       <st Contlex="NUM_">seitse</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">семь</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">tuhattõ</l>
+     <stg>
+       <st Contlex="NUM_">tuhattõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">тысяча</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">viisi</l>
+     <stg>
+       <st Contlex="NUM_">viisi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">пять</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">ühsteiššümed</l>
+     <stg>
+       <st Contlex="NUM_">ühsteiššümed</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">одиннадцать</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">ühz</l>
+     <stg>
+       <st Contlex="NUM_">ühz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Num">один</t>
+     </tg>
+   </mg>
+</e>
 </r>
