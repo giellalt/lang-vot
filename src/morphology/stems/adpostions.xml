@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd"
+   xml:lang="vot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e>
+   <lg>
+     <l pos="Adp">allõ</l>
+     <stg>
+       <st Contlex="ADP_">allõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">под</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">eez</l>
+     <stg>
+       <st Contlex="ADP_">eez</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">перед</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">enne</l>
+     <stg>
+       <st Contlex="ADP_">enne</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">до</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">ilmõ</l>
+     <stg>
+       <st Contlex="ADP_">ilmõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">без</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">juurõ</l>
+     <stg>
+       <st Contlex="ADP_">juurõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">к</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">juurõssõ</l>
+     <stg>
+       <st Contlex="ADP_">juurõssõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">от</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">juurõz</l>
+     <stg>
+       <st Contlex="ADP_">juurõz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">у</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">kautta</l>
+     <stg>
+       <st Contlex="ADP_">kautta</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">через</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">läpi</l>
+     <stg>
+       <st Contlex="ADP_">läpi</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">через</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">müüte</l>
+     <stg>
+       <st Contlex="ADP_">müüte</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">по</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">nallõ</l>
+     <stg>
+       <st Contlex="ADP_">nallõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">под</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">perrä</l>
+     <stg>
+       <st Contlex="ADP_">perrä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">после</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">päälle</l>
+     <stg>
+       <st Contlex="ADP_">päälle</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">на (что, кого)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">pääll</l>
+     <stg>
+       <st Contlex="ADP_">pääll</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">на</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">päälte</l>
+     <stg>
+       <st Contlex="ADP_">päälte</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">с (чего, кого)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">süämez</l>
+     <stg>
+       <st Contlex="ADP_">süämez</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">внутри</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">takan</l>
+     <stg>
+       <st Contlex="ADP_">takan</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">за</t>
+       <t pos="Pr">посзади</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">takant</l>
+     <stg>
+       <st Contlex="ADP_">takant</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">из-за</t>
+       <t pos="Pr">сзади</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">takka</l>
+     <stg>
+       <st Contlex="ADP_">takka</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">за (куда?)</t>
+       <t pos="Pr">из-за</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">tüven</l>
+     <stg>
+       <st Contlex="ADP_">tüven</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">у</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">tüvve</l>
+     <stg>
+       <st Contlex="ADP_">tüvve</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">к</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">tüvveä</l>
+     <stg>
+       <st Contlex="ADP_">tüvveä</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">от</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">vartõ</l>
+     <stg>
+       <st Contlex="ADP_">vartõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">для</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">vassa</l>
+     <stg>
+       <st Contlex="ADP_">vassa</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">против</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">üli</l>
+     <stg>
+       <st Contlex="ADP_">üli</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">через</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">ääre</l>
+     <stg>
+       <st Contlex="ADP_">ääre</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">к (чему)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adp">äärez</l>
+     <stg>
+       <st Contlex="ADP_">äärez</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Pr">у (чего)</t>
+     </tg>
+   </mg>
+</e>
+</r>

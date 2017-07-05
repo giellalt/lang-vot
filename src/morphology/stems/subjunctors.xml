@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd"
+   xml:lang="vot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e>
+   <lg>
+     <l pos="CS">kui</l>
+     <stg>
+       <st Contlex="CS_">kui</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="CS">если</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CS">vakkõ</l>
+     <stg>
+       <st Contlex="CS_">vakkõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="CS">хотя</t>
+     </tg>
+   </mg>
+</e>
+</r>
