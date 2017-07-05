@@ -4,4 +4,121 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e>
+   <lg>
+     <l pos="Det">esimein</l>
+     <stg>
+       <st Contlex="DET_">esimein</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">первый</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">jõka</l>
+     <stg>
+       <st Contlex="DET_">jõka</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">каждый</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kumpõ</l>
+     <stg>
+       <st Contlex="DET_">kumpõ</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">который</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kõlmõz</l>
+     <stg>
+       <st Contlex="DET_">kõlmõz</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">третий</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">miltäin</l>
+     <stg>
+       <st Contlex="DET_">miltäin</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">каков</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">mokom</l>
+     <stg>
+       <st Contlex="DET_">mokom</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">такой</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">mõnikõs</l>
+     <stg>
+       <st Contlex="DET_">mõnikõs</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">какой-нибудь</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">pal̕l̕o</l>
+     <stg>
+       <st Contlex="DET_">pal̕l̕o</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">много</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">viimein</l>
+     <stg>
+       <st Contlex="DET_">viimein</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="rus">
+       <t pos="Det">последний</t>
+     </tg>
+   </mg>
+</e>
 </r>

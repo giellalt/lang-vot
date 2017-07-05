@@ -1,11 +1,16 @@
 !! Adjective inflection
 ! --------------------
-!! The UNDEFINED language adjectives compare.
+!! The VOTIC language adjectives compare.
 
 LEXICON Comparisons
 +A+Pos:        NMN_   ;
-+A+Cmp+A:%>mpi      NMN_   ;
++A+Comp+A:%>mpi      NMN_   ;
 +A+Superl+A:%>     NMN_   ;
+
+LEXICON DET_
++Det: # ;
+LEXICON A_
++A: # ;
 
 ! vim: set ft=xfst-lexc:
 

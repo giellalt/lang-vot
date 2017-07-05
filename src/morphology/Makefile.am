@@ -30,7 +30,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/numerals.lexc \
 			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
-			 stems/pronouns.lexc \
 			 stems/punctuation.lexc   \
 			 stems/verbs.lexc
 
@@ -57,13 +56,15 @@ GT_LEXC_L2_SRCS=\
 GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/adverbs.lexc \
 		$(srcdir)/stems/nouns.lexc \
-		$(srcdir)/stems/numerals.lexc 
+		$(srcdir)/stems/numerals.lexc \
+		$(srcdir)/stems/pronouns.lexc 
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 			 stems/adverbs.xml \
 			 stems/nouns.xml \
-			 stems/numerals.xml 
+			 stems/numerals.xml \
+			 stems/pronouns.xml 
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=

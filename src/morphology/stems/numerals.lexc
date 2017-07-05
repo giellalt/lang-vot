@@ -1,13 +1,22 @@
 
-LEXICON quantifiers
+LEXICON numerals
 
 ühsi:ühsi NUM_  "yksi" ;
-kahsi:kahsi NUM_  "kaksi" ;
+kahs:kahs NUM_  "kaksi" ;
 kõlõd:kõlõd NUM_  "kolme" ;
 nel̕l̕ä:nel̕l̕ä NUM_  "neljä" ;
 viisi:viisi NUM_  "viisi" ;
 kuusi:kuusi NUM_  "kuusi" ;
 seitsee:seitsee NUM_  "seitsemän" ;
-kahõsaa:kahõsaa NUM_  "kahdeksan" ;
+kahõsa:kahõsa NUM_  "kahdeksan" ;
 ühesää:ühesää NUM_  "yhdeksän" ;
-čümmee:čümmee NUM_  "kymmenen" ;
+čümme:čümme NUM_  "kymmenen" ;
+kahsčümmed:kahsčümmed NUM_  "" ;
+kõlmõd:kõlmõd NUM_  "" ;
+nelle:nelle NUM_  "" ;
+sata:sata NUM_  "" ;
+seitse:seitse NUM_  "" ;
+tuhattõ:tuhattõ NUM_  "" ;
+viisi:viisi NUM_  "" ;
+ühsteiššümed:ühsteiššümed NUM_  "" ;
+ühz:ühz NUM_  "" ;

@@ -2,13 +2,16 @@
 ! ---------------
 !! The VOTIC language verbs inflect in persons.
 
+LEXICON V_
++V: # ;
+
 LEXICON Persons
-+V+Sg1:%>n   K   ;
-+V+Sg2:%>t   K   ;
-+V+Sg3:    K  ;
-+V+Pl1:%>mme  K   ;
-+V+Pl2:%>tte  K   ;
-+V+Pl3:  K   ;
++V+Ind+Prs+Sg1:%>n   K   ;
++V+Ind+Prs+Sg2:%>t   K   ;
++V+Ind+Prs+Sg3:    K  ;
++V+Ind+Prs+Pl1:%>mme  K   ;
++V+Ind+Prs+Pl2:%>tte  K   ;
++V+Ind+Prs+Pl3:  K   ;
 +V+Inf:    K   ;
 +V+Der/min+N:min   NMN_   ;
 

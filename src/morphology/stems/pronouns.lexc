@@ -1,8 +1,28 @@
-!! Pronouns
-!  --------
-!! Pronouns in UNDEFINED language are references to things.
 
 LEXICON pronouns
-pronoun    PRON_   ;
 
-! vim: set ft=xfst-lexc:
+čed:čed PRON_  "" ;
+čelle:čelle PRON_  "" ;
+čenni:čenni PRON_  "" ;
+ize:ize PRON_  "" ;
+jõkain:jõkain PRON_  "" ;
+kane:kane PRON_  "" ;
+kase:kase PRON_  "" ;
+kõikk:kõikk PRON_  "" ;
+meije:meije PRON_  "" ;
+mikä:mikä PRON_  "" ;
+mittä:mittä PRON_  "" ;
+mitä:mitä PRON_  "" ;
+mitänibut̕:mitänibut̕ PRON_  "" ;
+miä:miä PRON_  "" ;
+mokomõin:mokomõin PRON_  "" ;
+müü:müü PRON_  "" ;
+mõlõpõd:mõlõpõd PRON_  "" ;
+nämäd:nämäd PRON_  "" ;
+sama:sama PRON_  "" ;
+see:see PRON_  "" ;
+siä:siä PRON_  "" ;
+teije:teije PRON_  "" ;
+tüü:tüü PRON_  "" ;
+tämä:tämä PRON_  "" ;
+õma:õma PRON_  "" ;
