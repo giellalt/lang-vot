@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - rokkõ :   # should decline like the paradigm 'p_kukkõ'
+    rokkõ+N+Sg+Nom: rokkõ
+    rokkõ+N+Pl+Nom: rokõd
+    rokkõ+N+Sg+Gen: roka
+    rokkõ+N+Pl+Gen: [rokki, rokkije]
+    rokkõ+N+Sg+Par: [rokka, rokkaa]
+    rokkõ+N+Pl+Par: [rokki, rokkitõ]
+    rokkõ+N+Sg+Ill: [rokkaa, rokkasõ]
+    rokkõ+N+Pl+Ill: [rokki, rokkisõ]
+    rokkõ+N+Sg+Ine: rokõz
+    rokkõ+N+Pl+Ine: rokkiz
+    rokkõ+N+Sg+Ela: rokõssõ
+    rokkõ+N+Pl+Ela: rokkissõ
+    rokkõ+N+Sg+All: rokõllõ
+    rokkõ+N+Pl+All: rokkillõ
+    rokkõ+N+Sg+Ade: rokõl
+    rokkõ+N+Pl+Ade: rokkil
+    rokkõ+N+Sg+Abl: rokõltõ
+    rokkõ+N+Pl+Abl: rokkiltõ
+    rokkõ+N+Sg+Tra: rokõssi
+    rokkõ+N+Pl+Tra: rokkissi
+    rokkõ+N+Sg+Ter: rokkassaa
+    rokkõ+N+Pl+Ter: rokkissaa
+    rokkõ+N+Sg+Com: rokaka
+    rokkõ+N+Pl+Com: rokkika

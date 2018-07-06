@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - lehme :   # should decline like the paradigm 'p_päive'
+    lehme+N+Sg+Nom: lehme
+    lehme+N+Pl+Nom: lehmäd
+    lehme+N+Sg+Gen: lehmä
+    lehme+N+Pl+Gen: [lehmi, lehmije]
+    lehme+N+Sg+Par: [lehmä, lehmää]
+    lehme+N+Pl+Par: [lehmi, lehmii]
+    lehme+N+Sg+Ill: [lehmää, lehmäse]
+    lehme+N+Pl+Ill: [lehmi, lehmise]
+    lehme+N+Sg+Ine: lehmäz
+    lehme+N+Pl+Ine: lehmiz
+    lehme+N+Sg+Ela: lehmässä
+    lehme+N+Pl+Ela: lehmissä
+    lehme+N+Sg+All: lehmällä
+    lehme+N+Pl+All: lehmille
+    lehme+N+Sg+Ade: lehmäl
+    lehme+N+Pl+Ade: lehmil
+    lehme+N+Sg+Abl: lehmälte
+    lehme+N+Pl+Abl: lehmilte
+    lehme+N+Sg+Tra: lehmässi
+    lehme+N+Pl+Tra: lehmissi
+    lehme+N+Sg+Ter: lehmässaa
+    lehme+N+Pl+Ter: lehmissaa
+    lehme+N+Sg+Com: lehmäka
+    lehme+N+Pl+Com: lehmika
