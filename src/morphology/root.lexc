@@ -56,6 +56,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! The Usage extents are marked using following tags:
  +Err/Orth     	!!= * @CODE@
  +Use/-Spell  	!!= * @CODE@
+ +Use/SpellNoSugg  !!= * @CODE@ recognized but not suggested in speller
 
 !! The nominals are inflected in the following Case and Number
 

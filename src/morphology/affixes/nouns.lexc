@@ -10,6 +10,39 @@ LEXICON N_
 #:0   nouns   ;
 +N: NMN_ ;
 
+LEXICON N_KOIRW !!= * @CODE@ koirõ:koir This requires no twolc
+#:õ   nouns   ;
++N+Sg+Nom:õ # ;
++N+Pl+Nom:õd # ;
++N+Sg+Gen:a # ;
++N+Pl+Gen:i # ;
++Use/SpellNoSugg+N+Pl+Gen:ije # ; !!= * @CODE@ temporary fix to indicate that this is not the generated form
++N+Sg+Par:a # ;
++Use/SpellNoSugg+N+Sg+Par:aa # ;
++N+Pl+Par:i # ;
++Use/SpellNoSugg+N+Pl+Par:itõ # ;
++N+Sg+Ill:aa # ;
++Use/SpellNoSugg+N+Sg+Ill:asõ # ;
++N+Pl+Ill:i # ;
++Use/SpellNoSugg+N+Pl+Ill:isõ # ;
++N+Sg+Ine:õz # ;
++N+Pl+Ine:iz # ;
++N+Sg+Ela:õssõ # ;
++N+Pl+Ela:issõ # ;
++N+Sg+All:õllõ # ;
++N+Pl+All:illõ # ;
++N+Sg+Ade:õl # ;
++N+Pl+Ade:il # ;
++N+Sg+Abl:õltõ # ;
++N+Pl+Abl:iltõ # ;
++N+Sg+Tra:õssi # ;
++N+Pl+Tra:issi # ;
++N+Sg+Ter:assaa # ;
++N+Pl+Ter:issaa # ;
++N+Sg+Com:aka # ;
++N+Pl+Com:ika # ;
+
+
 LEXICON N_KUU
 #:0   nouns   ;
 +N: NMN_KUU ;
