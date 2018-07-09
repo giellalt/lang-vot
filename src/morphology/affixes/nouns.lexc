@@ -11,6 +11,9 @@ LEXICON N_
 +N: NMN_ ;
 
 LEXICON N_KOIRW !!= * @CODE@ koirõ:koir This requires no twolc
+!! Back harmony
+!! Stem vowel is zero before plural marker in i
+!! Consonant structure not involved in gradation
 #:õ   nouns   ;
 +N+Sg+Nom:õ # ;
 +N+Pl+Nom:õd # ;
