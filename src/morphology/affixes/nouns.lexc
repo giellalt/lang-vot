@@ -8,137 +8,137 @@ LEXICON PRON_
 
 LEXICON N_
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_KOIRW !!= * @CODE@ koirõ:koir This requires no twolc
 !! Back harmony
 !! Stem vowel is zero before plural marker in i
 !! Consonant structure not involved in gradation
 #:õ   nouns   ;
-+N+Sg+Nom:õ # ;
-+N+Pl+Nom:õd # ;
-+N+Sg+Gen:a # ;
-+N+Pl+Gen:i # ;
-+Use/SpellNoSugg+N+Pl+Gen:ije # ; !!= * @CODE@ temporary fix to indicate that this is not the generated form
-+N+Sg+Par:a # ;
-+Use/SpellNoSugg+N+Sg+Par:aa # ;
-+N+Pl+Par:i # ;
-+Use/SpellNoSugg+N+Pl+Par:itõ # ;
-+N+Sg+Ill:aa # ;
-+Use/SpellNoSugg+N+Sg+Ill:asõ # ;
-+N+Pl+Ill:i # ;
-+Use/SpellNoSugg+N+Pl+Ill:isõ # ;
-+N+Sg+Ine:õz # ;
-+N+Pl+Ine:iz # ;
-+N+Sg+Ela:õssõ # ;
-+N+Pl+Ela:issõ # ;
-+N+Sg+All:õllõ # ;
-+N+Pl+All:illõ # ;
-+N+Sg+Ade:õl # ;
-+N+Pl+Ade:il # ;
-+N+Sg+Abl:õltõ # ;
-+N+Pl+Abl:iltõ # ;
-+N+Sg+Tra:õssi # ;
-+N+Pl+Tra:issi # ;
-+N+Sg+Ter:assaa # ;
-+N+Pl+Ter:issaa # ;
-+N+Sg+Com:aka # ;
-+N+Pl+Com:ika # ;
++Sg+Nom:õ # ;
++Pl+Nom:õd # ;
++Sg+Gen:a # ;
++Pl+Gen:i # ;
++Use/SpellNoSugg+Pl+Gen:ije # ; !!= * @CODE@ temporary fix to indicate that this is not the generated form
++Sg+Par:a # ;
++Use/SpellNoSugg+Sg+Par:aa # ;
++Pl+Par:i # ;
++Use/SpellNoSugg+Pl+Par:itõ # ;
++Sg+Ill:aa # ;
++Use/SpellNoSugg+Sg+Ill:asõ # ;
++Pl+Ill:i # ;
++Use/SpellNoSugg+Pl+Ill:isõ # ;
++Sg+Ine:õz # ;
++Pl+Ine:iz # ;
++Sg+Ela:õssõ # ;
++Pl+Ela:issõ # ;
++Sg+All:õllõ # ;
++Pl+All:illõ # ;
++Sg+Ade:õl # ;
++Pl+Ade:il # ;
++Sg+Abl:õltõ # ;
++Pl+Abl:iltõ # ;
++Sg+Tra:õssi # ;
++Pl+Tra:issi # ;
++Sg+Ter:assaa # ;
++Pl+Ter:issaa # ;
++Sg+Com:aka # ;
++Pl+Com:ika # ;
 
 
 LEXICON N_KUU
 #:0   nouns   ;
-+N: NMN_KUU ;
+: NMN_KUU ;
 
 LEXICON N_PILLI
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_KOTO
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_ALKU
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_PÄIVÄ
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_POIKÕ !!= * @CODE@ poikõ:poikõ
-+N+Sg+Nom: K ;  !!= * @CODE@ poikõ
++Sg+Nom: K ;  !!= * @CODE@ poikõ
 
-+N:%^WGStem%^VowRm%>a BACK_NMN_SG-GEN-STEM ;  !!= * @CODE@ poiga
+:%^WGStem%^VowRm%>a BACK_NMN_SG-GEN-STEM ;  !!= * @CODE@ poiga
 !! +Sg+Gen, +Sg+Com
 
-+N:%^VowRm%>a BACK_NMN_SG-PAR-STEM ;  !!= * @CODE@ poika
-!! +N+Sg+Ill, +N+Sg+Ter
+:%^VowRm%>a BACK_NMN_SG-PAR-STEM ;  !!= * @CODE@ poika
+!! +Sg+Ill, +Sg+Ter
 
-+N:%^WGStem BACK_NMN_SG_INE-STEM ;  !!= * @CODE@ poigõ-
-!! +N+Sg+Ela, +N+Sg+All, +N+Sg+Ade, +N+Sg+Abl, +N+Sg+Tra, +N+Pl+Nom
+:%^WGStem BACK_NMN_SG_INE-STEM ;  !!= * @CODE@ poigõ-
+!! +Sg+Ela, +Sg+All, +Sg+Ade, +Sg+Abl, +Sg+Tra, +Pl+Nom
 
-+N:%^VowRm%>i BACK_NMN_PL-OBL ; !!= * @CODE@ poiki-
+:%^VowRm%>i BACK_NMN_PL-OBL ; !!= * @CODE@ poiki-
 
 
 LEXICON N_TÜTTÖ !!= * @CODE@ tüttö:tüttö
-+N+Sg+Nom: K ;  !!= * @CODE@ tüttö
-+N:%^WGStem FRONT_NMN_SG-GEN-STEM ;  !!= * @CODE@ tütö
++Sg+Nom: K ;  !!= * @CODE@ tüttö
+:%^WGStem FRONT_NMN_SG-GEN-STEM ;  !!= * @CODE@ tütö
 !! +Sg+Gen, +Sg+Com
-+N: FRONT_NMN_SG-PAR-STEM ;  !!= * @CODE@ tüttö
-!! +N+Sg+Ill, +N+Sg+Ter
-+N:%^WGStem FRONT_NMN_SG_INE-STEM ;  !!= * @CODE@ tütö-
-!! +N+Sg+Ela, +N+Sg+All, +N+Sg+Ade, +N+Sg+Abl, +N+Sg+Tra, +N+Pl+Nom
-+N:%>i FRONT_NMN_PL-OBL ;   !!= * @CODE@ tüttöi
+: FRONT_NMN_SG-PAR-STEM ;  !!= * @CODE@ tüttö
+!! +Sg+Ill, +Sg+Ter
+:%^WGStem FRONT_NMN_SG_INE-STEM ;  !!= * @CODE@ tütö-
+!! +Sg+Ela, +Sg+All, +Sg+Ade, +Sg+Abl, +Sg+Tra, +Pl+Nom
+:%>i FRONT_NMN_PL-OBL ;   !!= * @CODE@ tüttöi
 
 LEXICON N_AIKA
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_AIKA-PL
-+N+Pl: NMN_AIKA-PL ;
++Pl: NMN_AIKA-PL ;
 
 LEXICON N_ČEELI
 #:0   nouns   ;
-+N:i NMN_ ;
+:i NMN_ ;
 
 LEXICON N_ANČI
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_PERSE
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_SAMMAL
 #:0   nouns   ;
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON N_SÜÜMIN
 #:0   nouns   ;
-+N:n NMN_ ;
+:n NMN_ ;
 
 LEXICON N_ALÕNÕ
 #:0   nouns   ;
-+N:nõ NMN_ ;
+:nõ NMN_ ;
 
 LEXICON N_ALUS  !!= @CODE@ alus:aluks
 #:0   nouns   ;
-+N:%^KS2S NMN_ ;
+:%^KS2S NMN_ ;
 
 LEXICON N_AMMÕZ !!= @CODE@ ammõz:ampa
 #:0   nouns   ;
-+N:%^WGStem%^VowRmõz BACK_NMN_SG-NOM ; !!= @CODE@ ammõz
-+N: BACK_NMN_SG-GEN-STEM ;     	 !!= @CODE@ ampa-
-+N:%^WGStems  BACK_NMN_SG-PAR_sõ ;	 !!= @CODE@ ammas-
-+N:  BACK_NMN_SG-ILL-STEM ;	 !!= @CODE@ ampa-
-+N: BACK_NMN_SG_INE-STEM ;	 !!= @CODE@ ampa-
-+N:%>i BACK_NMN_PL-OBL ;	 	 !!= @CODE@ ampai-
+:%^WGStem%^VowRmõz BACK_NMN_SG-NOM ; !!= @CODE@ ammõz
+: BACK_NMN_SG-GEN-STEM ;     	 !!= @CODE@ ampa-
+:%^WGStems  BACK_NMN_SG-PAR_sõ ;	 !!= @CODE@ ammas-
+:  BACK_NMN_SG-ILL-STEM ;	 !!= @CODE@ ampa-
+: BACK_NMN_SG_INE-STEM ;	 !!= @CODE@ ampa-
+:%>i BACK_NMN_PL-OBL ;	 	 !!= @CODE@ ampai-
 
 !!
 LEXICON NMN_
 +Sg+Nom:     #   ;
-!+N+Pl+Nom:i     #   ;
+!+Pl+Nom:i     #   ;
 
 LEXICON NMN_KUU
 +Sg+Ela:%>ss     #   ;
