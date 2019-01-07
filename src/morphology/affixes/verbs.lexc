@@ -3,17 +3,17 @@
 !! The VOTIC language verbs inflect in persons.
 
 LEXICON V_
-+V: # ;
+: # ;
 
 LEXICON Persons
-+V+Ind+Prs+Sg1:%>n   K   ;
-+V+Ind+Prs+Sg2:%>t   K   ;
-+V+Ind+Prs+Sg3:    K  ;
-+V+Ind+Prs+Pl1:%>mme  K   ;
-+V+Ind+Prs+Pl2:%>tte  K   ;
-+V+Ind+Prs+Pl3:  K   ;
-+V+Inf:    K   ;
-+V+Der/min+N:min   NMN_   ;
++Ind+Prs+Sg1:%>n   K   ;
++Ind+Prs+Sg2:%>t   K   ;
++Ind+Prs+Sg3:    K  ;
++Ind+Prs+Pl1:%>mme  K   ;
++Ind+Prs+Pl2:%>tte  K   ;
++Ind+Prs+Pl3:  K   ;
++Inf:    K   ;
++Der/min+N:min   NMN_   ;
 
 ! vim: set ft=xfst-lexc:
 
