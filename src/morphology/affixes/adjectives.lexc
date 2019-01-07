@@ -3,14 +3,14 @@
 !! The VOTIC language adjectives compare.
 
 LEXICON Comparisons
-+A+Pos:        NMN_   ;
-+A+Comp+A:%>mpi      NMN_   ;
-+A+Superl+A:%>     NMN_   ;
++Pos:        NMN_   ;
++Comp+A:%>mpi      NMN_   ;
++Superl+A:%>     NMN_   ;
 
 LEXICON DET_
 +Det: # ;
 LEXICON A_
-+A: # ;
+ # ;
 
 ! vim: set ft=xfst-lexc:
 
