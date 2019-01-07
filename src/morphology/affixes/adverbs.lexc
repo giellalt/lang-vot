@@ -3,19 +3,19 @@
 !! The VOTIC language adverbs ...
 
 LEXICON ADV_
-+Adv: K ;
+ K ;
 
 LEXICON ADV-QNT_
-+Adv+Qnt: K ;
++Qnt: K ;
 
 LEXICON ADV-SPAT_
-+Adv+Spat: K ;
++Spat: K ;
 
 LEXICON ADV-STATE_
-+Adv+State: K ;
++State: K ;
 
 LEXICON ADV-TEMP_
-+Adv+Temp: K ;
++Temp: K ;
 
 
 
