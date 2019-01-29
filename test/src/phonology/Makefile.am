@@ -20,8 +20,7 @@ XFAIL_TESTS=pair-test-positive.sh \
             pair-test-hfst.sh
 
 # Make sure all tests scripts are included in the distributed tarballs:
-EXTRA_DIST=pair-test-positive.sh.in \
-            pair-test-negative.sh.in \
+EXTRA_DIST=pair-test-negative.sh.in \
             pair-test-hfst.sh.in
 
 ####### Other targets: ###########
