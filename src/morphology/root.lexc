@@ -245,8 +245,10 @@ L̕  !!= * @CODE@
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in Votic language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
+    Punctuation ;
+    Symbols     ;
 
    adjectives  ;
    adverbs  ;
