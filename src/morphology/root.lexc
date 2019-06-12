@@ -199,6 +199,13 @@ L̕  !!= * @CODE@
 
 +Der/xxx 	!!= * @CODE@
 
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
 
 
 !! Morphophonology
