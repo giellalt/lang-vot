@@ -182,6 +182,13 @@ source and target part-of-speech.
 
  * +Der/xxx 	
 
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
 
 
 Morphophonology
