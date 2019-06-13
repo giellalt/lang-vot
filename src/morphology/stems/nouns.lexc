@@ -1,14 +1,14 @@
 
 LEXICON nouns
 
-tüttö+N:tüttö N_TÜTTÖ  "tyttö" ;
-poikõ+N:poikõ N_POIKÕ  "poika" ;
+tüttö+N+Sem/Hum:tüttö N_TÜTTÖ  "tyttö" ;
+poikõ+N+Sem/Hum:poikõ N_POIKÕ  "poika" ;
 alkukuu+N:alku#kuu N_KUU  "uusi kuu" ;
 rahnopuu+N:rahno#puu N_KUU  "mehiläispönttö" ;
 šaaripää+N:šaari#pää N_KUU  "pörröpää" ;
 rakkopilli+N:rakko#pilli N_PILLI  "säkkipilli" ;
 aŋkkuri+N:aŋkkuri N_PILLI  "ankkuri" ;
-kleeveri+N:kleeveri N_PILLI  "apila" ;
+kleeveri+N+Sem/Plant:kleeveri N_PILLI  "apila" ;
 api+N:api N_PILLI  "apu" ;
 čerikko+N:čerikko N_KOTO  "kirkko" ;
 koto+N:koto N_KOTO  "talo" ;
