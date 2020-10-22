@@ -23,7 +23,7 @@
 # third is email address for bug reports
 # fourth is name of packages made by make dist, excluding .tar.gz
 # fifth is the project web address
-AC_INIT([Giella vot], [0.1], [feedback@divvun.no], [giella-vot],
+AC_INIT([Giella vot], [0.1.0], [feedback@divvun.no], [giella-vot],
         [http://divvun.no])
 # AC_REVISION is used to get SVN revision into bug reports
 AC_REVISION([$Revision$])
@@ -47,7 +47,7 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 ### Speller release version (usually different from the package version,
 ### typically spellers are released more often than the language package):
-AC_SUBST([SPELLERVERSION], [0.1])
+AC_SUBST([SPELLERVERSION], [0.1.0])
 
 ########## LANGUAGE SPECIFIC SETTINGS ##########
 # GLANG is the language code used to identify this project; it should be the
@@ -101,7 +101,7 @@ AM_CONDITIONAL([HAVE_ALT_ORTHS], [test "x$ALT_ORTHS" != "x" \
 # Specify whether spellers for alternative orthographies should be built, the
 # default is to build them. Change the value below from 'true' to 'false' if
 # such spellers are NOT wanted.
-AM_CONDITIONAL([WANT_ALT_ORTH_SPELLERS], [ true ])
+AM_CONDITIONAL([WANT_ALT_ORTH_PROOFTOOLS], [ true ])
 
 # Case handling: the default is to assume an orthography with case distinctions:
 # upper vs lower case. That is not always true, or the case handling is such
@@ -142,6 +142,15 @@ AM_CONDITIONAL([SKIP_PHONOLOGY], [test "x$NO_PHONOLOGY" != "x"])
 AC_SUBST([LEXREF_IN_XFSCRIPT], [""])
 AM_CONDITIONAL([LEXREF_IN_PHONOLOGY], [test "x$LEXREF_IN_XFSCRIPT" != "x"])
 
+# Variables for language specific settings
+# TODO: maybe some could be env.vars AC_ARG_VAR so power users know what
+# they want to compile theirs stuff with
+AC_SUBST([DEFAULT_FOMA], [no])
+AC_SUBST([DEFAULT_HFST], [yes])
+AC_SUBST([DEFAULT_XFST], [no])
+AC_SUBST([DEFAULT_HYPERMIN], [no])
+AC_SUBST([DEFAULT_REVERCI], [yes])
+AC_SUBST([DEFAULT_HFST_BACKEND], [foma])
 
 # Tests and sets up giella-core directories and scripts
 gt_PROG_SCRIPTS_PATHS
