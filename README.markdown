@@ -1,92 +1,88 @@
-.. -*- mode: rst -*-
-========================================
- The Votic morphology and tools
-========================================
+The Votic morphology and tools
+==========================================
 
-This directory contains source files for the Votic language morphology
-and dictionary. The data and implementation are licenced under __GNU GPL__
-licence also detailed in the LICENCE file of this directory. The authors named
-in the AUTHORS file are available to grant other licencing choices.
+This repository contains finite state source files for the Votic language,
+for building morphological analysers, proofing tools
+and dictionaries. The data and implementation are licenced under GNU LGPL
+licence, also detailed in the
+[LICENCE](https://github.com/giellalt/lang-mrj/blob/develop/LICENCE). The
+authors named in the AUTHORS file are available to grant other licencing
+choices.
 
-Installation and compilation, and a short note on usage, is documented in the
-file INSTALL.
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vot)](https://github.com/giellalt/lang-vot/issues)
+ [![Build Status](https://github.com/giellalt/lang-vot/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-vot/actions)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
+Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-mrj)
+for the Western Mari language by using the [Divvun Installer](http://divvun.no)
+(some languages are only available via the nightly channel).
 
-* http://giellatekno.uit.no/votdoc/index.html
-* https://giellalt.uit.no/tools/docu-vot-manual.html
-* https://giellalt.uit.no/index.html
+Documentation
+-------------
 
-Requirements
-------------
+Documentation can be found at:
 
-In order to compile and use Votic language morphology and dictionaries,
-you need:
+-   <https://giellalt.uit.no/lang/votdoc/index.html>
+-   <https://giellalt.uit.no/index.html>
 
-* Xerox Finite-State Morphology tools, or
-* Helsinki Finite-State Technology library and tools, version 3.8 or newer, or
-* Foma finite-state tool
+Core dependencies
+-----------------
 
-Optionally:
+In order to compile and use Votic language morphology and
+dictionaries, you need:
 
-* VislCG3 Constraint Grammar tools
+- an FST compiler: [HFST](https://github.com/hfst/hfst), [Foma](https://github.com/mhulden/foma) or [Xerox Xfst](https://web.stanford.edu/~laurik/fsmbook/home.html)
+- [VislCG3](https://visl.sdu.dk/svn/visl/tools/vislcg3/trunk) Constraint Grammar tools
+
+To install VislCG3 and HFST, just copy/paste this into your Terminal on **Mac OS X**:
+
+```
+curl https://apertium.projectjj.com/osx/install-nightly.sh | sudo bash
+```
+
+or terminal on **Ubuntu, Debian or Windows Subsystem for Linux**:
+
+```
+wget https://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
+sudo apt-get install cg3 hfst
+```
+
+or terminal on **RedHat, Fedora, CentOS or Windows Subsystem for Linux**:
+
+```
+wget https://apertium.projectjj.com/rpm/install-nightly.sh -O - | sudo bash
+sudo dnf install cg3 hfst
+```
+
+Alternatively, the Apertium wiki has good instructions on how to [install the dependencies for Mac
+OS X](https://wiki.apertium.org/wiki/Apertium_on_Mac_OS_X) and how to [install
+the dependencies on
+linux](https://wiki.apertium.org/wiki/Installation_of_grammar_libraries)
+
+Further details and dependencies are described on the GiellaLT [Getting Started](https://giellalt.uit.no/infra/GettingStarted.html) pages.
 
 Downloading
 -----------
 
-The Votic language sources can be acquired using `giella SVN
-repository <https://giellalt.uit.no/infra/anonymous-svn.html>`_, from the
-language specific directory, after the core has been downloaded and initial
-setup has been performed.
+Using Git:
+```
+git clone https://github.com/giellalt/lang-vot
+```
 
-Installation
-------------
+Using Subversion:
+```
+svn checkout https://github.com/giellalt/lang-vot.git/trunk lang-vot
+```
 
-INSTALL describes the GNU build system in detail, but for most users the usual:
+Building and installation
+-------------------------
 
-	./configure
-	make
-	(as root) make install
+[INSTALL](https://github.com/giellalt/lang-vot/blob/develop/INSTALL)
+describes the GNU build system in detail, but for most users it is the usual:
 
-should result in a local installation and::
-
-	(as root) make uninstall
-
-in its uninstallation.
-
-If you would rather install in e.g. your home directory
-(or aren't the system administrator), you can tell ./configure::
-
-        ./configure --prefix=$HOME
-
-If you are checking out the development versions from SVN you must first create
-and install the necessary autotools files from the host system, and check that
-your environment is correctly set up. This is done by doing:
-
-  ./autogen.sh
-
-It is common practice to keep `generated files out of version control
-<http://www.gnu.org/software/automake/manual/automake.html#CVS>`_.
-
-VPATH builds
-------------
-
-If you want to keep the source code tree clean, a VPATH build is the solution.
-The idea is to create a build dir somewhere outside of the source code tree,
-and call `configure` from there. Here is one VPATH variant of the standard
-procedure:
-
-	mkdir build && cd build
-	../configure
-	make
-	(as root) make install
-
-This will keep all the generated files within the build/ dir, and keep the src/
-dir (mostly) free of generated files. If you are building from the development
-version in SVN, you must run the ./autogen.sh script BEFORE you take the steps
-above.
-
-For further installation instruction refer to file ``INSTALL``, which contains
-the standard installation instructions for GNU autoconf based software.
-
-.. vim: set ft=rst:
+```sh
+./autogen.sh # This will automatically clone or check out other GiellaLT dependencies
+./configure
+make
+(as root) make install
+```
