@@ -1,0 +1,9 @@
+name = "Votic"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.vot"
+
+[windows]
+system_product_code = "replace-with-real"
+msoffice_product_code = "replace-with-real"
