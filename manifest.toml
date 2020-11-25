@@ -5,5 +5,4 @@ version = "0.1.0"
 system_pkg_id = "no.divvun.MacDivvun.vot"
 
 [windows]
-system_product_code = "replace-with-real"
-msoffice_product_code = "replace-with-real"
+system_product_code = "{C899A99C-0A32-45B3-BB8C-883FC5269CE4}_is1"
