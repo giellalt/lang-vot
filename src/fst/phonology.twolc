@@ -38,56 +38,56 @@ Rules
 
 !! VOWELS
 "%{EAÕ%}:e"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{EAÕ%}:e <=> [ ä ä: | e e: | ü ü: | ä i ] %> h _ %{EAÕ%}: ;
                [ ä ä: | e e: | ü ü: | ä i ] %> h %{EAÕ%}: _ ;
 
 "%{EAÕ%}:a"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{EAÕ%}:a <=> a a: %> h _ %{EAÕ%}: ;
                a a: %> h %{EAÕ%}: _ ;
 
 "%{EAÕ%}:õ"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{EAÕ%}:õ <=> [ u u: | o o: | õ i ] %> h _ %{EAÕ%}: ;
                [ u u: | o o: | õ i ] %> h %{EAÕ%}: _ ;
 
 "Deletion of Vx"
-!! __@RULENAME@__
+!! **@RULENAME@**
  Vx:0 <=> Vx _ %> h %{EAÕ%}: %{EAÕ%}: ;
 
        where Vx in ( a o u ä e ü ) ; 
 
 "Deletion of õ "
-!! __@RULENAME@__
+!! **@RULENAME@**
  õ:0 <=>   _ ( %^WGStem:) %^VowRm: ;
 "Deletion of a "
-!! __@RULENAME@__
+!! **@RULENAME@**
  a:0 <=>   _ ( %^WGStem:) %^VowRm: ;
 
-!! !CONSONANTS
+!! ### CONSONANTS
 !! WEAK GRADE
 "Weakening of k to g"
-!! __@RULENAME@__
+!! **@RULENAME@**
  k:g <=> Vow: _ Vow:  %^WGStem: ;
 
 !! REMOVAL
 "Deleting k before stem-final s"
-!! __@RULENAME@__
+!! **@RULENAME@**
  k:0 <=> Vow _ s %^KS2S: ;
 
 !!€# aluks%^KS2S
 !!€0 alu0s0
 
 "Deleting t in geminate tt"
-!! __@RULENAME@__
+!! **@RULENAME@**
  t:0 <=> Vow t _  Vow: %^WGStem: ;
-!! tüttö+N+Sg+Gen: __girl/tyttö__
+!! tüttö+N+Sg+Gen: **girl/tyttö**
 !!€ tüttö%^WGStem
 !!€ tüt0ö0
 
 "p:m in weak grade"
-!! __@RULENAME@__
+!! **@RULENAME@**
  p:m <=> m _ Vow: %^WGStem: ;
 
 !!€# ampa%^WGStem%^VowRmõz
