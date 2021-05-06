@@ -1,3 +1,84 @@
+Exceptions
+Exceptions in the VOTIC language are irregurlar word forms and development
+
+
+
+These need nominative-form lemmas and stems
+
+
+
+=================================== !
+The Votic morphophonological/twolc rules file !
+=================================== !
+
+
+ * d̕   d with U+0315
+ * D̕   D with U+0315
+t̕    * @CODE t with U+0315
+ * T̕   T with U+0315
+ * l̕   l with U+0315
+ * L̕   L with U+0315
+
+U+02BC MODIFIER LETTER APOSTROPHE
+
+Archiphones
+  %{EAÕ%}:e	 Realized
+  %{EAÕ%}:a	 Realized
+  %{EAÕ%}:õ	 Realized
+
+Triggers
+  %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
+  %^WGStem:0	 used in mb:mm
+  %^VowRm:0	 final vowel removal
+
+
+
+
+
+VOWELS
+**%{EAÕ%}:e**
+
+**%{EAÕ%}:a**
+
+**%{EAÕ%}:õ**
+
+**Deletion of Vx**
+
+
+**Deletion of õ **
+**Deletion of a **
+
+### CONSONANTS
+WEAK GRADE
+**Weakening of k to g**
+
+REMOVAL
+**Deleting k before stem-final s**
+
+
+*aluks%^KS2S examples:*
+
+*alu0s0 examples:*
+
+**Deleting t in geminate tt**
+tüttö+N+Sg+Gen: **girl/tyttö**
+* *tüttö%^WGStem*
+* *tüt0ö0*
+
+**p:m in weak grade**
+
+
+*ampa%^WGStem%^VowRmõz examples:*
+
+*amm000õz examples:*
+
+
+# Symbol affixes
+
+
+
+
+
 Noun inflection
 The VOTIC language nouns inflect in cases.
 
@@ -132,8 +213,9 @@ Consonant structure not involved in gradation
 
 
 
+Quantifiers
+The VOTIC language quantifiers can be split into numerals and adverbs of quantity
 
-# Symbol affixes
 
 
 
@@ -148,12 +230,6 @@ The VOTIC language adverbs ...
 
 
 
-
-
-
-
-Adjective inflection
-The VOTIC language adjectives compare.
 
 
 
@@ -174,78 +250,11 @@ The VOTIC language clitics ...
 
 
 
-Quantifiers
-The VOTIC language quantifiers can be split into numerals and adverbs of quantity
+Adjective inflection
+The VOTIC language adjectives compare.
 
 
 
-
-
-
-=================================== !
-The Votic morphophonological/twolc rules file !
-=================================== !
-
-
- * d̕   d with U+0315
- * D̕   D with U+0315
-t̕    * @CODE t with U+0315
- * T̕   T with U+0315
- * l̕   l with U+0315
- * L̕   L with U+0315
-
-U+02BC MODIFIER LETTER APOSTROPHE
-
-Archiphones
-  %{EAÕ%}:e	 Realized
-  %{EAÕ%}:a	 Realized
-  %{EAÕ%}:õ	 Realized
-
-Triggers
-  %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
-  %^WGStem:0	 used in mb:mm
-  %^VowRm:0	 final vowel removal
-
-
-
-
-
-VOWELS
-**%{EAÕ%}:e**
-
-**%{EAÕ%}:a**
-
-**%{EAÕ%}:õ**
-
-**Deletion of Vx**
-
-
-**Deletion of õ **
-**Deletion of a **
-
-### CONSONANTS
-WEAK GRADE
-**Weakening of k to g**
-
-REMOVAL
-**Deleting k before stem-final s**
-
-
-*aluks%^KS2S examples:*
-
-*alu0s0 examples:*
-
-**Deleting t in geminate tt**
-tüttö+N+Sg+Gen: **girl/tyttö**
-* *tüttö%^WGStem*
-* *tüt0ö0*
-
-**p:m in weak grade**
-
-
-*ampa%^WGStem%^VowRmõz examples:*
-
-*amm000õz examples:*
 
 
 # Votic morphological analyser                      !
@@ -490,13 +499,20 @@ word classes, or optionally from prefixes:
 
 
 
-Exceptions
-Exceptions in the VOTIC language are irregurlar word forms and development
 
 
 
-These need nominative-form lemmas and stems
+We describe here how abbreviations are in Votic are read out, e.g.
+for text-to-speech systems.
 
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -635,21 +651,5 @@ Ordinal numerals begin
 
 
 
-
-
-
-
-
-We describe here how abbreviations are in Votic are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
 
 
