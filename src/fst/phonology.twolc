@@ -1,6 +1,8 @@
 !! =================================== !
-!! The Votic morphophonological/twolc rules file !
+!! # The Votic morphophonological/twolc rules file 
 !! =================================== !
+
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
 
 Alphabet
 a b č d e f g h i j k l m n o p r s š z ž t u v õ ä ö ü 
