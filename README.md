@@ -9,7 +9,7 @@ This repository contains finite state source files for the Votic language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under GNU LGPL
 licence, also detailed in the
-[LICENSE](https://github.com/giellalt/lang-mrj/blob/main/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-mrj/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
