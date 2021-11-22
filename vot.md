@@ -606,17 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vot/blob/main/../src/cg3/functions.cg3)</small>Exceptions
-Exceptions in the VOTIC language are irregurlar word forms and development
-
-
-
-These need nominative-form lemmas and stems
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/stems/exceptions.lexc)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vot/blob/main/../src/cg3/functions.cg3)</small>=================================== !
 # The Votic morphophonological/twolc rules file 
 =================================== !
 
@@ -684,7 +674,37 @@ tüttö+N+Sg+Gen: **girl/tyttö**
 *amm000õz examples:*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>Adverb inflection
+The VOTIC language adverbs ...
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adverbs.lexc)</small>Quantifiers
+The VOTIC language quantifiers can be split into numerals and adverbs of quantity
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/numerals.lexc)</small>Verb inflection
+The VOTIC language verbs inflect in persons.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/verbs.lexc)</small>Noun inflection
 The VOTIC language nouns inflect in cases.
 
 
@@ -819,15 +839,7 @@ Consonant structure not involved in gradation
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/symbols.lexc)</small>Clitics
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>Clitics
 The VOTIC language clitics ...
 
 
@@ -838,44 +850,32 @@ The VOTIC language clitics ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/clitics.lexc)</small>Adverb inflection
-The VOTIC language adverbs ...
-
-
-
-
-
-
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/clitics.lexc)</small>
+# Symbol affixes
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adverbs.lexc)</small>Adjective inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
 The VOTIC language adjectives compare.
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
-The VOTIC language verbs inflect in persons.
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adjectives.lexc)</small>Exceptions
+Exceptions in the VOTIC language are irregurlar word forms and development
 
 
 
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/verbs.lexc)</small>Quantifiers
-The VOTIC language quantifiers can be split into numerals and adverbs of quantity
-
-
-
+These need nominative-form lemmas and stems
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/stems/exceptions.lexc)</small>
 # Votic morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
 
