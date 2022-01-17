@@ -606,89 +606,11 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vot/blob/main/../src/cg3/functions.cg3)</small>=================================== !
-# The Votic morphophonological/twolc rules file 
-=================================== !
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
-
-
- * d̕   d with U+0315
- * D̕   D with U+0315
-t̕    * @CODE t with U+0315
- * T̕   T with U+0315
- * l̕   l with U+0315
- * L̕   L with U+0315
-
-U+02BC MODIFIER LETTER APOSTROPHE
-
-Archiphones
-  %{EAÕ%}:e	 Realized
-  %{EAÕ%}:a	 Realized
-  %{EAÕ%}:õ	 Realized
-
-Triggers
-  %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
-  %^WGStem:0	 used in mb:mm
-  %^VowRm:0	 final vowel removal
-
-
-
-
-
-VOWELS
-**%{EAÕ%}:e**
-
-**%{EAÕ%}:a**
-
-**%{EAÕ%}:õ**
-
-**Deletion of Vx**
-
-
-**Deletion of õ **
-**Deletion of a **
-
-### CONSONANTS
-WEAK GRADE
-**Weakening of k to g**
-
-REMOVAL
-**Deleting k before stem-final s**
-
-
-*aluks%^KS2S examples:*
-
-*alu0s0 examples:*
-
-**Deleting t in geminate tt**
-tüttö+N+Sg+Gen: **girl/tyttö**
-* *tüttö%^WGStem*
-* *tüt0ö0*
-
-**p:m in weak grade**
-
-
-*ampa%^WGStem%^VowRmõz examples:*
-
-*amm000õz examples:*
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>Exceptions
-Exceptions in the VOTIC language are irregurlar word forms and development
-
-
-
-These need nominative-form lemmas and stems
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vot/blob/main/../src/cg3/functions.cg3)</small>
 # Votic morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Votic
@@ -802,7 +724,7 @@ Other verb forms are
  * +VAbess	  	
 
  *  +ABBR 	
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
  *  +ACR  	
 
 Special symbols are classified with:
@@ -869,8 +791,8 @@ source and target part-of-speech.
  * +Der/xxx 	
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
@@ -896,29 +818,29 @@ And following triggers to control variation
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
 
 The word forms in Votic language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
@@ -936,7 +858,18 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/symbols.lexc)</small>Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/symbols.lexc)</small>Clitics
+The VOTIC language clitics ...
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/clitics.lexc)</small>Noun inflection
 The VOTIC language nouns inflect in cases.
 
 
@@ -1071,7 +1004,30 @@ Consonant structure not involved in gradation
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
+The VOTIC language adjectives compare.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+The VOTIC language verbs inflect in persons.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/verbs.lexc)</small>Quantifiers
+The VOTIC language quantifiers can be split into numerals and adverbs of quantity
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/numerals.lexc)</small>Adverb inflection
 The VOTIC language adverbs ...
 
 
@@ -1085,41 +1041,85 @@ The VOTIC language adverbs ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adverbs.lexc)</small>Quantifiers
-The VOTIC language quantifiers can be split into numerals and adverbs of quantity
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adverbs.lexc)</small>=================================== !
+# The Votic morphophonological/twolc rules file 
+=================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
+
+
+ * d̕   d with U+0315
+ * D̕   D with U+0315
+t̕    * @CODE t with U+0315
+ * T̕   T with U+0315
+ * l̕   l with U+0315
+ * L̕   L with U+0315
+
+U+02BC MODIFIER LETTER APOSTROPHE
+
+Archiphones
+  %{EAÕ%}:e	 Realized
+  %{EAÕ%}:a	 Realized
+  %{EAÕ%}:õ	 Realized
+
+Triggers
+  %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
+  %^WGStem:0	 used in mb:mm
+  %^VowRm:0	 final vowel removal
 
 
 
+
+
+VOWELS
+**%{EAÕ%}:e**
+
+**%{EAÕ%}:a**
+
+**%{EAÕ%}:õ**
+
+**Deletion of Vx**
+
+
+**Deletion of õ **
+**Deletion of a **
+
+### CONSONANTS
+WEAK GRADE
+**Weakening of k to g**
+
+REMOVAL
+**Deleting k before stem-final s**
+
+
+*aluks%^KS2S examples:*
+
+*alu0s0 examples:*
+
+**Deleting t in geminate tt**
+tüttö+N+Sg+Gen: **girl/tyttö**
+* *tüttö%^WGStem*
+* *tüt0ö0*
+
+**p:m in weak grade**
+
+
+*ampa%^WGStem%^VowRmõz examples:*
+
+*amm000õz examples:*
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>Exceptions
+Exceptions in the VOTIC language are irregurlar word forms and development
+
+
+
+These need nominative-form lemmas and stems
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/numerals.lexc)</small>Adjective inflection
-The VOTIC language adjectives compare.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adjectives.lexc)</small>Clitics
-The VOTIC language clitics ...
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/clitics.lexc)</small>Verb inflection
-The VOTIC language verbs inflect in persons.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/stems/exceptions.lexc)</small>
 
 
 We describe here how abbreviations are in Votic are read out, e.g.
