@@ -5,24 +5,24 @@
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
 
 
- * d̕   d with U+0315
- * D̕   D with U+0315
-t̕    * @CODE t with U+0315
- * T̕   T with U+0315
- * l̕   l with U+0315
- * L̕   L with U+0315
+* d̕   d with U+0315
+* D̕   D with U+0315
+t̕   * @CODE t with U+0315
+* T̕   T with U+0315
+* l̕   l with U+0315
+* L̕   L with U+0315
 
 U+02BC MODIFIER LETTER APOSTROPHE
 
 Archiphones
-  %{EAÕ%}:e	 Realized
-  %{EAÕ%}:a	 Realized
-  %{EAÕ%}:õ	 Realized
+ %{EAÕ%}:e	 Realized
+ %{EAÕ%}:a	 Realized
+ %{EAÕ%}:õ	 Realized
 
 Triggers
-  %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
-  %^WGStem:0	 used in mb:mm
-  %^VowRm:0	 final vowel removal
+ %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
+ %^WGStem:0	 used in mb:mm
+ %^VowRm:0	 final vowel removal
 
 
 
