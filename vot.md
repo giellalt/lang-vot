@@ -606,7 +606,75 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vot/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vot/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+# The Votic morphophonological/twolc rules file 
+=================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
+
+
+* d̕   d with U+0315
+* D̕   D with U+0315
+t̕   * @CODE t with U+0315
+* T̕   T with U+0315
+* l̕   l with U+0315
+* L̕   L with U+0315
+
+U+02BC MODIFIER LETTER APOSTROPHE
+
+Archiphones
+ %{EAÕ%}:e	 Realized
+ %{EAÕ%}:a	 Realized
+ %{EAÕ%}:õ	 Realized
+
+Triggers
+ %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
+ %^WGStem:0	 used in mb:mm
+ %^VowRm:0	 final vowel removal
+
+
+
+
+
+VOWELS
+**%{EAÕ%}:e**
+
+**%{EAÕ%}:a**
+
+**%{EAÕ%}:õ**
+
+**Deletion of Vx**
+
+
+**Deletion of õ **
+**Deletion of a **
+
+### CONSONANTS
+WEAK GRADE
+**Weakening of k to g**
+
+REMOVAL
+**Deleting k before stem-final s**
+
+
+*aluks%^KS2S examples:*
+
+*alu0s0 examples:*
+
+**Deleting t in geminate tt**
+tüttö+N+Sg+Gen: **girl/tyttö**
+* *tüttö%^WGStem*
+* *tüt0ö0*
+
+**p:m in weak grade**
+
+
+*ampa%^WGStem%^VowRmõz examples:*
+
+*amm000õz examples:*
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>
 # Votic morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Votic LANGUAGE.
 
@@ -858,7 +926,14 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/symbols.lexc)</small>Clitics
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/symbols.lexc)</small>Verb inflection
+The VOTIC language verbs inflect in persons.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/verbs.lexc)</small>Clitics
 The VOTIC language clitics ...
 
 
@@ -869,7 +944,23 @@ The VOTIC language clitics ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/clitics.lexc)</small>Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/clitics.lexc)</small>Adjective inflection
+The VOTIC language adjectives compare.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adjectives.lexc)</small>Quantifiers
+The VOTIC language quantifiers can be split into numerals and adverbs of quantity
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/numerals.lexc)</small>Noun inflection
 The VOTIC language nouns inflect in cases.
 
 
@@ -1004,30 +1095,7 @@ LEXICON N_AMMÕZ  ammõz:ampa
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
-The VOTIC language adjectives compare.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
-The VOTIC language verbs inflect in persons.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/verbs.lexc)</small>Quantifiers
-The VOTIC language quantifiers can be split into numerals and adverbs of quantity
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/numerals.lexc)</small>Adverb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverb inflection
 The VOTIC language adverbs ...
 
 
@@ -1041,75 +1109,7 @@ The VOTIC language adverbs ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adverbs.lexc)</small>=================================== !
-# The Votic morphophonological/twolc rules file 
-=================================== !
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
-
-
-* d̕   d with U+0315
-* D̕   D with U+0315
-t̕   * @CODE t with U+0315
-* T̕   T with U+0315
-* l̕   l with U+0315
-* L̕   L with U+0315
-
-U+02BC MODIFIER LETTER APOSTROPHE
-
-Archiphones
- %{EAÕ%}:e	 Realized
- %{EAÕ%}:a	 Realized
- %{EAÕ%}:õ	 Realized
-
-Triggers
- %^KS2S:0	 used in aluks:alus, perhaps also ps:s, ts:s
- %^WGStem:0	 used in mb:mm
- %^VowRm:0	 final vowel removal
-
-
-
-
-
-VOWELS
-**%{EAÕ%}:e**
-
-**%{EAÕ%}:a**
-
-**%{EAÕ%}:õ**
-
-**Deletion of Vx**
-
-
-**Deletion of õ **
-**Deletion of a **
-
-### CONSONANTS
-WEAK GRADE
-**Weakening of k to g**
-
-REMOVAL
-**Deleting k before stem-final s**
-
-
-*aluks%^KS2S examples:*
-
-*alu0s0 examples:*
-
-**Deleting t in geminate tt**
-tüttö+N+Sg+Gen: **girl/tyttö**
-* *tüttö%^WGStem*
-* *tüt0ö0*
-
-**p:m in weak grade**
-
-
-*ampa%^WGStem%^VowRmõz examples:*
-
-*amm000õz examples:*
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>Exceptions
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/adverbs.lexc)</small>Exceptions
 Exceptions in the VOTIC language are irregurlar word forms and development
 
 
