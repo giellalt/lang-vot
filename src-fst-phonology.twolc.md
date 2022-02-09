@@ -4,7 +4,6 @@
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-hun/blob/main/src/fst/phonology.twolc) 
 
-
 * d̕   d with U+0315
 * D̕   D with U+0315
 t̕   * @CODE t with U+0315
@@ -24,10 +23,6 @@ Triggers
  %^WGStem:0	 used in mb:mm
  %^VowRm:0	 final vowel removal
 
-
-
-
-
 VOWELS
 **%{EAÕ%}:e**
 
@@ -36,7 +31,6 @@ VOWELS
 **%{EAÕ%}:õ**
 
 **Deletion of Vx**
-
 
 **Deletion of õ **
 **Deletion of a **
@@ -47,7 +41,6 @@ WEAK GRADE
 
 REMOVAL
 **Deleting k before stem-final s**
-
 
 *aluks%^KS2S examples:*
 
@@ -60,10 +53,13 @@ tüttö+N+Sg+Gen: **girl/tyttö**
 
 **p:m in weak grade**
 
-
 *ampa%^WGStem%^VowRmõz examples:*
 
 *amm000õz examples:*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-vot/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

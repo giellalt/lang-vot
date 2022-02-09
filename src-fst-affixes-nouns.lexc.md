@@ -1,20 +1,11 @@
 Noun inflection
 The VOTIC language nouns inflect in cases.
 
-
-
-
 * LEXICON N_KOIRW  koirõ:koir This requires no twolc
 Back harmony
 Stem vowel is zero before plural marker in i
 Consonant structure not involved in gradation
 * +Use/SpellNoSugg+Pl+Gen:ije # ;  temporary fix to indicate that this is not the generated form
-
-
-
-
-
-
 
 * LEXICON N_POIKÕ  poikõ:poikõ
 * +Sg+Nom: K ;   poikõ
@@ -30,7 +21,6 @@ Consonant structure not involved in gradation
 
 * :%^VowRm%>i BACK_NMN_PL-OBL ;  poiki-
 
-
 * LEXICON N_TÜTTÖ  tüttö:tüttö
 * +Sg+Nom: K ;   tüttö
 * :%^WGStem FRONT_NMN_SG-GEN-STEM ;   tütö
@@ -40,14 +30,6 @@ Consonant structure not involved in gradation
 * :%^WGStem FRONT_NMN_SG_INE-STEM ;   tütö-
 +Sg+Ela, +Sg+All, +Sg+Ade, +Sg+Abl, +Sg+Tra, +Pl+Nom
 * :%>i FRONT_NMN_PL-OBL ;    tüttöi
-
-
-
-
-
-
-
-
 
 LEXICON N_ALUS   alus:aluks
 
@@ -59,18 +41,10 @@ LEXICON N_AMMÕZ  ammõz:ampa
 : BACK_NMN_SG_INE-STEM ;	  ampa-
 :%>i BACK_NMN_PL-OBL ;	 	  ampai-
 
-
-
-
-
-
-
-
 * +Sg+Gen: K ;   poiga
 * +Sg+Com:%>ka K ;  poigaka
 * +Sg+Gen: K ;	 tütö
 * +Sg+Com:%>ka K ;  tütöka
-
 
 * +Sg+Par: K ;   poika
 * +Sg+Par:%>sõ K ;   ammassõ
@@ -97,7 +71,6 @@ LEXICON N_AMMÕZ  ammõz:ampa
 * +Sg+Abl:%>lte K ;   tütöltõ
 * +Sg+Tra:%>ssi K ;   tütössi
 * +Pl+Nom:%>d K ;   tütöd
-
 
 * +Pl+Gen:%>jõ K ;   poikijõ
 * +Use/NG+Pl+Gen: K ;   poiki
@@ -129,8 +102,9 @@ LEXICON N_AMMÕZ  ammõz:ampa
 * +Pl+Ter:%>ssaa K ;   tüttöissaa
 * +Pl+Com:%>ka K ;   tüttöika
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vot/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-vot/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
