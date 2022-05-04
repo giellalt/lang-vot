@@ -6,7 +6,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-h
 
 * d̕   d with U+0315
 * D̕   D with U+0315
-t̕   * @CODE t with U+0315
+* @CODE t with U+0315
 * T̕   T with U+0315
 * l̕   l with U+0315
 * L̕   L with U+0315
@@ -42,9 +42,9 @@ WEAK GRADE
 REMOVAL
 **Deleting k before stem-final s**
 
-*aluks%^KS2S examples:*
+* aluks%^KS2S examples:*
 
-*alu0s0 examples:*
+* alu0s0 examples:*
 
 **Deleting t in geminate tt**
 tüttö+N+Sg+Gen: **girl/tyttö**
@@ -53,9 +53,9 @@ tüttö+N+Sg+Gen: **girl/tyttö**
 
 **p:m in weak grade**
 
-*ampa%^WGStem%^VowRmõz examples:*
+* ampa%^WGStem%^VowRmõz examples:*
 
-*amm000õz examples:*
+* amm000õz examples:*
 
 * * *
 

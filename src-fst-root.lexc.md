@@ -129,7 +129,7 @@ Special symbols are classified with:
 ### Votic letters
 * d̕  
 * D̕  
-t̕   * @CODE
+* @CODE
 * T̕  
 * l̕  
 * L̕  
