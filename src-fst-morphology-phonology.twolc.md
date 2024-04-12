@@ -60,6 +60,3 @@ tüttö+N+Sg+Gen: **girl/tyttö**
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-vot/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-
