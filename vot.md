@@ -551,7 +551,7 @@ Special symbols are classified with:
 * +CLB   	
 * +PUNCT 	
 * +LEFT  	
-* +RIGHT 	
+* +RIGHT +MIDDLE 
 
 ## Letters
 ### Votic letters
