@@ -141,7 +141,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +CLB   	!!= * @CODE@
 +PUNCT 	!!= * @CODE@
 +LEFT  	!!= * @CODE@
-+RIGHT 	!!= * @CODE@
++RIGHT +MIDDLE !!= * @CODE@
 
 !! ## Letters
 !! ### Votic letters
