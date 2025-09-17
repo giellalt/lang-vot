@@ -25,6 +25,22 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
+
+!! These tags were not declared. TODO: Check whether they are needed (they are in the code somewhere)
+
++Clt	    	!!= * @CODE@
++Der/min	    	!!= * @CODE@
++Det	    	!!= * @CODE@
++Pos	    	!!= * @CODE@
++QNT	    	!!= * @CODE@
++Qnt	    	!!= * @CODE@
++SPAT	    	!!= * @CODE@
++STATE	    	!!= * @CODE@
++Spat	    	!!= * @CODE@
++State	    	!!= * @CODE@
++TEMP	    	!!= * @CODE@
++Temp	    	!!= * @CODE@
+
 !! The parts-of-speech are:
 
 +N	    	!!= * @CODE@
@@ -57,6 +73,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Err/Orth     	!!= * @CODE@
  +Use/-Spell  	!!= * @CODE@
  +Use/SpellNoSugg  !!= * @CODE@ recognized but not suggested in speller
+ +Use/NG	    	!!= * @CODE@
 
 !! The nominals are inflected in the following Case and Number
 
@@ -69,9 +86,17 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +Gen    	!!= * @CODE@
 +Acc    	!!= * @CODE@
 +Ill    	!!= * @CODE@
-+Loc    	!!= * @CODE@
++Loc    	!!= * @CODE@ Check
 +Com    	!!= * @CODE@
 +Com/Sh 	!!= * @CODE@
++Abl	    	!!= * @CODE@
++Ade	    	!!= * @CODE@
++All	    	!!= * @CODE@
++Ela	    	!!= * @CODE@
++Ine	    	!!= * @CODE@
++Par	    	!!= * @CODE@
++Ter	    	!!= * @CODE@
++Tra	    	!!= * @CODE@
 
 !! The possession is marked as such:
 
