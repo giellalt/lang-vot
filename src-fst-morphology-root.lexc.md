@@ -9,6 +9,21 @@ The morphological analyses of wordforms for the Votic
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
+These tags were not declared. TODO: Check whether they are needed (they are in the code somewhere)
+
+* +Clt	    	
+* +Der/min	    	
+* +Det	    	
+* +Pos	    	
+* +QNT	    	
+* +Qnt	    	
+* +SPAT	    	
+* +STATE	    	
+* +Spat	    	
+* +State	    	
+* +TEMP	    	
+* +Temp	    	
+
 The parts-of-speech are:
 
 * +N	    	
@@ -40,6 +55,7 @@ The Usage extents are marked using following tags:
 *  +Err/Orth     	
 *  +Use/-Spell  	
 *  +Use/SpellNoSugg   recognized but not suggested in speller
+*  +Use/NG	    	
 
 The nominals are inflected in the following Case and Number
 
@@ -52,9 +68,17 @@ The nominals are inflected in the following Case and Number
 * +Gen    	
 * +Acc    	
 * +Ill    	
-* +Loc    	
+* +Loc    	 Check
 * +Com    	
 * +Com/Sh 	
+* +Abl	    	
+* +Ade	    	
+* +All	    	
+* +Ela	    	
+* +Ine	    	
+* +Par	    	
+* +Ter	    	
+* +Tra	    	
 
 The possession is marked as such:
 
