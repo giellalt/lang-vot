@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-vot)](https://github.com/giellalt/lang-vot/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-vot)](https://github.com/giellalt/lang-vot/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-vot/main/badge.svg)](https://github.com/giellalt/lang-vot/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-vot?label=CI)](https://builds.giellalt.org/pipelines/lang-vot/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/voti1245)
 
 This page documents the work on the **Votic language model**. 
 
