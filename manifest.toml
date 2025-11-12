@@ -1,6 +1,3 @@
-spellername = "Votic"
-spellerversion = "0.1.0"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -18,3 +15,15 @@ system_pkg_id = "no.divvun.MacDivvun.vot"
 
 [windows]
 system_product_code = "{C899A99C-0A32-45B3-BB8C-883FC5269CE4}_is1"
+
+[package.speller]
+name = "Votic"
+version = "0.1.0"
+
+[package.grammar]
+name = "Votic"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Votic"
+version = "0.1.0"
