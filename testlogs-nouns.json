@@ -1,0 +1,1 @@
+{"id":"nouns","kind":"lemma","failures":[{"lemma":"štanat","no_generation":["štanat+N+Sg+Nom"],"wrong_generation":[{"expected":"štanat+N+Pl+Nom","got":"štana"}],"analyses":[]},{"lemma":"aika-inehmin","no_generation":["aika-inehmin+N+Pl+Nom"],"wrong_generation":[{"expected":"aika-inehmin+N+Sg+Nom","got":"aika-inehminn"}],"analyses":[]}]}
